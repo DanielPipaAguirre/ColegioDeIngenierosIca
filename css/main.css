@@ -1,4 +1,133 @@
+/* Colores:
+Negro-menu: #292828 
+Blanco-menu: #E4E9F0
+Boton-menu: #B72928
+*/
+/* @font-face {
+    font-family: Flexo;
+    src: url('../font/Flexo-Light.ttf'), url('../font/Flexo-Thin.ttf'), url('../font/Flexo-Regular.ttf'),
+    url('../font/Flexo-Demi.ttf'),url('../font/Flexo-Medium.ttf'),url('../font/Flexo-Bold.ttf');
+} */
+@font-face {
+    font-family: Flexo;
+    src: url('../font/Flexo-Regular.ttf');
+}
+@font-face {
+    font-family: Flexo-Demi;
+    src: url('../font/Flexo-Demi.ttf');
+}
+@font-face {
+    font-family: Flexo-Bold;
+    src: url('../font/Flexo-Bold.ttf');
+}
 body {
     font-family: Flexo;
-    font-weight: 100;
+}
+/* HEADER */
+.header {
+    background-color: #292828;
+    color: #E4E9F0;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+}
+.container {
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    margin: 0 auto;
+    max-width: 1018px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.container-logo {
+    display: inherit;
+    align-items: center
+}
+h1 {
+    margin: 0;
+    font-size: .82em;
+    line-height: 16px;
+    margin-left: 12px;
+    font-family: Flexo-Demi;
+}
+figure {
+    margin: 0px;
+    display: inherit;
+    align-items: center;
+}
+.menu {
+    height: inherit;
+    font-size: .82em;
+}
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    height: inherit;
+}
+.header ol li {
+    height: inherit;
+}
+ol li:last-child {
+    display: inherit;
+    align-items: center;
+}
+ol li:last-child a{
+    background: #B72928;
+    border-radius: 3px;
+    height: 33px;
+    padding: 0;
+    padding-right: 11px;
+    margin-left: 28px;
+}
+.fa-sign-in-alt {
+    margin-left: 9.2px;
+    margin-right: 4.4px;
+    font-size: 1.4em;
+}
+.header a{
+    color: #f3f3f3;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 28px;
+}
+/* RESPONSIVE */
+@media screen and (max-width:1024px) {
+    .header a{
+        padding: 0 14px;
+    }
+}
+@media screen and (max-width:826px) {
+    .header {
+        display: block;
+        height: auto;    
+    }
+    ol {
+        display: initial;
+    }
+    .header ol li {
+        height: 50px;
+        text-align: center;
+    }
+    .header a{
+        justify-content: center;
+    }
+    .container-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ol li:last-child {
+        display: flex;
+       justify-content: center;
+    }
+    ol li:last-child a{
+       width: 132px;
+       margin: 0;
+    }
 }
