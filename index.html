@@ -23,12 +23,20 @@
             <!--Navegación-->
             <nav class="menu">
                 <!--Enlaces-->
-                <ol>
-                    <li><a class="link" href="#INSTITUCIONAL">INSTITUCIONAL</a></li>
-                    <li><a class="link" href="#SERVICIOS">SERVICIOS</a></li>
-                    <li><a class="link" href="#CAPÍTULOS">CAPÍTULOS</a></li>
-                    <li><a class="link" href="#EVENTOSCIP">EVENTOS CIP</a></li>
-                    <li><a class="link" href="#EVENTOSCIP">
+                <ol class="controllers">
+                    <li><a class="link" id="button1" href="#INSTITUCIONAL">INSTITUCIONAL
+                            <i class="fas fa-caret-up"></i>
+                    </a></li>
+                    <li><a class="link" id="button2" href="#SERVICIOS">SERVICIOS
+                            <i class="fas fa-caret-up"></i>
+                    </a></li>
+                    <li><a class="link" id="button3" href="#CAPÍTULOS">CAPÍTULOS
+                            <i class="fas fa-caret-up"></i>
+                    </a></li>
+                    <li><a class="link" id="button4" href="#EVENTOSCIP">EVENTOS CIP
+                            <i class="fas fa-caret-up"></i>
+                    </a></li>
+                    <li><a class="link" id="button5" href="#EVENTOSCIP">
                             <i class="fas fa-sign-in-alt"></i>
                             INICIA SESIÓN
                         </a>
@@ -36,6 +44,77 @@
                 </ol>
             </nav>
         </div>
+        <div class="sub-container">
+            <div class="sub-menu">
+                <ul>
+                    <li><a id="text" class="link" href="#">HISTORIA, MISION Y VISION</a></li>
+                    <li><a id="text2" class="link" href="#">CONSEJO DIRECTVO DEPARTAMENTAL</a></li>
+                    <li><a id="text3" class="link" href="#">ASAMBLEA DEPARTAMENTAL</a></li>
+                    <li><a id="text4" class="link" href="#">IEPI</a></li>
+                    <li><a id="text5" class="link" href="#">INSTITUTO DEL BINESTAR DEL INGENIERO</a></li>
+                </ul> 
+            </div>
+        </div>
     </header>
 </body>
+<script>
+    var el = document.querySelectorAll('.controllers li');
+for (let i = 0; i < el.length; i++) {
+  el[i].onmouseover = function() {
+    var c = 0;
+    while (c < el.length) {
+      el[c++].className = 'slide';
+    }
+    el[i].className = 'slide active';
+  };
+}
+const $button4 = document.getElementById('button4'),
+      $button3 = document.getElementById('button3'),
+      $button2 = document.getElementById('button2'),
+      $button1 = document.getElementById('button1'),
+      $text = document.getElementById('text'),
+      $text2 = document.getElementById('text2'),
+      $text3 = document.getElementById('text3'),
+      $text4 = document.getElementById('text4'),
+      $text5 = document.getElementById('text5'),
+      $header = document.querySelector('.sub-container');
+
+$button1.addEventListener('mouseover', (event) => {
+      $text.innerHTML = "HISTORIA,VISION Y MISION ";
+      $text2.innerHTML = "CONSEJO DIRECTIVO DEPARTAMENTAL";
+      $text3.innerHTML = "ASAMBLEA DEPARTAMENTAL";
+      $text4.innerHTML = "IEPI";
+      $text5.innerHTML = "INSTITUTO DE BIENESTAR DEL INGENIERO";
+      document.querySelector('.sub-container').classList.add('is-active');
+    });
+$button2.addEventListener('mouseover', (event) => {
+      $text.innerHTML = "COLEGIACION";
+      $text2.innerHTML = "PAGO DE HABILIDAD";
+      $text3.innerHTML = "CERTIFICACION DE HABILIDAD";
+      $text4.innerHTML = "ISS";
+      $text5.innerHTML = "BUSQUEDA DE COLEGIADOS";
+      document.querySelector('.sub-container').classList.add('is-active');
+    });
+$button3.addEventListener('mouseover', (event) => {
+      $text.innerHTML = "INGENIERIA AGRONOMA";
+      $text2.innerHTML = "INGENIERIA MECANICA Y ELECTRICA";
+      $text3.innerHTML = "INGENIERIA AMBIENTAL Y SANITARIA";
+      $text4.innerHTML = "INGENIERIA CIVIL";
+      $text5.innerHTML = "INGENIERIA INDUSTRIAL Y SISTEMAS";
+      document.querySelector('.sub-container').classList.add('is-active');
+    });
+$button4.addEventListener('mouseover', (event) => {
+      $text.innerHTML = "EVENTOS CIP";
+      $text2.innerHTML = "EVENTOS RECOMENDADOS";
+      $text3.innerHTML = "NOTICIAS RECIENTES";
+      $text4.innerHTML = "VIDEO SEMANAL";
+      $text5.innerHTML = "NUESTROS CONVENIOS";
+      document.querySelector('.sub-container').classList.add('is-active');
+    });
+//REPARAR EL HOVER DEL SUB-MENU
+$header.addEventListener('mouseout', (event) => {
+      //console.log(event);
+      document.querySelector('.sub-container').classList.remove('is-active');
+    });
+</script>
 </html>
