@@ -10,10 +10,11 @@
     <title>Colegio de Ingenieros de Ica</title>
 </head>
 <body>
+  <i class="fas fa-bars" id="burger"></i>
    <header class="header">
         <div class="container">
             <!--Logo-->
-            <div class="container-logo">
+            <div class="container-logo" id="container-logo">
                 <figure class="logo">
                         <img src="img/logo_1.png" alt="">
                 </figure>
@@ -21,30 +22,30 @@
                     CONSEJO DEPARTAMENTAL DE ICA</h1>
             </div> 
             <!--Navegación-->
-            <nav class="menu">
+            <nav class="menu" id="menu">
                 <!--Enlaces-->
                 <ol class="controllers">
-                    <li><a class="link" id="button1" href="#INSTITUCIONAL">INSTITUCIONAL
+                    <li class="active"><a class="item link ini" id="button1" href="#INSTITUCIONAL">INSTITUCIONAL
                             <i class="fas fa-caret-up"></i>
                     </a></li>
-                    <li><a class="link" id="button2" href="#SERVICIOS">SERVICIOS
+                    <li class="li"><a class="item link" id="button2" href="#SERVICIOS">SERVICIOS
                             <i class="fas fa-caret-up"></i>
                     </a></li>
-                    <li><a class="link" id="button3" href="#CAPÍTULOS">CAPÍTULOS
+                    <li class="li"><a class="item link" id="button3" href="#CAPÍTULOS">CAPÍTULOS
                             <i class="fas fa-caret-up"></i>
                     </a></li>
-                    <li><a class="link" id="button4" href="#EVENTOSCIP">EVENTOS CIP
+                    <li class="li"><a class="item link" id="button4" href="#EVENTOSCIP">EVENTOS CIP
                             <i class="fas fa-caret-up"></i>
                     </a></li>
-                    <li><a class="link" id="button5" href="#EVENTOSCIP">
-                            <i class="fas fa-sign-in-alt"></i>
-                            INICIA SESIÓN
+                    <li class="li"><a class="link btn" id="button5" href="#EVENTOSCIP">
+                        <i class="fas fa-bell" id="bell"></i>
+                            CONSULTAS
                         </a>
                     </li>
                 </ol>
             </nav>
         </div>
-        <div class="sub-container">
+        <div class="sub-container is-active">
             <div class="sub-menu">
                 <ul>
                     <li><a id="text" class="link" href="#">HISTORIA, MISION Y VISION</a></li>
@@ -56,6 +57,27 @@
             </div>
         </div>
     </header>
+    <section class="hero">
+        <div class="image actual">
+            <img src="img/hero_1.png" alt="">
+            <div class="text">Waifu1</div>
+          </div>
+          <div class="image">
+            <img src="img/hero_2.png" alt="">
+            <div class="text">Waifu2</div>
+          </div>
+          <div class="image">
+            <img src="img/hero_3.png" alt="">
+            <div class="text">Waifu3</div>
+          </div>
+              <a href="#" class="anterior" onclick="anterior();">&#10094;</a>
+          <a href="#" class="siguiente" onclick="siguiente();">&#10095;</a>
+          <div class="puntos">
+            <span class="punto activo" onclick="mostrar(0);"></span>
+            <span class="punto" onclick="mostrar(1);"></span>
+            <span class="punto" onclick="mostrar(2);"></span>
+          </div>
+    </section> 
 </body>
 <script>
     var el = document.querySelectorAll('.controllers li');
@@ -68,7 +90,9 @@ for (let i = 0; i < el.length; i++) {
     el[i].className = 'slide active';
   };
 }
-const $button4 = document.getElementById('button4'),
+
+const $button5 = document.getElementById('button5'),
+      $button4 = document.getElementById('button4'),
       $button3 = document.getElementById('button3'),
       $button2 = document.getElementById('button2'),
       $button1 = document.getElementById('button1'),
@@ -77,7 +101,9 @@ const $button4 = document.getElementById('button4'),
       $text3 = document.getElementById('text3'),
       $text4 = document.getElementById('text4'),
       $text5 = document.getElementById('text5'),
-      $header = document.querySelector('.sub-container');
+      $header = document.querySelector('.sub-container'),
+      $ini = document.querySelector('.link'),
+      $bell = document.getElementById('bell');
 
 $button1.addEventListener('mouseover', (event) => {
       $text.innerHTML = "HISTORIA,VISION Y MISION ";
@@ -94,6 +120,7 @@ $button2.addEventListener('mouseover', (event) => {
       $text4.innerHTML = "ISS";
       $text5.innerHTML = "BUSQUEDA DE COLEGIADOS";
       document.querySelector('.sub-container').classList.add('is-active');
+      $ini.classList.remove('ini');
     });
 $button3.addEventListener('mouseover', (event) => {
       $text.innerHTML = "INGENIERIA AGRONOMA";
@@ -102,6 +129,7 @@ $button3.addEventListener('mouseover', (event) => {
       $text4.innerHTML = "INGENIERIA CIVIL";
       $text5.innerHTML = "INGENIERIA INDUSTRIAL Y SISTEMAS";
       document.querySelector('.sub-container').classList.add('is-active');
+      $ini.classList.remove('ini');
     });
 $button4.addEventListener('mouseover', (event) => {
       $text.innerHTML = "EVENTOS CIP";
@@ -110,11 +138,67 @@ $button4.addEventListener('mouseover', (event) => {
       $text4.innerHTML = "VIDEO SEMANAL";
       $text5.innerHTML = "NUESTROS CONVENIOS";
       document.querySelector('.sub-container').classList.add('is-active');
+      $ini.classList.remove('ini');
     });
+$button5.addEventListener('click', (event) => {
+     $bell.classList.toggle('notify');
+    });    
 //REPARAR EL HOVER DEL SUB-MENU
-$header.addEventListener('mouseout', (event) => {
-      //console.log(event);
-      document.querySelector('.sub-container').classList.remove('is-active');
-    });
+// $header.addEventListener('mouseout', (event) => {
+//       //console.log(event);
+//       document.querySelector('.sub-container').classList.remove('is-active');
+//     });
+
+var actual = 0;
+			function puntos(n){
+				var ptn = document.getElementsByClassName("punto");
+				for(i = 0; i<ptn.length; i++){
+					if(ptn[i].className.includes("activo")){
+						ptn[i].className = ptn[i].className.replace("activo", "");
+						break;
+					}
+				}
+				ptn[n].className += " activo";
+			}
+			function mostrar(n){
+				var imagenes = document.getElementsByClassName("image");
+				for(i = 0; i< imagenes.length; i++){
+          //className devuelve texto
+          //include permite saber si una palabra esta dentro del texto
+					if(imagenes[i].className.includes("actual")){
+						imagenes[i].className = imagenes[i].className.replace("actual", "");
+						break;
+					}
+				}
+				actual = n;
+				imagenes[n].className += " actual";
+				puntos(n);
+			}
+			
+			function siguiente(){
+				actual++;
+				if(actual > 2){
+					actual = 0;
+				}
+				mostrar(actual);
+			}
+			function anterior(){
+				actual--;
+				if(actual < 0){
+					actual = 2;
+				}
+				mostrar(actual);
+			}
+//Set interval llama a una funcion cada velocidad segundos
+	var velocidad = 3000;
+	var play = setInterval("siguiente()", velocidad);
+
+  const $burger = document.getElementById("burger"),
+  $menu = document.getElementById("menu"),
+  $containerlogo= document.getElementById("container-logo");
+  $burger.addEventListener('click', function() {
+	  $menu.classList.toggle('is-responsive')
+    $containerlogo.classList.toggle('is-responsive')
+})
 </script>
 </html>

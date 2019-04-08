@@ -26,6 +26,12 @@ body {
     height: 200vh;
 }
 /* HEADER */
+.fa-bars {
+    position: fixed;
+    color: rgb(233, 233, 233);
+    display: none;
+    opacity: 0;
+}
 .header {
     background-color: #292828;
     color: #E4E9F0;
@@ -34,6 +40,7 @@ body {
     height: 56px;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 .container {
     display: inherit;
@@ -85,12 +92,7 @@ ol {
     justify-content: center;
     position: relative;
 }
-.menu a:hover {
-    color: #ffffff;
-    transition: .6s ease;
-}
-
-.link.active {
+.link.ini {
     color: #ffffff;
 }
 .fa-caret-up {
@@ -103,22 +105,38 @@ ol {
 ol li:nth-child(1).active i{
     opacity: 1;
     color:#212121;
-    transition-duration: .4s;
+    
 }
 ol li:nth-child(2).active i{
     opacity: 1;
     color:#212121;
-    transition-duration: .4s;
+
 }
 ol li:nth-child(3).active i{
     opacity: 1;
     color:#212121;
-    transition-duration: .4s;
+
 }
 ol li:nth-child(4).active i{
     opacity: 1;
     color:#212121;
-    transition-duration: .4s;
+
+}
+ol li:nth-child(1).active a{
+    color:#ffffff;
+    transition: .5s;
+}
+ol li:nth-child(2).active a{
+    color:#ffffff;
+    transition: .5s;
+}
+ol li:nth-child(3).active a{
+    color:#ffffff;
+    transition: .5s;
+}
+ol li:nth-child(4).active a{
+    color:#ffffff;
+    transition: .5s;
 }
 ol li:last-child {
     display: inherit;
@@ -133,20 +151,50 @@ ol li:last-child a{
     margin-left: 14px;
     flex-direction: initial;
     color: #ffffff;
+    transition: .2s;
+    box-shadow: inset 0 -.2em rgba(0,0,0, .2);
+    will-change: transform;
 }
-.fa-sign-in-alt {
+.btn:active {
+    transform: scale(.9);
+}
+.fa-bell {
     margin-left: 9.2px;
-    margin-right: 4.4px;
+    margin-right: 4.9px;
     font-size: 1.1em;
 }
-/* INVI */
-.invi {
-    width: 100vw;
-    background: red;
-    height: 122px;
-    position: absolute;
-    z-index: -1;
+.fa-bell.notify {
+    animation-name:bell;
+    animation-duration:1s;
+    transform-origin: center top;
+    animation-timing-function: ease-out;
 }
+@keyframes bell {
+    0% {
+      transform: rotate(35deg);
+    }
+    12.5% {
+      transform: rotate(-30deg);
+    }
+    25% {
+      transform: rotate(25deg);
+    }
+    37.5% {
+      transform: rotate(-20deg);
+    }
+    50% {
+      transform: rotate(15deg);
+    }
+    62.5% {
+      transform: rotate(-10deg);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
 /* SUB-HEADER */
 .sub-container {
     height: 56px;
@@ -186,7 +234,90 @@ ul {
     text-align: center;
     color: #ffffff;
 }
-
+.sub-menu a:hover {
+    background:#da0a26;
+    transition: .3s;
+    color:#fff;
+}
+/* HERO */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 410px;
+    background-color: transparent;
+    top:112px;
+    overflow: hidden;
+}
+.image {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -2;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 85%;
+    color: black;
+    font-weight: bold;
+    opacity: 0;
+}
+.hero a{
+    position: absolute;
+    text-decoration: none;
+    color: rgba(255, 255, 255);
+    font-size: 36px;
+    top : 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+.siguiente {
+    left: 97%;
+}
+.anterior {
+    left: 2%;
+}
+.puntos {
+    position: absolute;
+    top: 91%;
+    width: 100%;
+    text-align: center;
+}
+.punto {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+.punto:hover {
+    cursor: pointer;
+    background-color: rgb(2, 135, 224);
+}
+.hero a:hover {
+    color: gray;
+}
+.actual {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 1s, opacity 1s;
+}
+.activo {
+    background-color: rgb(2, 135, 224);
+}
 /* RESPONSIVE */
 @media screen and (max-width:1024px) {
     .header a{
@@ -196,22 +327,57 @@ ul {
 @media screen and (max-width:826px) {
     .header {
         display: block;
-        height: auto;    
+        height: 56px;    
     }
+    .container {
+        height:inherit;
+    }
+    .menu {
+        background: rgb(31, 29, 29);
+        height: 100vh;
+        position: relative;
+        left: -100vw;
+        transition: .3s;
+    }
+    .menu.is-responsive {
+        left: 0;
+    }
+    .container-logo {
+        z-index: 4;
+        }
     ol {
         display: initial;
     }
     .header ol li {
-        height: 50px;
+        height: 70px;
         text-align: center;
+        padding: 10px 0;
     }
     .header a{
         justify-content: center;
+    }
+    .item:hover {
+        background:#da0a26;
+        transition: .3s;
+        color:#fff; 
+    }
+    ol li:nth-child(1).active i{
+        opacity: 0;
+    }
+    ol li:nth-child(2).active i{
+        opacity: 0;
+    }
+    ol li:nth-child(3).active i{
+        opacity: 0;
+    }
+    ol li:nth-child(4).active i{
+        opacity: 0;
     }
     .container-logo {
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 56px;
     }
     ol li:last-child {
         display: flex;
@@ -222,6 +388,38 @@ ul {
        margin: 0;
     }
     .sub-container.is-active {
+        display: none;
+    }
+    .fa-bars {
+        position: fixed;
+        z-index: 4;
+        color: white;
+        font-size: 2em;
+        display: block; 
+        opacity: 1;
+        margin:10px 20px;
+        margin-right: 0;
+    }
+    /* HERO */
+    .hero {
+        top:56px;
+        z-index: -5;
+    }
+}
+@media screen and (max-width:375px) {
+    .header ol li {
+        padding:  0;
+    }
+    .menu {
+        padding-top: 80px;
+    }
+    .container-logo {
+        position: relative;
+        top: 70px;
         left: -100vw;
+        transition: .3s;
+    }
+    .container-logo.is-responsive {
+        left: 0;
     }
 }
