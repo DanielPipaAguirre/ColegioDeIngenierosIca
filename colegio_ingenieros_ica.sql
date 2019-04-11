@@ -2,10 +2,9 @@ create database Colegio_Ingenieros_Ica;
 use Colegio_Ingenieros_Ica;
 drop database colegio_ingenieros_ica;
 
-
 create table General_Page(
 id_ge_page int not null auto_increment,
-id_inicio int,
+id_Inicio int,
 id_Institucional int,
 id_serv_cip int,
 id_cap_gener int,
@@ -14,14 +13,15 @@ PRIMARY KEY(id_ge_page)
 );
 
 create table Inicio(
-id_inicio int not null auto_increment,
+id_Inicio int not null auto_increment,
 id_Eventos int(15),
 id_Eventos_Recomendados int(15),
 id_Noticia int(15),
 id_Convenio int(15),
 id_Contenido int(15),
 id_directivos int(15),
-PRIMARY KEY(id_inicio)
+FOREIGN KEY(id_Inicio) References General_Page(id_Inicio),
+PRIMARY KEY(id_Inicio)
 );
 create table DB_Eventos_Cip(
 id_Eventos int not null auto_increment,
@@ -89,6 +89,7 @@ id_asamb_depa int(15),
 id_iepi int(15),
 id_ins_bie int(15),
 id_com_re int(15),
+FOREIGN KEY(id_Institucional) References General_Page(id_Institucional),
 primary key(id_Institucional)
 );
 
@@ -152,6 +153,7 @@ id_cer_hab int(15),
 id_ins_serv_soc int(15),
 id_dup_car_di_sede int(15),
 id_alq_local int(15),
+FOREIGN KEY(id_serv_cip) References General_Page(id_serv_cip),
 primary key(id_serv_cip)
 );
 
@@ -200,6 +202,7 @@ id_cap_civil int(15),
 id_cap_minas int(15),
 id_cap_quimica int(15),
 id_cap_pesquera int(15),
+FOREIGN KEY(id_cap_gener) References General_Page(id_cap_gener),
 primary key(id_cap_gener)
 );
 
