@@ -230,7 +230,7 @@ ol li:last-child a{
     flex: 1;
     font-family: Flexo-Demi;
 }
-ul {
+.sub-menu ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
