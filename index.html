@@ -48,8 +48,8 @@
              <div class="sub-container is-active">
                  <div class="sub-menu">
                      <ul>
-                         <li><a id="text" class="link" href="historia,mision y vision.html">HISTORIA, MISION Y VISION</a></li>
-                         <li><a id="text2" class="link" href="consejo departamental.html">CONSEJO DIRECTVO DEPARTAMENTAL</a>
+                         <li><a id="text" class="link" href="2">HISTORIA, MISION Y VISION</a></li>
+                         <li><a id="text2" class="link" href="#">CONSEJO DIRECTVO DEPARTAMENTAL</a>
                              <ul class="min-menu" id="min-menu">
                                  <li>
                                      <a href="#">SUB-MENU#1</a>S
@@ -65,7 +65,7 @@
                                  </li>
                              </ul>
                          </li>
-                         <li><a id="text3" class="link" href="asamblea_departamental.html">ASAMBLEA DEPARTAMENTAL</a></li>
+                         <li><a id="text3" class="link" href="#">ASAMBLEA DEPARTAMENTAL</a></li>
                          <li><a id="text4" class="link" href="#">IEPI</a></li>
                          <li><a id="text5" class="link" href="#">INSTITUTO DEL BINESTAR DEL INGENIERO</a></li>
                      </ul> 
@@ -393,7 +393,6 @@
         </div>
       </div>
     </section>
-<<<<<<< HEAD
     <section class="agreements">
         <h2 class="title-services">Nuestros convenios</h2>
         <div class="container-background">
@@ -584,18 +583,25 @@ figu[5].addEventListener('mouseover', (event) => {
 
 $button1.addEventListener('mouseover', (event) => {
       $text.innerHTML = "HISTORIA,VISION Y MISION ";
+      $text.href = "historia,mision y vision.html";
       $text2.innerHTML = "CONSEJO DIRECTIVO DEPARTAMENTAL";
+      $text2.href = "consejo departamental.html";
       $text3.innerHTML = "ASAMBLEA DEPARTAMENTAL";
+      $text3.href = "asamblea_departamental.html";
       $text4.innerHTML = "IEPI";
       $text5.innerHTML = "INSTITUTO DE BIENESTAR DEL INGENIERO";
+      $text5.href = "asamblea_departamental.html";
       $minmenu.classList.remove('add-menu');
       $minmenu.classList.remove('menu-is-active');
       document.querySelector('.sub-container').classList.add('is-active');
-    });
+    });   
 $button2.addEventListener('mouseover', (event) => {
       $text.innerHTML = "COLEGIACION";
+      $text.href = "#";
       $text2.innerHTML = "PAGO DE HABILIDAD";
+      $text2.href = "#";
       $text3.innerHTML = "CERTIFICACION DE HABILIDAD";
+      $text3.href = "#";
       $text4.innerHTML = "ISS";
       $text5.innerHTML = "BUSQUEDA DE COLEGIADOS";
       document.querySelector('.sub-container').classList.add('is-active');
@@ -604,8 +610,11 @@ $button2.addEventListener('mouseover', (event) => {
     });
 $button3.addEventListener('mouseover', (event) => {
       $text.innerHTML = "INGENIERIA AGRONOMA";
+      $text.href = "#";
       $text2.innerHTML = "INGENIERIA MECANICA Y ELECTRICA";
+      $text2.href = "#";
       $text3.innerHTML = "INGENIERIA AMBIENTAL Y SANITARIA";
+      $text3.href = "#";
       $text4.innerHTML = "INGENIERIA CIVIL";
       $text5.innerHTML = "INGENIERIA INDUSTRIAL Y SISTEMAS";
       document.querySelector('.sub-container').classList.add('is-active');
@@ -615,8 +624,11 @@ $button3.addEventListener('mouseover', (event) => {
     });
 $button4.addEventListener('mouseover', (event) => {
       $text.innerHTML = "EVENTOS CIP";
+      $text.href = "#";
       $text2.innerHTML = "EVENTOS RECOMENDADOS";
+      $text2.href = "#";
       $text3.innerHTML = "NOTICIAS RECIENTES";
+      $text3.href = "#";
       $text4.innerHTML = "VIDEO SEMANAL";
       $text5.innerHTML = "NUESTROS CONVENIOS";
       document.querySelector('.sub-container').classList.add('is-active');
@@ -678,131 +690,7 @@ var actual = 0;
 //Set interval llama a una funcion cada velocidad segundos
 	var velocidad = 3000;
 	var play = setInterval("siguiente()", velocidad);
-=======
-    <script>
-            var el = document.querySelectorAll('.controllers li');
-        for (let i = 0; i < el.length; i++) {
-          el[i].onmouseover = function() {
-            var c = 0;
-            while (c < el.length) {
-              el[c++].className = 'slide';
-            }
-            el[i].className = 'slide active';
-          };
-        }
-        
-        const $button5 = document.getElementById('button5'),
-              $button4 = document.getElementById('button4'),
-              $button3 = document.getElementById('button3'),
-              $button2 = document.getElementById('button2'),
-              $button1 = document.getElementById('button1'),
-              $text = document.getElementById('text'),
-              $text2 = document.getElementById('text2'),
-              $text3 = document.getElementById('text3'),
-              $text4 = document.getElementById('text4'),
-              $text5 = document.getElementById('text5'),
-              $header = document.querySelector('.sub-container'),
-              $ini = document.querySelector('.link'),
-              $bell = document.getElementById('bell'),
-              $minmenu = document.getElementById('min-menu');
-              $minmenu.classList.remove('menu-is-active');
-        
-        $button1.addEventListener('mouseover', (event) => {
-              $text.innerHTML = "HISTORIA,VISION Y MISION ";
-              $text2.innerHTML = "CONSEJO DIRECTIVO DEPARTAMENTAL";
-              $text3.innerHTML = "ASAMBLEA DEPARTAMENTAL";
-              $text4.innerHTML = "IEPI";
-              $text5.innerHTML = "INSTITUTO DE BIENESTAR DEL INGENIERO";
-              $minmenu.classList.remove('add-menu');
-              $minmenu.classList.remove('menu-is-active');
-              document.querySelector('.sub-container').classList.add('is-active');
-            });
-        $button2.addEventListener('mouseover', (event) => {
-              $text.innerHTML = "COLEGIACION";
-              $text2.innerHTML = "PAGO DE HABILIDAD";
-              $text3.innerHTML = "CERTIFICACION DE HABILIDAD";
-              $text4.innerHTML = "ISS";
-              $text5.innerHTML = "BUSQUEDA DE COLEGIADOS";
-              document.querySelector('.sub-container').classList.add('is-active');
-              $minmenu.classList.add('add-menu');
-              $ini.classList.remove('ini');
-            });
-        $button3.addEventListener('mouseover', (event) => {
-              $text.innerHTML = "INGENIERIA AGRONOMA";
-              $text2.innerHTML = "INGENIERIA MECANICA Y ELECTRICA";
-              $text3.innerHTML = "INGENIERIA AMBIENTAL Y SANITARIA";
-              $text4.innerHTML = "INGENIERIA CIVIL";
-              $text5.innerHTML = "INGENIERIA INDUSTRIAL Y SISTEMAS";
-              document.querySelector('.sub-container').classList.add('is-active');
-              $minmenu.classList.remove('add-menu');
-              $minmenu.classList.remove('menu-is-active');
-              $ini.classList.remove('ini');
-            });
-        $button4.addEventListener('mouseover', (event) => {
-              $text.innerHTML = "EVENTOS CIP";
-              $text2.innerHTML = "EVENTOS RECOMENDADOS";
-              $text3.innerHTML = "NOTICIAS RECIENTES";
-              $text4.innerHTML = "VIDEO SEMANAL";
-              $text5.innerHTML = "NUESTROS CONVENIOS";
-              document.querySelector('.sub-container').classList.add('is-active');
-              $minmenu.classList.remove('add-menu');
-              $minmenu.classList.remove('menu-is-active');
-              $ini.classList.remove('ini');
-            });
-        $button5.addEventListener('click', (event) => {
-                $bell.classList.toggle('notify');
-            });    
-        //REPARAR EL HOVER DEL SUB-MENU
-        // $header.addEventListener('mouseout', (event) => {
-        //       //console.log(event);
-        //       document.querySelector('.sub-container').classList.remove('is-active');
-        //     });
-        $text2.addEventListener('click', (event) => {
-             $minmenu.classList.toggle('menu-is-active');
-            });    
-        var actual = 0;
-                    function puntos(n){
-                        var ptn = document.getElementsByClassName("punto");
-                        for(i = 0; i<ptn.length; i++){
-                            if(ptn[i].className.includes("activo")){
-                                ptn[i].className = ptn[i].className.replace("activo", "");
-                                break;
-                            }
-                        }
-                        ptn[n].className += " activo";
-                    }
-                    function mostrar(n){
-                        var imagenes = document.getElementsByClassName("image");
-                        for(i = 0; i< imagenes.length; i++){
-                  //className devuelve texto
-                  //include permite saber si una palabra esta dentro del texto
-                            if(imagenes[i].className.includes("actual")){
-                                imagenes[i].className = imagenes[i].className.replace("actual", "");
-                                break;
-                            }
-                        }
-                        actual = n;
-                        imagenes[n].className += " actual";
-                        puntos(n);
-                    }
-                    
-                    function siguiente(){
-                        actual++;
-                        if(actual > 2){
-                            actual = 0;
-                        }
-                        mostrar(actual);
-                    }
-                    function anterior(){
-                        actual--;
-                        if(actual < 0){
-                            actual = 2;
-                        }
-                        mostrar(actual);
-                    }
-        //Set interval llama a una funcion cada velocidad segundos
-            var velocidad = 3000;
-            var play = setInterval("siguiente()", velocidad);
+           
         
           const $burger = document.getElementById("burger"),
           $menu = document.getElementById("menu"),
@@ -813,6 +701,5 @@ var actual = 0;
         })
         </script>
 </body>
->>>>>>> origin/master
 
 </html>
