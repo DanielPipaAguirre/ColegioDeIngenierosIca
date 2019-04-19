@@ -393,6 +393,103 @@
         </div>
       </div>
     </section>
+    <section class="agreements">
+        <h2 class="title-services">Nuestros convenios</h2>
+        <div class="container-background">
+            <div class="wrapper">
+                    <figure>
+                        <img src="img/ausp_1.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="img/ausp_2.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="img/ausp_3.png" alt="">
+                    </figure>
+                    <figure>
+                        <img src="img/ausp_4.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="img/ausp_5.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="img/ausp_6.png" alt="">
+                    </figure>
+            </div>
+        </div>
+    </section>
+    <section class="commitee">
+        <h2 class="title-services">Consejo Departamental</h2>
+        <div class="wrapper-commitee">
+            <div class="container-figures">
+                <div class="split">
+                    <figure class="split-figu">
+                        <img src="img/consejo_1.png" alt="">
+                    </figure>
+                    <figure class="split-figu"> 
+                        <img src="img/consejo_2.png" alt="">
+                    </figure>
+                    <figure class="split-figu is-primary">
+                        <img src="img/consejo_3.png" alt="">
+                    </figure>
+                    <figure class="split-figu">
+                        <img src="img/consejo_4.png" alt="">
+                    </figure>
+                    <figure class="split-figu">
+                        <img src="img/consejo_5.png" alt="">
+                    </figure>
+                    <figure class="split-figu">
+                        <img src="img/consejo_6.png" alt="">
+                    </figure>          
+                </div>
+            </div>
+            <div class="content-people" id="content-people">
+                <div class="wrapper-people">
+                    <p class="people-p">Decano del Consejo Departamental de Ica</p>
+                </div>
+                <p class="people-p">Ing. Edson Rios Villagomez</p> 
+            </div>        
+        </div>    
+    </section>
+    <footer class="footer">
+        <div class="one">
+                <h2>NOSOTROS</h2>
+                <div class="content-one">
+                     <figure>
+                        <img src="img/logo-transparente3.png" alt="">
+                    </figure>
+                    <p>El Colegio de Ingenieros del Perú, fue creado en el año 1962, tiene desde 1987 una estructura descentralizada, por lo que existen 28 consejos departamentales CIP en todo el país.</p>
+                </div>
+        </div>
+        <div class="two">
+                <h2>CONTACTO</h2>
+                <div class="icon-two">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Prolongación Los Nardos 141 – Urbanización 
+                            San Isidro - Ica</p>
+                </div>
+                <div class="icon-two">
+                    <i class="fas fa-mobile-alt"></i>
+                    <p>056-232051</p>
+                </div>
+                <div class="icon-two">
+                    <i class="fas fa-envelope"></i>
+                    <p>cip_ica09@hotmail.com</p>
+                </div>
+        </div>
+        <div class="trhee">
+                <h2>HORARIO DE ATENCIÓN</h2>
+                <div class="icon-two">
+                    <i class="far fa-clock"></i>
+                    <p>Lunes a Viernes: 8:30am – 12.45pm<br>
+                        4:00pm – 7:00pm</p>
+                </div>
+                <span><p>Sábados: 9:00am – 12.45pm</p></span>
+        </div>
+        <div class="copy">
+            <p>Copyright © Colegio de Ingenieros de Ica ©2019 All rights reserved </p>
+        </div>
+    </footer>
 </body>
 <script>
     var el = document.querySelectorAll('.controllers li');
@@ -419,8 +516,70 @@ const $button5 = document.getElementById('button5'),
       $header = document.querySelector('.sub-container'),
       $ini = document.querySelector('.link'),
       $bell = document.getElementById('bell'),
-      $minmenu = document.getElementById('min-menu');
-      $minmenu.classList.remove('menu-is-active');
+      $minmenu = document.getElementById('min-menu'),
+      $contentpeople = document.getElementById('content-people');
+var figu = document.getElementsByClassName('split-figu');
+var parrafo= document.getElementsByClassName('people-p');
+
+figu[0].addEventListener('mouseover', (event) => {
+    parrafo[0].innerHTML = "Pro - Secretario del Consejo Departamental"
+    parrafo[1].innerHTML = "Ing. Felipe Estuardo Yarasca Arcos"
+    figu[2].classList.remove('is-primary')
+    for(var i = 0; i < figu.length; i++){
+        figu[i].classList.remove('is-opacity')
+    }
+    figu[0].classList.add('is-opacity')
+});
+
+figu[1].addEventListener('mouseover', (event) => {
+    parrafo[0].innerHTML = "Tesorero del Consejo Departamental de Ica"
+    parrafo[1].innerHTML = "Ing. Elder Daniel Agüero Rospigliosi"
+    figu[2].classList.remove('is-primary')
+    for(var i = 0; i < figu.length; i++){
+        figu[i].classList.remove('is-opacity')
+    }
+    figu[1].classList.add('is-opacity')
+});
+
+figu[2].addEventListener('mouseover', (event) => {
+    parrafo[0].innerHTML = "Decano del Consejo Departamental de Ica"
+    parrafo[1].innerHTML = "Ing. Edson Rios Villagomez"
+    figu[2].classList.remove('is-primary')
+    for(var i = 0; i < figu.length; i++){
+        figu[i].classList.remove('is-opacity')
+    }
+    figu[2].classList.add('is-opacity')
+});
+
+figu[3].addEventListener('mouseover', (event) => {
+    parrafo[0].innerHTML = "Vice - decano del Consejo Departamental de Ica"
+    parrafo[1].innerHTML = "Ing. Reymundo Calderon Pino"
+    figu[2].classList.remove('is-primary')
+    for(var i = 0; i < figu.length; i++){
+        figu[i].classList.remove('is-opacity')
+    }
+    figu[3].classList.add('is-opacity')
+});
+
+figu[4].addEventListener('mouseover', (event) => {
+    parrafo[0].innerHTML = "Secretario del Consejo Departamental de Ica"
+    parrafo[1].innerHTML = "Ing. Dante Vladimir Campos Valencia"
+    figu[2].classList.remove('is-primary')
+    for(var i = 0; i < figu.length; i++){
+        figu[i].classList.remove('is-opacity')
+    }
+    figu[4].classList.add('is-opacity')
+});
+
+figu[5].addEventListener('mouseover', (event) => {
+    parrafo[0].innerHTML = "Pro - Tesorero del Consejo Departamental"
+    parrafo[1].innerHTML = "Ing. Jorge Luis Hernandez Angulo"
+    figu[2].classList.remove('is-primary')
+    for(var i = 0; i < figu.length; i++){
+        figu[i].classList.remove('is-opacity')
+    }
+    figu[5].classList.add('is-opacity')
+});
 
 $button1.addEventListener('mouseover', (event) => {
       $text.innerHTML = "HISTORIA,VISION Y MISION ";
