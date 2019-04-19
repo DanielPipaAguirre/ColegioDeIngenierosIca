@@ -899,6 +899,38 @@ ol li:last-child a{
     box-sizing: border-box;
     color: white;
 }
+/*eliminar*/
+.footer1 {
+    width: 100%;
+    height: auto;
+    background: rgb(6,10,15);
+    background: linear-gradient(137deg, rgba(6,10,15,1) 0%, rgba(9,17,22,1) 44%, rgba(29,53,65,1) 100%);
+    display: grid;
+    grid-template-columns: 35% repeat(2,1fr);
+    grid-gap: 40px;
+    padding: 50px 60px 20px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 350px;
+}
+
+.footer0 {
+    width: 100%;
+    height: auto;
+    background: rgb(6,10,15);
+    background: linear-gradient(137deg, rgba(6,10,15,1) 0%, rgba(9,17,22,1) 44%, rgba(29,53,65,1) 100%);
+    display: grid;
+    grid-template-columns: 35% repeat(2,1fr);
+    grid-gap: 40px;
+    padding: 50px 60px 20px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: -20px;
+}
+/*asta aki*/
+
 .content-one {
     display: flex;
 }
