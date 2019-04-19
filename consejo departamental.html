@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+     <title>DESCRIPCION-info</title>
+     
+     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/consejo departamental.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+        <i class="fas fa-bars" id="burger"></i>
+        <header class="header">
+             <div class="container">
+                 <!--Logo-->
+                 <div class="container-logo" id="container-logo">
+                     <figure class="logo">
+                             <img src="img/logo_1.png" alt="">
+                     </figure>
+                     <h1>COLEGIO DE INGENIEROS DEL PERÚ<br>
+                         CONSEJO DEPARTAMENTAL DE ICA</h1>
+                 </div> 
+                 <!--Navegación-->
+                 <nav class="menu" id="menu">
+                     <!--Enlaces-->
+                     <ol class="controllers">
+                         <li class="active"><a class="item link ini" id="button1" href="#INSTITUCIONAL">INSTITUCIONAL
+                                 <i class="fas fa-caret-up"></i>
+                         </a></li>
+                         <li class="li"><a class="item link" id="button2" href="#SERVICIOS">SERVICIOS
+                                 <i class="fas fa-caret-up"></i>
+                         </a></li>
+                         <li class="li"><a class="item link" id="button3" href="#CAPÍTULOS">CAPÍTULOS
+                                 <i class="fas fa-caret-up"></i>
+                         </a></li>
+                         <li class="li"><a class="item link" id="button4" href="#EVENTOSCIP">EVENTOS CIP
+                                 <i class="fas fa-caret-up"></i>
+                         </a></li>
+                         <li class="li"><a class="link btn" id="button5" href="#EVENTOSCIP">
+                             <i class="fas fa-bell" id="bell"></i>
+                                 CONSULTAS
+                             </a>
+                         </li>
+                     </ol>
+                 </nav>
+             </div>
+             <div class="sub-container is-active">
+                 <div class="sub-menu">
+                     <ul>
+                         <li><a id="text" class="link" href="historia,mision y vision.html">HISTORIA, MISION Y VISION</a></li>
+                         <li><a id="text2" class="link" href="consejo departamental.html">CONSEJO DIRECTVO DEPARTAMENTAL</a>
+                             <ul class="min-menu" id="min-menu">
+                                 <li>
+                                     <a href="#">SUB-MENU#1</a>
+                                 </li>   
+                                 <li>
+                                     <a href="#">SUB-MENU#2</a>
+                                 </li>
+                                 <li>
+                                     <a href="#">SUB-MENU#2</a>
+                                 </li>
+                                 <li>
+                                     <a href="#">SUB-MENU#4</a>
+                                 </li>
+                             </ul>
+                         </li>
+                         <li><a id="text3" class="link" href="asamblea_departamental.html">ASAMBLEA DEPARTAMENTAL</a></li>
+                         <li><a id="text4" class="link" href="#">IEPI</a></li>
+                         <li><a id="text5" class="link" href="#">INSTITUTO DEL BINESTAR DEL INGENIERO</a></li>
+                     </ul> 
+                 </div>
+             </div>
+        </header>
+
+        
+        <div id="fondo">
+                <div id="caja">
+
+                        <div id="izquierdo">
+                            
+                            <img src="img/directivos/ing-edson-rios-villagomez.jpg" id="img" alt="">
+
+                            <h1 id="txt2">Ing. Edson Rios Villagomez</h1>
+                            <p id="txt1">Decano del Consejo Departamental de Ica.</font> </p>
+                            
+                          
+                        </div>
+                        <div id="medio">
+                            <img src="img/directivos/ing-reymundo-calderon-pino.jpg" id="img" alt="">
+                            <h1 id="txt2">Ing. Reymundo Calderon Pino</h1>
+                            <p id="txt1">Vice - decano del Consejo Departamental de Ica</font> </p>
+                            
+                        </div>
+                        <div id="derecho">
+                            <img src="img/directivos/ing-dante-campos-Valencia.jpg" id="img" alt="">
+                            <h1 id="txt2">Ing. Dante Vladimir Campos Valencia</h1>
+                            <p id="txt1">Secretario del Consejo Departamental de Ica</font> </p>
+                            
+                        </div>
+                        
+                </div>
+                <div id="caja1">
+
+                        <div id="izquierdo">
+                            
+                            <img src="img/directivos/ing-felipe-yarasca.jpg" id="img" alt="">
+
+                            <h1 id="txt2">Ing. Felipe Estuardo Yarasca Arcos</h1>
+                            <p id="txt1">Pro - Secretario del Consejo Departamental de Ica</font> </p>
+                            
+                          
+                        </div>
+                        <div id="medio">
+                            <img src="img/directivos/ing-Elder-Rospigliosi.jpg" id="img" alt="">
+                            <h1 id="txt2">Ing. Elder Daniel Agüero Rospigliosi</h1>
+                            <p id="txt1">Tesorero del Consejo Departamental de Ica</font> </p>
+                            
+                        </div>
+                        <div id="derecho">
+                            <img src="img/directivos/ing-luis-hernandez.jpg" id="img" alt="">
+                            <h1 id="txt2">Ing. Jorge Luis Hernandez Angulo</h1>
+                            <p id="txt1">Pro - Tesorero del Consejo Departamental de Ica</font> </p>
+                            
+                        </div>
+                        
+                </div>
+        </div>
+
+    <script>
+            var el = document.querySelectorAll('.controllers li');
+        for (let i = 0; i < el.length; i++) {
+          el[i].onmouseover = function() {
+            var c = 0;
+            while (c < el.length) {
+              el[c++].className = 'slide';
+            }
+            el[i].className = 'slide active';
+          };
+        }
+        
+        const $button5 = document.getElementById('button5'),
+              $button4 = document.getElementById('button4'),
+              $button3 = document.getElementById('button3'),
+              $button2 = document.getElementById('button2'),
+              $button1 = document.getElementById('button1'),
+              $text = document.getElementById('text'),
+              $text2 = document.getElementById('text2'),
+              $text3 = document.getElementById('text3'),
+              $text4 = document.getElementById('text4'),
+              $text5 = document.getElementById('text5'),
+              $header = document.querySelector('.sub-container'),
+              $ini = document.querySelector('.link'),
+              $bell = document.getElementById('bell'),
+              $minmenu = document.getElementById('min-menu');
+              $minmenu.classList.remove('menu-is-active');
+        
+        $button1.addEventListener('mouseover', (event) => {
+              $text.innerHTML = "HISTORIA, MISION Y VISION ";
+              $text2.innerHTML = "CONSEJO DIRECTIVO DEPARTAMENTAL";
+              $text3.innerHTML = "ASAMBLEA DEPARTAMENTAL";
+              $text4.innerHTML = "IEPI";
+              $text5.innerHTML = "INSTITUTO DE BIENESTAR DEL INGENIERO";
+              $minmenu.classList.remove('add-menu');
+              $minmenu.classList.remove('menu-is-active');
+              document.querySelector('.sub-container').classList.add('is-active');
+            });
+        $button2.addEventListener('mouseover', (event) => {
+              $text.innerHTML = "COLEGIACION";
+              $text2.innerHTML = "PAGO DE HABILIDAD";
+              $text3.innerHTML = "CERTIFICACION DE HABILIDAD";
+              $text4.innerHTML = "ISS";
+              $text5.innerHTML = "BUSQUEDA DE COLEGIADOS";
+              document.querySelector('.sub-container').classList.add('is-active');
+              $minmenu.classList.add('add-menu');
+              $ini.classList.remove('ini');
+            });
+        $button3.addEventListener('mouseover', (event) => {
+              $text.innerHTML = "INGENIERIA AGRONOMA";
+              $text2.innerHTML = "INGENIERIA MECANICA Y ELECTRICA";
+              $text3.innerHTML = "INGENIERIA AMBIENTAL Y SANITARIA";
+              $text4.innerHTML = "INGENIERIA CIVIL";
+              $text5.innerHTML = "INGENIERIA INDUSTRIAL Y SISTEMAS";
+              document.querySelector('.sub-container').classList.add('is-active');
+              $minmenu.classList.remove('add-menu');
+              $minmenu.classList.remove('menu-is-active');
+              $ini.classList.remove('ini');
+            });
+        $button4.addEventListener('mouseover', (event) => {
+              $text.innerHTML = "EVENTOS CIP";
+              $text2.innerHTML = "EVENTOS RECOMENDADOS";
+              $text3.innerHTML = "NOTICIAS RECIENTES";
+              $text4.innerHTML = "VIDEO SEMANAL";
+              $text5.innerHTML = "NUESTROS CONVENIOS";
+              document.querySelector('.sub-container').classList.add('is-active');
+              $minmenu.classList.remove('add-menu');
+              $minmenu.classList.remove('menu-is-active');
+              $ini.classList.remove('ini');
+            });
+        $button5.addEventListener('click', (event) => {
+                $bell.classList.toggle('notify');
+            });    
+        //REPARAR EL HOVER DEL SUB-MENU
+        // $header.addEventListener('mouseout', (event) => {
+        //       //console.log(event);
+        //       document.querySelector('.sub-container').classList.remove('is-active');
+        //     });
+        $text2.addEventListener('click', (event) => {
+             $minmenu.classList.toggle('menu-is-active');
+            });    
+        var actual = 0;
+                    function puntos(n){
+                        var ptn = document.getElementsByClassName("punto");
+                        for(i = 0; i<ptn.length; i++){
+                            if(ptn[i].className.includes("activo")){
+                                ptn[i].className = ptn[i].className.replace("activo", "");
+                                break;
+                            }
+                        }
+                        ptn[n].className += " activo";
+                    }
+                    function mostrar(n){
+                        var imagenes = document.getElementsByClassName("image");
+                        for(i = 0; i< imagenes.length; i++){
+                  //className devuelve texto
+                  //include permite saber si una palabra esta dentro del texto
+                            if(imagenes[i].className.includes("actual")){
+                                imagenes[i].className = imagenes[i].className.replace("actual", "");
+                                break;
+                            }
+                        }
+                        actual = n;
+                        imagenes[n].className += " actual";
+                        puntos(n);
+                    }
+                    
+                    function siguiente(){
+                        actual++;
+                        if(actual > 2){
+                            actual = 0;
+                        }
+                        mostrar(actual);
+                    }
+                    function anterior(){
+                        actual--;
+                        if(actual < 0){
+                            actual = 2;
+                        }
+                        mostrar(actual);
+                    }
+        //Set interval llama a una funcion cada velocidad segundos
+            var velocidad = 3000;
+            var play = setInterval("siguiente()", velocidad);
+        
+          const $burger = document.getElementById("burger"),
+          $menu = document.getElementById("menu"),
+          $containerlogo= document.getElementById("container-logo");
+          $burger.addEventListener('click', function() {
+              $menu.classList.toggle('is-responsive')
+            $containerlogo.classList.toggle('is-responsive')
+        })
+        </script>
+</body>
+</html>
