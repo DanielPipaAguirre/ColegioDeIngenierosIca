@@ -92,7 +92,10 @@ ol {
     height: inherit;
 }
 .header ol li {
-    height: inherit;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px 0;
 }
 .link { 
     color: #bbbbbb;
@@ -100,8 +103,8 @@ ol {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: inherit;
-    padding: 0 20px;
+    margin: 0 16px;
+    padding: 10px 0;
     justify-content: center;
     position: relative;
 }
@@ -144,6 +147,10 @@ ol li:nth-child(3).active a{
     transition: .5s;
 }
 ol li:nth-child(4).active a{
+    color:#ffffff;
+    transition: .5s;
+}
+ol li:nth-child(5).active a{
     color:#ffffff;
     transition: .5s;
 }
@@ -245,6 +252,8 @@ ol li:last-child a{
     padding: 0 16px;
     text-align: center;
     color: #ffffff;
+    height: inherit;
+    margin: 0;
 }
 .sub-menu a:hover {
     background:rgb(253, 81, 62);
@@ -255,7 +264,7 @@ ol li:last-child a{
     transform: scale(.99);
 }
 /* MIN-MENU */
-.min-menu {
+ul .min-menu {
     background: #0d181f;
     flex-direction: column;
     align-items: center;
@@ -571,6 +580,9 @@ ol li:last-child a{
       will-change: transform;
   }
 /* RECOMMENT */
+.recomment {
+    padding: 0px 50px;
+}
 .recomment h2 {
     margin-top: 50px;
     background: none;
@@ -816,6 +828,7 @@ ol li:last-child a{
     display: flex;
     position: relative;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .content-people {
     display: flex;
@@ -857,7 +870,7 @@ ol li:last-child a{
     margin: 0;
     width: 100%;
     opacity: .5;
-    transition: 1s;
+    transition: .5s;
 }
 .split-figu img {
     width: 100px; 
@@ -990,18 +1003,6 @@ ol li:last-child a{
 
 /* RESPONSIVE */
 @media screen and (max-width:1024px) {
-    .header a{
-        padding: 0 14px;
-    }
-    /* EVENTOS CIP */
-    .right {
-        height: 298px;
-    }
-    .left {
-        height: 298px;
-    }
-}
-@media screen and (max-width:936px) {
     .header {
         display: block;
         height: 56px;    
@@ -1104,6 +1105,16 @@ ol li:last-child a{
     .left {
         height: 278px;
     }
+        /* COMMITEE */
+        .wrapper-commitee {
+            justify-content: center;
+            }
+            .content-people {
+                margin-top: 30px;
+            }
+            .commitee h2 {
+                margin-bottom: 30px;
+            }
 }
 @media screen and (max-width:896px) {
     .icons .fa-angle-left {

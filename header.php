@@ -23,7 +23,10 @@
                          <li class="li"><a class="item link" id="button3" href="#CAPÍTULOS">CAPÍTULOS
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
-                         <li class="li"><a class="item link" id="button4" href="#EVENTOSCIP">EVENTOS CIP
+                         <li class="li"><a class="item link" id="button4" href="#EVENTOSCIP">EVENTOS
+                                 <i class="fas fa-caret-up"></i>
+                         </a></li>
+                         <li class="li"><a class="item link" id="button6" href="#EVENTOSCIP">TRÁMITES
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
                          <li class="li"><a class="link btn" id="button5" href="#EVENTOSCIP">
@@ -41,7 +44,7 @@
                          <li><a id="text2" class="link" href="consejo_departamental.php">CONSEJO DIRECTVO DEPARTAMENTAL</a>
                              <ul class="min-menu" id="min-menu">
                                  <li>
-                                     <a href="#">SUB-MENU#1</a>S
+                                     <a href="#">SUB-MENU#1</a>
                                  </li>   
                                  <li>
                                      <a href="#">SUB-MENU#2</a>

@@ -9,7 +9,8 @@ var el = document.querySelectorAll('.controllers li');
                };
            }
            
-       const $button5 = document.getElementById('button5'),
+       const $button6 = document.getElementById('button6'),
+       $button5 = document.getElementById('button5'),
        $button4 = document.getElementById('button4'),
        $button3 = document.getElementById('button3'),
        $button2 = document.getElementById('button2'),
@@ -79,6 +80,20 @@ var el = document.querySelectorAll('.controllers li');
            $minmenu.classList.remove('menu-is-active');
            $ini.classList.remove('ini');
          });
+         $button6.addEventListener('mouseover', (event) => {
+          $text.innerHTML = "COLEGIATURA";
+          $text.href = "#";
+          $text2.innerHTML = "CERT. DE HABILIDAD";
+          $text2.href = "#";
+          $text3.innerHTML = "CERT. DE OBRAS PUBLICAS";
+          $text3.href = "#";
+          $text4.innerHTML = "CERT. HABILIDAD DE PROYECTOS";
+          $text5.innerHTML = "DUPLICADO DE CARNET";
+          document.querySelector('.sub-container').classList.add('is-active');
+          $minmenu.classList.remove('add-menu');
+          $minmenu.classList.remove('menu-is-active');
+          $ini.classList.remove('ini');
+        });
        $button5.addEventListener('click', (event) => {
              $bell.classList.toggle('notify');
          });
@@ -87,16 +102,29 @@ var el = document.querySelectorAll('.controllers li');
         //       //console.log(event);
         //       document.querySelector('.sub-container').classList.remove('is-active');
         //     });
-        $text2.addEventListener('click', (event) => {
-          $minmenu.classList.toggle('menu-is-active');
+        $text2.addEventListener('mouseover', (event) => {
+          $minmenu.classList.add('menu-is-active');
          }); 
+         $text.addEventListener('mouseover', (event) => {
+          $minmenu.classList.remove('menu-is-active');
+        });
+        $text3.addEventListener('mouseover', (event) => {
+          $minmenu.classList.remove('menu-is-active');
+        });
+        $text4.addEventListener('mouseover', (event) => {
+          $minmenu.classList.remove('menu-is-active');
+        });
+        $text5.addEventListener('mouseover', (event) => {
+          $minmenu.classList.remove('menu-is-active');
+        });
          const $burger = document.getElementById("burger"),
              $menu = document.getElementById("menu"),
              $containerlogo= document.getElementById("container-logo");
              $burger.addEventListener('click', function() {
                  $menu.classList.toggle('is-responsive')
                $containerlogo.classList.toggle('is-responsive')
-           })
-
+           });
+       
+        
          
        
