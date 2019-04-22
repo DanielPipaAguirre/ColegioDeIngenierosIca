@@ -1,5 +1,6 @@
 <?php require 'header/doctype.php';?>
 <link rel="stylesheet" href="public/css/estilos.css">
+
 <?php require 'header/title.php';
       require 'header.php';?>
 
