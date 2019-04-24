@@ -41,21 +41,21 @@
                  <div class="sub-menu" id="sub-menu">
                      <ul>
                          <li><a id="text" class="link" href="historia_mision_vision.php">QUIENES SOMOS</a>
-                            
+                         
                         </li>
-                         <li><a id="text2" class="link" href="consejo_departamental.php">REPRESENTANTES</a>
+                         <li><a id="text2" class="link" href="#">REPRESENTANTES</a>
                              <ul class="min-menu" id="min-menu">
                                  <li>
-                                     <a id="sub-text" href="#">CONSEJO DEPARTAMENTAL</a>
+                                     <a id="sub-text" href="consejo_departamental.php">CONSEJO DEPARTAMENTAL</a>
                                  </li>   
                                  <li>
                                      <a id="sub-text2" href="#">PRESIDENTES DE CAPITULOS</a>
                                  </li>
                                  <li>
-                                     <a id="sub-text3" href="#">ASAMBLEA DEPARTAMENTAL</a>
+                                     <a id="sub-text3" href="asamblea_departamental.php">ASAMBLEA DEPARTAMENTAL</a>
                                  </li>
                                  <li>
-                                     <a id="sub-text4" href="#">COMISIONES</a>
+                                     <a id="sub-text4" href="prueba.php">COMISIONES</a>
                                  </li>
                                  <li>
                                      <a id="sub-text5" href="#">COMITES</a>

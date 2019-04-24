@@ -103,12 +103,13 @@ var el = document.querySelectorAll('.controllers li');
          });
          $button6.addEventListener('mouseover', (event) => {
           $text.innerHTML = "COLEGIATURA";
-          $text.href = "#";
+          $text.href = "colegiatura.php";
           $text2.innerHTML = "CERTIFICADOS";
           $text2.href = "#";
           $text3.innerHTML = "DUPLICADO DE CARNET";
-          $text3.href = "#";
+          $text3.href = "duplicado_carnet.php";
           $text4.innerHTML = "CONSTANCIA DE NO ADEUDO";
+          $text4.href = "constancia_no_adeudo.php";
           $text5.style.display = "flex";
           $text5.innerHTML = "CAMIO DE SDE";
           $subtext.innerHTML = "CERT. DE HABILIDAD";
