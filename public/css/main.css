@@ -92,10 +92,7 @@ ol {
     height: inherit;
 }
 .header ol li {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    margin: 20px 0;
+    height: inherit;
 }
 .link { 
     color: #bbbbbb;
@@ -103,10 +100,13 @@ ol {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 16px;
-    padding: 10px 0;
+    height: inherit;
+    padding: 0 20px;
     justify-content: center;
     position: relative;
+}
+.link.ini {
+    color: #ffffff;
 }
 .fa-caret-up {
     font-size: 2.5em;
@@ -144,10 +144,6 @@ ol li:nth-child(3).active a{
     transition: .5s;
 }
 ol li:nth-child(4).active a{
-    color:#ffffff;
-    transition: .5s;
-}
-ol li:nth-child(5).active a{
     color:#ffffff;
     transition: .5s;
 }
@@ -249,8 +245,6 @@ ol li:last-child a{
     padding: 0 16px;
     text-align: center;
     color: #ffffff;
-    height: inherit;
-    margin: 0;
 }
 .sub-menu a:hover {
     background:rgb(253, 81, 62);
@@ -260,11 +254,8 @@ ol li:last-child a{
 .sub-menu a:active {
     transform: scale(.99);
 }
-.sub-menu li:last-child .link{
-    display: none;
-}
 /* MIN-MENU */
-ul .min-menu {
+.min-menu {
     background: #0d181f;
     flex-direction: column;
     align-items: center;
@@ -284,7 +275,7 @@ ul .min-menu {
 .min-menu a {
     text-decoration: none;
     display: block;
-    padding: 30px 16px;
+    padding: 30px 0;
 }
 /* HERO */
 .hero {
@@ -441,6 +432,13 @@ ul .min-menu {
     transform: scale(.9);
     cursor: pointer;
 }
+/* .item-icon:hover p {
+    color: white;
+}
+.item-icon:hover {
+    background: rgb(255, 208, 0);
+    color: white; */
+}
 .item-icon i {
     font-size: 2.8em;
 }
@@ -573,9 +571,6 @@ ul .min-menu {
       will-change: transform;
   }
 /* RECOMMENT */
-.recomment {
-    padding: 0px 50px;
-}
 .recomment h2 {
     margin-top: 50px;
     background: none;
@@ -695,11 +690,6 @@ ul .min-menu {
     display: grid;
     grid-template-columns: 70% 30%;
     color: #4A4A4A;
-    cursor: pointer;
-    transition: .5s;
-}
-.post:hover {
-    transform: scale(1.1);
 }
 .container-left {
     padding-right: 10px;
@@ -739,14 +729,10 @@ ul .min-menu {
     overflow: hidden;
     margin: 19px 0 0;
 }
-.image-post:hover img{
-    transform: rotate(25deg) scale(2);
-}
 .image-post img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: .9s;
 }
 .container-bottom {
     grid-column: 1/3;
@@ -830,7 +816,6 @@ ul .min-menu {
     display: flex;
     position: relative;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 .content-people {
     display: flex;
@@ -872,7 +857,7 @@ ul .min-menu {
     margin: 0;
     width: 100%;
     opacity: .5;
-    transition: .5s;
+    transition: 1s;
 }
 .split-figu img {
     width: 100px; 
@@ -1005,6 +990,18 @@ ul .min-menu {
 
 /* RESPONSIVE */
 @media screen and (max-width:1024px) {
+    .header a{
+        padding: 0 14px;
+    }
+    /* EVENTOS CIP */
+    .right {
+        height: 298px;
+    }
+    .left {
+        height: 298px;
+    }
+}
+@media screen and (max-width:936px) {
     .header {
         display: block;
         height: 56px;    
@@ -1107,16 +1104,6 @@ ul .min-menu {
     .left {
         height: 278px;
     }
-        /* COMMITEE */
-        .wrapper-commitee {
-            justify-content: center;
-            }
-            .content-people {
-                margin-top: 30px;
-            }
-            .commitee h2 {
-                margin-bottom: 30px;
-            }
 }
 @media screen and (max-width:896px) {
     .icons .fa-angle-left {

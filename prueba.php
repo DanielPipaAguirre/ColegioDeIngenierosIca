@@ -5,23 +5,21 @@
     <?php require 'header/title.php';
       require 'header.php';?>
 
+  <section class="cont">
 
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/1)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/2)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/3)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/4)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/5)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/6)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/7)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/8)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/9)"></div>
-      <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/10)"></div>
+      <div class="swiper-slide" style="background-image:url(public/img/1p.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(public/img/2p.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(public/img/3p.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(public/img/5p.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(public/img/6p.jpg)"></div>
+    
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
   </div>
+  <section>
 
   <!-- Swiper JS -->
   <script src="public/js/swiper.min.js"></script>
@@ -45,3 +43,5 @@
       },
     });
   </script>
+  <?php require 'footer.php';?>
+<script src="public/js/nav.js"></script>
