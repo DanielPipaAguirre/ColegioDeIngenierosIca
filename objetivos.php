@@ -1,81 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<?php require 'header/doctype.php';?>
+<link rel="stylesheet" href="public/css/estilos.css">
+    <?php require 'header/title.php';
+      require 'header.php';?>
     
-</head>
-
-
-<body> 
-    <i class="fas fa-bars" id="burger"></i>
-    <header class="header">
-         <div class="container">
-             <!--Logo-->
-             <div class="container-logo" id="container-logo">
-                 <figure class="logo">
-                         <img src="img/logo_1.png" alt="">
-                 </figure>
-                 <h1>COLEGIO DE INGENIEROS DEL PERÚ<br>
-                     CONSEJO DEPARTAMENTAL DE ICA</h1>
-             </div> 
-             <!--Navegación-->
-             <nav class="menu" id="menu">
-                 <!--Enlaces-->
-                 <ol class="controllers">
-                     <li class="active"><a class="item link ini" id="button1" href="#INSTITUCIONAL">INSTITUCIONAL
-                             <i class="fas fa-caret-up"></i>
-                     </a></li>
-                     <li class="li"><a class="item link" id="button2" href="#SERVICIOS">SERVICIOS
-                             <i class="fas fa-caret-up"></i>
-                     </a></li>
-                     <li class="li"><a class="item link" id="button3" href="#CAPÍTULOS">CAPÍTULOS
-                             <i class="fas fa-caret-up"></i>
-                     </a></li>
-                     <li class="li"><a class="item link" id="button4" href="#EVENTOSCIP">EVENTOS CIP
-                             <i class="fas fa-caret-up"></i>
-                     </a></li>
-                     <li class="li"><a class="link btn" id="button5" href="#EVENTOSCIP">
-                         <i class="fas fa-bell" id="bell"></i>
-                             CONSULTAS
-                         </a>
-                     </li>
-                 </ol>
-             </nav>
-         </div>
-         <div class="sub-container is-active">
-             <div class="sub-menu">
-                 <ul>
-                     <li><a id="text" class="link" href="historia,mision y vision.html">HISTORIA, MISION Y VISION</a></li>
-                     <li><a id="text2" class="link" href="consejo departamental.html">CONSEJO DIRECTVO DEPARTAMENTAL</a>
-                         <ul class="min-menu" id="min-menu">
-                             <li>
-                                 <a href="#">SUB-MENU#1</a>
-                             </li>   
-                             <li>
-                                 <a href="#">SUB-MENU#2</a>
-                             </li>
-                             <li>
-                                 <a href="#">SUB-MENU#2</a>
-                             </li>
-                             <li>
-                                 <a href="#">SUB-MENU#4</a>
-                             </li>
-                         </ul>
-                     </li>
-                     <li><a id="text3" class="link" href="asamblea_departamental.html">ASAMBLEA DEPARTAMENTAL</a></li>
-                     <li><a id="text4" class="link" href="#">IEPI</a></li>
-                     <li><a id="text5" class="link" href="#">INSTITUTO DEL BINESTAR DEL INGENIERO</a></li>
-                 </ul> 
-             </div>
-         </div>
-    </header>
     <section class="edit">
         <div class="textos">
            <h1 class="titulo">OBJETIVOS DEL CIP</h1>
@@ -140,11 +67,7 @@
         
                         
     </main>
-    <footer>
-        <div class="contenedor1">
-            
-        </div>
-    </footer>
+    <?php require 'footer.php';?>
     <script>
             var el = document.querySelectorAll('.controllers li');
         for (let i = 0; i < el.length; i++) {
