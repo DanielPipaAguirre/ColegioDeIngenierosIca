@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="public/css/iss_fondo_mortuorio.css">
 <?php require 'header/title.php';
       require 'header.php';?>
-<section>
+<section class="fondo">
     <div class="box">
         <div class="box-button">
             <button class="btn-success" onclick="mostrarform(false)"><i class="fa fa-plus-circle"></i> ISS</button>

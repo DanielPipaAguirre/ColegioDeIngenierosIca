@@ -1,20 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-size: 16px;
+    font-family: Flexo-Demi;
 }
 
 .edit {
     width: 100%;
     height: 600px;
-    background-image: url(../img/Skewed.jpg) ;
+    background-image: url(https://vegagestion.es/wp-content/uploads/2017/08/trabajando-para-mejorar-tu-negocio-con-la-tecnologia-mas-eficiente-1920.jpg) ;
     background-attachment: fixed;
     background-position: center;
-    opacity: 0.4;
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -63,7 +57,7 @@ body {
 .sobre-nosotros {
     text-align: center;
     font-size: 56px;
-    margin-bottom: 10px;
+    margin: 0px 0 60px;
     font-weight: 600;
 }
 
@@ -83,8 +77,9 @@ body {
 }
 
 
-
-
+.edi li {
+    margin: 10px 0;
+}
 
 .imagenes {
     width: 20%;
@@ -153,8 +148,7 @@ body {
     width: 100%;
     height: 500px;
     position: relative;
-    background-image: url(../img/fondo.jpg);
-    opacity: 0.4;
+    background-image: url(https://www.jda.es/wp-content/uploads/2018/10/Globalizaci%C3%B3n-tecnolog%C3%ADa-y-empleo_mod.jpg);
     overflow: hidden;
     background-attachment: fixed;
     background-position: center;
@@ -226,3 +220,7 @@ form {
     margin: auto;
 }
 
+.footer {
+    margin: 0;
+    /* margin-top: 20px; */
+}
