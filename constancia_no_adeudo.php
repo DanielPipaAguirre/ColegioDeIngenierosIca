@@ -4,22 +4,17 @@
       require 'header.php';?>
 <section>
     <div class="box">
-        <h2>DUPLICADO DE CARNET</h2>
-
+        <h2>CONSTANCIA DE NO ADEUDO</h2>
+        
+        <p><small>Documento que certifica que el Colegiado no presenta deuda y debe solicitarlo en Secretaía General del CIP-CDLL.</small></p>
         <div id="content-Requerimiento">
             <h2>REQUISITOS: </h2>
 
-            <p><small>En caso de perdida del carnet, el titular deberá presentar una copia de su denuncia policial y pagar su derecho. (Oficina de Tesorería del CIP-CDLL) En caso de cambio de carnet, el titular deberá entregar su carnet antiguo y pagar su derecho (oficina de Tesorería del CIP-CDLL).</small></p>
-        </div>  
-
-        <div id="content-Recarnetizacion">
-            <h2>DERECHOS DE RECARNETIZACIÓN: </h2>
-
-            <p><small>Si el colegiado tiene un carnet antiguo (blanco y negro) deberá cancelar el monto de s/. 30.00 por una ficha de datos personales en la oficina de Tesorería del CIP-CDLL y traer una foto tamaño pasaporte a colores, fondo blanco, actual. Si el colegiado tiene un carnet moderno (a colores) deberá cancelar el monto de s/. 20.00 en la oficina de Tesorería del CIP-CDLL.</small></p>
+            <p><small>Presentar una Solicitud dirigida al Decano del CIP-CDLL. <br>
+            Estar al día en sus pagos. <br>
+            Derecho de trámite S/. 5.00 nuevos soles.</small></p>
             
-            <p><small>Mayores informes en secretaria general.</small></p>
-            
-            <p class="text-strong"><small>Telf. Informes: (044) 340010 - Anexo 201 / Tesorería al (044) 340010 - Anexo 205.</small></p>
+            <p class="text-strong"><small>El Trámite se realiza directamente en el Área de Colegiatura - Teléfono: (044) 340010 - Anexo: 202 / 216</small></p>
         </div>
 
     </div>
