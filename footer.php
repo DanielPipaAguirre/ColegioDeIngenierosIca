@@ -3,7 +3,7 @@
                 <h2>NOSOTROS</h2>
                 <div class="content-one">
                      <figure>
-                        <img logo-transparente3.png" alt="">
+                        <img src="public/img/logo-transparente3.png" alt="">
                     </figure>
                     <p>El Colegio de Ingenieros del Perú, fue creado en el año 1962, tiene desde 1987 una estructura descentralizada, por lo que existen 28 consejos departamentales CIP en todo el país.</p>
                 </div>
@@ -34,10 +34,10 @@
                 <span><p>Sábados: 9:00am – 12.45pm</p></span>
         </div>
         <div class="copy">
-            <p>Copyright © Colegio de Ingenieros de Ica ©2019 All rights reserved </p>
+            <p>Copyright © Colegio de Ingenieros de Ica 2019 All rights reserved </p>
         </div>
     </footer>
-</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script> 
 </body>
 
 </html>
