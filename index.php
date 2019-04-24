@@ -383,7 +383,6 @@
         </div>    
     </section>
 <?php require 'footer.php';?>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="public/js/index.js"></script>
 <script src="public/js/nav.js"></script> 
 </body>
