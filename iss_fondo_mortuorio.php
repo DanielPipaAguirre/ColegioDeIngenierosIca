@@ -14,7 +14,7 @@
 
             <p><small>El Instituto de Servicios Sociales, cuya denominación abreviada es ISS-CIP, en un órgano del Colegio de Ingenieros del Perú encargado de brindar servicios para el mayor bienestar de sus colegiados habilitados y sus familiares directos. Dentro de los servicios que puede brindar se indican los siguientes: Mutual, previsión, seguridad social, vivienda, recreación, y otros servicios similares. </small></p>
 
-            <a href="#"><small>Ver Reglamento del Instituto de Servicios Sociales CIP-CN</small></a>
+            <a href="http://www.cip.org.pe/publicaciones/reglamentosCNCD2018/reglamento_del_instituto_de_servicios_sociales_iss.pdf"><small>Ver Reglamento del Instituto de Servicios Sociales CIP-CN</small></a>
 
             <h3>QUIENES INTEGRAN EL ISS-CIP</h3>
 
@@ -54,12 +54,30 @@
                 </tr>
             </table>
 
-            <a href="#"><small>Ver Reglamento del Instituto de Servicios Sociales CIP-CN</small></a>
+            <a href="http://www.cip.org.pe/publicaciones/2019/requisitosISS2019.pdf"><small>Ver Reglamento del Instituto de Servicios Sociales CIP-CN</small></a>
 
+            <h3>QUIENES INTEGRAN EL ISS-CIP</h3>
+
+            <p><small>El trámite por Asignación por fallecimiento e invalidez se debe realizar a través del Consejo Departamental donde se encuentra inscrito el ingeniero. <br>
+            Es muy importante que usted ingeniero redacte su Carta Declaratoria de Beneficiarios para la Asignación por fallecimiento del Titular; para lo cual podrá recabar el Formato correspondiente en el Consejo Departamental al que corresponde o podrá imprimirla desde esta página web, llenarla, legalizarla notarialmente y entregarla en la sede de su Consejo Departamental. </small></p>
+
+            <a href="http://www.cip.org.pe/publicaciones/2018/carta_declaratoria.pdf"><small>Hacer clic aquí para imprimir el formato de Carta Declaratoria de Beneficiarios</small></a>
+
+            <p><small>jandradeb@cip.org.pe</small></p>
+
+            <p><small>La Directiva del ISS-CIP en el II Congreso Nacional de Consejos Departamentales presentará una propuesta para mejorar e incrementar los servicios que brinda este Instituto, los cuales serán comunicados una vez aprobados. </small></p>
+
+            <div>
+                <a target="_blank" href="https://cipvirtual.cip.org.pe/sicecolegiacionweb/ayudaRegistroAlta/"><button class="fa fa-plus-circle"> Iniciar Registro como Ingeniero Colegiado</button></a>
+
+                <a target="_blank" href="https://cipvirtual.cip.org.pe/cas/login?service=https%3A%2F%2Fcipvirtual.cip.org.pe%2Fsiceseguridadweb%2Fj_spring_cas_security_check%3Bjsessionid%3DZyM2De9zq8Reqfsr2DR-YaY_wnh3yTMFf6LAUxiN.serverweb%3Fspring-security-redirect%3D%2Finicio%2F"><button class="fa fa-plus-circle"> Si ya tienes cuenta de usuario ingresa aqui</button></a>
+            </div>
         </div>  
 
         <div id="content-Procedimiento">
-            Procedimiento
+            <figure>
+                <img src="public/img/iss.jpg" alt="">
+            </figure>
         </div>
 
     </div>
