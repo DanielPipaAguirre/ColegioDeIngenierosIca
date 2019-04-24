@@ -14,22 +14,22 @@
                  <nav class="menu" id="menu">
                      <!--Enlaces-->
                      <ol class="controllers">
-                         <li class="active"><a class="item link ini" id="button1" href="#INSTITUCIONAL">INSTITUCIONAL
+                         <li class="active"><a class="item link" id="button1" href="#INSTITUCIONAL">INSTITUCIONAL
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
-                         <li class="li"><a class="item link" id="button2" href="#SERVICIOS">SERVICIOS
+                         <li><a class="item link" id="button2" href="#SERVICIOS">SERVICIOS
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
-                         <li class="li"><a class="item link" id="button3" href="#CAPÍTULOS">CAPÍTULOS
+                         <li><a class="item link" id="button3" href="#CAPÍTULOS">CAPÍTULOS
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
-                         <li class="li"><a class="item link" id="button4" href="#EVENTOSCIP">EVENTOS
+                         <li><a class="item link" id="button4" href="#EVENTOSCIP">EVENTOS
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
-                         <li class="li"><a class="item link" id="button6" href="#EVENTOSCIP">TRÁMITES
+                         <li><a class="item link" id="button6" href="#EVENTOSCIP">TRÁMITES
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
-                         <li class="li"><a class="link btn" id="button5" href="#EVENTOSCIP">
+                         <li><a class="link btn" id="button5" href="#EVENTOSCIP">
                              <i class="fas fa-bell" id="bell"></i>
                                  CONSULTAS
                              </a>
@@ -38,28 +38,33 @@
                  </nav>
              </div>
              <div class="sub-container is-active">
-                 <div class="sub-menu">
+                 <div class="sub-menu" id="sub-menu">
                      <ul>
-                         <li><a id="text" class="link" href="historia_mision_vision.php">HISTORIA, MISION Y VISION</a></li>
-                         <li><a id="text2" class="link" href="consejo_departamental.php">CONSEJO DIRECTVO DEPARTAMENTAL</a>
+                         <li><a id="text" class="link" href="historia_mision_vision.php">QUIENES SOMOS</a>
+                            
+                        </li>
+                         <li><a id="text2" class="link" href="consejo_departamental.php">REPRESENTANTES</a>
                              <ul class="min-menu" id="min-menu">
                                  <li>
-                                     <a href="#">SUB-MENU#1</a>
+                                     <a id="sub-text" href="#">CONSEJO DEPARTAMENTAL</a>
                                  </li>   
                                  <li>
-                                     <a href="#">SUB-MENU#2</a>
+                                     <a id="sub-text2" href="#">PRESIDENTES DE CAPITULOS</a>
                                  </li>
                                  <li>
-                                     <a href="#">SUB-MENU#2</a>
+                                     <a id="sub-text3" href="#">ASAMBLEA DEPARTAMENTAL</a>
                                  </li>
                                  <li>
-                                     <a href="#">SUB-MENU#4</a>
+                                     <a id="sub-text4" href="#">COMISIONES</a>
+                                 </li>
+                                 <li>
+                                     <a id="sub-text5" href="#">COMITES</a>
                                  </li>
                              </ul>
                          </li>
-                         <li><a id="text3" class="link" href="asamblea_departamental.php">ASAMBLEA DEPARTAMENTAL</a></li>
-                         <li><a id="text4" class="link" href="#">IEPI</a></li>
-                         <li><a id="text5" class="link" href="#">INSTITUTO DEL BINESTAR DEL INGENIERO</a></li>
+                         <li><a id="text3" class="link" href="asamblea_departamental.php">NUESTRA INFRESTRUTURA</a></li>
+                         <li><a id="text4" class="link" href="#">SIMBOLOS DEL CIP</a></li>
+                         <li><a id="text5" class="link" href="#"></a></li>
                      </ul> 
                  </div>
              </div>
