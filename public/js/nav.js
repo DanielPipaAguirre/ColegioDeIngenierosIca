@@ -60,6 +60,7 @@ var el = document.querySelectorAll('.controllers li');
            $text3.innerHTML = "CENTRO DE PERITAJE";
            $text3.href = "#";
            $text4.innerHTML = "ISS FONDO MORTUORIO";
+           $text4.href = "iss_fondo_mortuorio.php";
            $subtext.innerHTML = "ARBITRAJE";
            $subtext2.innerHTML = "DIRECTORIO";
            $subtext3.innerHTML = "ARBITROS ABOGADOS";
