@@ -53,6 +53,9 @@
                     <td>S/. 1,500.00</td>
                 </tr>
             </table>
+
+            <a href="#"><small>Ver Reglamento del Instituto de Servicios Sociales CIP-CN</small></a>
+
         </div>  
 
         <div id="content-Procedimiento">
