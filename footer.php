@@ -37,7 +37,7 @@
             <p>Copyright © Colegio de Ingenieros de Ica 2019 All rights reserved </p>
         </div>
     </footer>
-</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script> 
 </body>
 
 </html>
