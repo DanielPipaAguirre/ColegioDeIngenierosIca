@@ -384,4 +384,6 @@
     </section>
 <?php require 'footer.php';?>
 <script src="public/js/index.js"></script>
-<script src="public/js/nav.js"></script>
+<script src="public/js/nav.js"></script> 
+</body>
+</html>
