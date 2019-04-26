@@ -258,9 +258,6 @@ ol li:last-child a{
 .sub-menu a:active {
     transform: scale(.99);
 }
-.sub-menu li:last-child .link{
-    display: none;
-}
 /* MIN-MENU */
 ul .min-menu {
     background: #0d181f;

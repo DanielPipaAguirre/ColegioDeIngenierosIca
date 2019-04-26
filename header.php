@@ -40,7 +40,7 @@
              <div class="sub-container is-active">
                  <div class="sub-menu" id="sub-menu">
                      <ul>
-                         <li><a id="text" class="link" href="historia_mision_vision.php">QUIENES SOMOS</a>
+                         <li><a id="text" class="link" href="historia_mision_vision.php">HISTORIA, VISION Y MISION</a>
                          
                         </li>
                          <li><a id="text2" class="link" href="#">REPRESENTANTES</a>
@@ -64,7 +64,7 @@
                          </li>
                          <li><a id="text3" class="link" href="asamblea_departamental.php">NUESTRA INFRESTRUTURA</a></li>
                          <li><a id="text4" class="link" href="#">SIMBOLOS DEL CIP</a></li>
-                         <li><a id="text5" class="link" href="#"></a></li>
+                         <li><a id="text5" class="link" href="#">OBJETIVOS</a></li>
                      </ul> 
                  </div>
              </div>

@@ -8,15 +8,24 @@ body {
 p{
     font-family: flexo;
 }
-
+.box h1 {
+    font-size: 1.8em;
+    text-align: center;
+    font-family: flexo-light;
+    margin: 20px 0  30px;
+}
+.box h3 {
+    text-align: center;
+}
 .text-strong{
     font-family: flexo-bold;
     font-size: 16px;
 }
 .box-button {
     padding: 20px 0;
+    text-align: center;
 }
-.box-button button {
+.box button {
     background: #ff1d47;
     border-radius: 3px;
     height: 33px;
@@ -36,11 +45,29 @@ p{
     transform: scale(1.1);
 }
 .fondo {
-    margin: 0 50px 50px;
+    margin: 0 300px 50px;
     font-size: 1.2em;
 }
 .fondo a {
     text-decoration: none;
     color: #ff1d47;
     margin: 50px 0;
+    font-family: flexo;
+    text-align: center;
+    display: block;
+}
+.tablita {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+td {
+    border: 1px solid rgb(167, 163, 163);
+    padding: 20px 30px;
+}
+.figura-iss {
+    margin: 0;
+}
+.figura-iss img {
+    width: 100%;
 }

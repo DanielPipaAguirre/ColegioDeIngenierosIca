@@ -4,6 +4,7 @@
       require 'header.php';?>
 <section class="fondo">
     <div class="box">
+        <h1>ISS Fondo mortuorio</h1>
         <div class="box-button">
             <button class="btn-success" onclick="mostrarform(false)"><i class="fa fa-plus-circle"></i> ISS</button>
             <button class="btn-success" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Procedimiento</button>
@@ -24,7 +25,7 @@
 
             <p class="text-strong"><small>Servicios que actualmente brinda el ISS-CIP a los ingenieros habilitados. <br>
                             1. Asignación por fallecimiento e invalidez (Nuevos montos a partir del 01 de Enero del 2011)</small></p>
-            
+            <div class="tablita">
             <table>
                 <tr>
                     <td>Asignación por Fallecimiento de Titular</td>
@@ -53,6 +54,8 @@
                     <td>S/. 1,500.00</td>
                 </tr>
             </table>
+            </div>
+           
 
             <a href="http://www.cip.org.pe/publicaciones/2019/requisitosISS2019.pdf"><small>Ver Reglamento del Instituto de Servicios Sociales CIP-CN</small></a>
 
@@ -75,7 +78,7 @@
         </div>  
 
         <div id="content-Procedimiento">
-            <figure>
+            <figure class="figura-iss">
                 <img src="public/img/iss.jpg" alt="">
             </figure>
         </div>

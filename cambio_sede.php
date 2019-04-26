@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="public/css/constancia_no_adeudo.css">
 <?php require 'header/title.php';
       require 'header.php';?>
-<section>
+<section class="cambio-sede">
     <div class="box">
         <h2> CAMBIO DE SEDE</h2>
         
