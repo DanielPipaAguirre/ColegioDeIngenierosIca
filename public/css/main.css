@@ -51,7 +51,7 @@ body {
     height: 56px;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 .container {
     display: inherit;
@@ -970,6 +970,7 @@ ul .min-menu {
 /* RESPONSIVE */
 @media screen and (max-width:1024px) {
     .header {
+        z-index: 2;
         display: block;
         height: 56px;    
     }
