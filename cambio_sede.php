@@ -1,5 +1,5 @@
 <?php require 'header/doctype.php';?>
-<link rel="stylesheet" href="public/css/constancia_no_adeudo.css">
+<link rel="stylesheet" href="public/css/cambio_sede.css">
 <?php require 'header/title.php';
       require 'header.php';?>
 <section>
