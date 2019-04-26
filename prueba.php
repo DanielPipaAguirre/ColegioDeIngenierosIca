@@ -5,12 +5,18 @@
     <?php require 'header/title.php';
       require 'header.php';?>
 
+
+
+ 
+  
   <section class="cont">
 
   <!-- CIVIL - AGRONOMIA -->
-
+  
     <div class="swiper-container">
+    <h1 class="civ_agro">CIVIL - AGRONOMIA</h1>
       <div class="swiper-wrapper">
+      
         <div class="swiper-slide">
           <div class="imgBX">
            <img src="public/img/1p.jpg">
@@ -76,6 +82,7 @@
 <!-- PESQUERA - QUIMICA-->
   <section class="cont1">
     <div class="swiper-container">
+    <h1 class="pes-qui">PESQUERA - QUIMICA</h1>
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="imgBX">
@@ -133,6 +140,7 @@
 <!-- MECANICA Y ELECTRICA - MINAS-->
   <section class="cont2">
     <div class="swiper-container">
+    <h1 class="mec-mi">MECANICA Y ELECTRICA - MINAS</h1>
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="imgBX">
