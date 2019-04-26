@@ -1,0 +1,20 @@
+.box{
+    padding-top: 120px;
+}
+
+p{
+    font-family: flexo;
+}
+
+.text-strong{
+    font-family: flexo-bold;
+    font-size: 16px;
+}
+
+.text-small{
+    font-size: 16px;
+}
+
+.text-color{
+    color: blue;
+}
