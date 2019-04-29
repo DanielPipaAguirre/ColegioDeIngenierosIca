@@ -4,7 +4,7 @@
       require 'header.php';?>
 <section>
     <div class="box">
-        <h2>CONSTANCIA DE NO ADEUDO</h2>
+        <h3>CONSTANCIA DE NO ADEUDO</h3>
         
         <p><small>Documento que certifica que el Colegiado no presenta deuda y debe solicitarlo en Secretaía General del CIP-CDLL.</small></p>
         <div id="content-Requerimiento">
