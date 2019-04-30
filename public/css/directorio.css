@@ -1,0 +1,37 @@
+.box{
+    padding-top: 120px;
+}
+
+.table-id{
+    background-color: #F8341E;
+}
+
+.id-text{color: #F8341E;}
+
+h2 {font-size: 2em;}
+
+table { 
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 2em;
+}
+
+th{ 
+    padding: 10px;
+}
+
+td{ 
+    padding: 5px;
+}
+
+thead{
+    color:white;
+    background-color: #333333;
+}
+
+table, th, td{
+  border: 1px solid black;
+  font-family: flexo;
+}
+
+
