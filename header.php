@@ -52,7 +52,7 @@
                                      <a id="sub-text2" href="#">PRESIDENTES DE CAPITULOS</a>
                                  </li>
                                  <li>
-                                     <a id="sub-text3" href="asamblea_departamental.php">ASAMBLEA DEPARTAMENTAL</a>
+                                     <a id="sub-text3" href="prueba">ASAMBLEA DEPARTAMENTAL</a>
                                  </li>
                                  <li>
                                      <a id="sub-text4" href="prueba.php">COMISIONES</a>
@@ -62,7 +62,7 @@
                                  </li>
                              </ul>
                          </li>
-                         <li><a id="text3" class="link" href="asamblea_departamental.php">NUESTRA INFRESTRUTURA</a></li>
+                         <li><a id="text3" class="link" href="infraestructura.php">NUESTRA INFRESTRUTURA</a></li>
                          <li><a id="text4" class="link" href="#">SIMBOLOS DEL CIP</a></li>
                          <li><a id="text5" class="link" href="#"></a></li>
                      </ul> 
