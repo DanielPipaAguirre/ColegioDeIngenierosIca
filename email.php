@@ -4,19 +4,19 @@
       require 'header.php';?>
 <section>
     <div class="box">
-        <h2>CERTIFICADOS DIGITALES</h2>
+        <h2>EMAIL</h2>
 
-        <div id="content-Digitales">
-            <figure>
-                <img src="public/img/certificado_habilidad.jpg" alt="Logotipo de HTML5">
-                <figcaption>CERTIFICADO DE HABILIDAD.</figcaption>
+        <div class="card-Mail">
+            <i class="fas fa-mail-bulk icon"></i>
+        </div>
 
-                <img src="public/img/certificado_habilidad_contrato_obra.jpg" alt="Logotipo de HTML5">
-                <figcaption>CERTIFICADO DE HABILIDAD PARA CONTRATO DE OBRA PUBLICA O RESIDENCIA.</figcaption>
-
-                <img src="public/img/certificado_habilidad_proyectO.jpg" alt="Logotipo de HTML5">
-                <figcaption>CERTIFICADO DE HABILIDAD POR PROYECTO.</figcaption>
-            </figure>    
+        <div id="content-Mail">
+            <h2>Correo</h2>
+            <p class="text-strong"><small>Todos Los Ingenieros pueden solicitar su correo electrónico</small></p>
+            <p class="text-strong"><small>gratuito,con el dominio @cip.org.pe.</small></p>
+            <p class="text-strong"><small>Solicitelo en el Área de Sistemas.</small></p>
+            <p class="text-strong"><small>Área de Sistemas del CIP- CDLL Teléfono: (044) 340010 Anexo 210.</small></p>
+            <a class="text-color" href="">email: jefesistemascdll@cip.org.pe.</a>
         </div>  
     </div>
 </section>

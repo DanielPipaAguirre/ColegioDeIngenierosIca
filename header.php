@@ -29,7 +29,7 @@
                          <li><a class="item link" id="button6" href="#EVENTOSCIP">TRÁMITES
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
-                         <li><a class="link btn" id="button5" href="#EVENTOSCIP">
+                         <li><a class="link btn" id="button5" href="https://cipvirtual.cip.org.pe/cas/login?service=https%3A%2F%2Fcipvirtual.cip.org.pe%2Fsiceseguridadweb%2Fj_spring_cas_security_check%3Bjsessionid%3D8CxuYObPCBCd6gEnnBtfNHChXDNW8Nxs0v4lhN8K.serverweb%3Fspring-security-redirect%3D%2Finicio%2F">
                              <i class="fas fa-bell" id="bell"></i>
                                  CONSULTAS
                              </a>
