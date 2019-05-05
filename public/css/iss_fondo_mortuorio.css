@@ -39,6 +39,7 @@ p{
     border:none;
     padding: 10px 15px 30px;
     outline: none;
+    font-family: Flexo;
     will-change: transform;
 }
 .box-button button:active{

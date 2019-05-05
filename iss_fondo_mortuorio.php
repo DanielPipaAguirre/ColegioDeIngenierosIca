@@ -71,9 +71,9 @@
             <p><small>La Directiva del ISS-CIP en el II Congreso Nacional de Consejos Departamentales presentará una propuesta para mejorar e incrementar los servicios que brinda este Instituto, los cuales serán comunicados una vez aprobados. </small></p>
 
             <div>
-                <a target="_blank" href="https://cipvirtual.cip.org.pe/sicecolegiacionweb/ayudaRegistroAlta/"><button class="fa fa-plus-circle"> Iniciar Registro como Ingeniero Colegiado</button></a>
+                <a target="_blank" href="https://cipvirtual.cip.org.pe/sicecolegiacionweb/ayudaRegistroAlta/"><button> Iniciar Registro como Ingeniero Colegiado</button></a>
 
-                <a target="_blank" href="https://cipvirtual.cip.org.pe/cas/login?service=https%3A%2F%2Fcipvirtual.cip.org.pe%2Fsiceseguridadweb%2Fj_spring_cas_security_check%3Bjsessionid%3DZyM2De9zq8Reqfsr2DR-YaY_wnh3yTMFf6LAUxiN.serverweb%3Fspring-security-redirect%3D%2Finicio%2F"><button class="fa fa-plus-circle"> Si ya tienes cuenta de usuario ingresa aqui</button></a>
+                <a target="_blank" href="https://cipvirtual.cip.org.pe/cas/login?service=https%3A%2F%2Fcipvirtual.cip.org.pe%2Fsiceseguridadweb%2Fj_spring_cas_security_check%3Bjsessionid%3DZyM2De9zq8Reqfsr2DR-YaY_wnh3yTMFf6LAUxiN.serverweb%3Fspring-security-redirect%3D%2Finicio%2F"><button> Si ya tienes cuenta, ingresa aqui</button></a>
             </div>
         </div>  
 

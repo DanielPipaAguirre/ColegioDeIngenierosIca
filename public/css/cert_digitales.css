@@ -1,3 +1,6 @@
+body {
+    font-family: Flexo-Demi;
+}
 .box{
     padding-top: 120px;
 }
@@ -5,8 +8,24 @@
 p{
     font-family: flexo;
 }
+.box h1 {
+    font-size: 1.8em;
+    text-align: center;
+    font-family: flexo-light;
+    margin: 20px 0  30px;
+}
+.box h3 {
+    text-align: center;
+}
+.fondo {
+    margin: 0 300px 50px;
+    font-size: 1.2em;
 
-.text-strong{
-    font-family: flexo-bold;
-    font-size: 16px;
+}
+.figura {
+    width: 50%;
+    margin: 0 auto;
+}
+.figura img {
+    width: 100%;
 }

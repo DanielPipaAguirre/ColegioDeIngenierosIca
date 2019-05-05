@@ -4,28 +4,35 @@ body {
 .box{
     padding-top: 120px;
 }
-.box h3 {
-    text-align: center;
-    font: 1.17em;
-}
+
 p{
     font-family: flexo;
 }
-small {
-    font-size: 80%;
+.box h1 {
+    font-size: 1.8em;
+    text-align: center;
+    font-family: flexo-light;
+    margin: 20px 0  30px;
+}
+.box h3 {
+    text-align: center;
 }
 .text-strong{
     font-family: flexo-bold;
     font-size: 16px;
 }
-.cambio-sede {
-    margin: 0 300px 0;
+.fondo {
+    margin: 0 300px 50px;
     font-size: 1.2em;
 }
-.cambio-sede a {
+.fondo a {
     text-decoration: none;
-    color: rgb(255, 0, 55);
+    color: #ff1d47;
+    margin: 50px 0;
+    font-family: flexo;
+    text-align: center;
+    display: block;
 }
-b {
-    font-size: 90%;
+.pepino {
+    text-align: center;
 }
