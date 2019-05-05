@@ -14,19 +14,19 @@
                  <nav class="menu" id="menu">
                      <!--Enlaces-->
                      <ol class="controllers">
-                         <li class="active"><a class="item link" id="button1" href="#INSTITUCIONAL">INSTITUCIONAL
+                         <li class="active"><a class="item link" id="button1" href="#INSTITUCIONALCIP">INSTITUCIONAL
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
-                         <li><a class="item link" id="button2" href="#SERVICIOS">SERVICIOS
+                         <li><a class="item link" id="button2" href="#SERVICIOSCIP">SERVICIOS
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
-                         <li><a class="item link" id="button3" href="#CAPÍTULOS">CAPÍTULOS
+                         <li><a class="item link" id="button3" href="#CAPÍTULOSCIP">CAPÍTULOS
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
                          <li><a class="item link" id="button4" href="#EVENTOSCIP">EVENTOS
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
-                         <li><a class="item link" id="button6" href="#EVENTOSCIP">TRÁMITES
+                         <li><a class="item link" id="button6" href="#TRAMITESCIP">TRÁMITES
                                  <i class="fas fa-caret-up"></i>
                          </a></li>
                          <li><a class="link btn" id="button5" href="https://cipvirtual.cip.org.pe/cas/login?service=https%3A%2F%2Fcipvirtual.cip.org.pe%2Fsiceseguridadweb%2Fj_spring_cas_security_check%3Bjsessionid%3D8CxuYObPCBCd6gEnnBtfNHChXDNW8Nxs0v4lhN8K.serverweb%3Fspring-security-redirect%3D%2Finicio%2F">
@@ -49,21 +49,21 @@
                                      <a id="sub-text" href="consejo_departamental.php">CONSEJO DEPARTAMENTAL</a>
                                  </li>   
                                  <li>
-                                     <a id="sub-text2" href="#">PRESIDENTES DE CAPITULOS</a>
+                                     <a id="sub-text2" href="capitulos_presidentes.php">PRESIDENTES DE CAPITULOS</a>
                                  </li>
                                  <li>
-                                     <a id="sub-text3" href="prueba">ASAMBLEA DEPARTAMENTAL</a>
+                                     <a id="sub-text3" href="asamblea_departamental.php">ASAMBLEA DEPARTAMENTAL</a>
                                  </li>
                                  <li>
-                                     <a id="sub-text4" href="prueba.php">COMISIONES</a>
+                                     <a id="sub-text4" href="comisiones.php">COMISIONES</a>
                                  </li>
                                  <li>
-                                     <a id="sub-text5" href="#">COMITES</a>
+                                     <a id="sub-text5" href="comites.php">COMITES</a>
                                  </li>
                              </ul>
                          </li>
                          <li><a id="text3" class="link" href="infraestructura.php">NUESTRA INFRESTRUTURA</a></li>
-                         <li><a id="text4" class="link" href="#">SIMBOLOS DEL CIP</a></li>
+                         <li><a id="text4" class="link" href="simbolos.php">SIMBOLOS DEL CIP</a></li>
                          <li><a id="text5" class="link" href="#"></a></li>
                      </ul> 
                  </div>
