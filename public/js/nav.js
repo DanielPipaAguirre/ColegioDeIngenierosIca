@@ -39,15 +39,25 @@ var el = document.querySelectorAll('.controllers li');
            $text2.innerHTML = "REPRESENTANTES";
            $text2.href = "consejo_departamental.php";
            $text3.innerHTML = "NUESTRA INFRESTRUTURA";
-           $text3.href = "asamblea_departamental.php";
+           $text3.href = "infraestructura.php";
            $text4.innerHTML = "SIMBOLOS DEL CIP";
+<<<<<<< HEAD
            $text5.innerHTML = "OBJETIVOS";
+=======
+           $text4.href = "simbolos.php";
+           $text5.style.display = "none";
+>>>>>>> 07915e8a213f49658cb097825cbee3526e214699
            $subtext.innerHTML = "CONSEJO DEPARTAMENTAL";
+           $subtext.href = "consejo_departamental.php";
            $subtext2.innerHTML = "PRESIDENTES DE CAPITULOS";
+           $subtext2.href = "capitulos_presidentes.php";
            $subtext3.innerHTML = "ASAMBLEA DEPARTAMENTAL";
+           $subtext3.href = "asamblea_departamental.php";
            $subtext4.innerHTML = "COMISIONES";
+           $subtext4.href = "comisiones.php";
            $subtext5.style.display= "block";
            $subtext5.innerHTML = "COMITES";
+           $subtext5.href = "comites.php";
            $minmenu.classList.add('add-menu');
            $minmenu.classList.remove('menu-is-active');
            document.querySelector('.sub-container').classList.add('is-active');
@@ -58,42 +68,64 @@ var el = document.querySelectorAll('.controllers li');
            $text2.innerHTML = "CENTRO DE ARBITRAJE";
            $text2.href = "#";
            $text3.innerHTML = "CENTRO DE PERITAJE";
-           $text3.href = "#";
+           $text3.href = "centro-peritaje.php";
            $text4.innerHTML = "ISS FONDO MORTUORIO";
            $text4.href = "iss_fondo_mortuorio.php";
            $subtext.innerHTML = "ARBITRAJE";
+           $subtext.href = "arbitraje.php";
            $subtext2.innerHTML = "DIRECTORIO";
+           $subtext2.href = "directorio.php";
            $subtext3.innerHTML = "ARBITROS ABOGADOS";
+           $subtext3.href = "arbitros_abogados.php";
            $subtext4.innerHTML = "ARBITROS INGENIEROS";
+           $subtext4.href = "arbitros_ingenieros.php";
            $subtext5.style.display= "block";
            $subtext5.innerHTML = "SERVICIOS";
+<<<<<<< HEAD
+=======
+           $subtext5.href = "servicios.php";
+           $text5.style.display = "flex";
+>>>>>>> 07915e8a213f49658cb097825cbee3526e214699
            $text5.innerHTML = "CORREO ELECTRONICO";
+           $text5.href = "email.php";
            document.querySelector('.sub-container').classList.add('is-active');
            $minmenu.classList.add('add-menu');
            $minmenu.classList.remove('menu-is-active');
          });
        $button3.addEventListener('mouseover', (event) => {
            $text.innerHTML = "INGENIERIA AGRONOMA";
-           $text.href = "#";
+           $text.href = "ing_agronoma.php";
            $text2.innerHTML = "INGENIERIA MECANICA Y ELECTRICA";
-           $text2.href = "#";
+           $text2.href = "ing_mecanica_electrica.php";
            $text3.innerHTML = "INGENIERIA AMBIENTAL Y SANITARIA";
-           $text3.href = "#";
+           $text3.href = "ing_ambiental_sanitaria.php";
            $text4.innerHTML = "INGENIERIA CIVIL";
+<<<<<<< HEAD
+=======
+           $text4.href = "ing_civil.php";
+           $text5.style.display = "flex";
+>>>>>>> 07915e8a213f49658cb097825cbee3526e214699
            $text5.innerHTML = "INGENIERIA INDUSTRIAL Y SISTEMAS";
+           $text5.href = "ing_industrial_sistemas.php";
            document.querySelector('.sub-container').classList.add('is-active');
            $minmenu.classList.remove('add-menu');
            $minmenu.classList.remove('menu-is-active');
          });
        $button4.addEventListener('mouseover', (event) => {
            $text.innerHTML = "EVENTOS CIP";
-           $text.href = "#";
+           $text.href = "eventos.php";
            $text2.innerHTML = "EVENTOS RECOMENDADOS";
-           $text2.href = "#";
+           $text2.href = "recomendados.php";
            $text3.innerHTML = "NOTICIAS RECIENTES";
-           $text3.href = "#";
+           $text3.href = "noticias.php";
            $text4.innerHTML = "VIDEO SEMANAL";
+<<<<<<< HEAD
+=======
+           $text4.href = "videos";
+           $text5.style.display = "flex";
+>>>>>>> 07915e8a213f49658cb097825cbee3526e214699
            $text5.innerHTML = "NUESTROS CONVENIOS";
+           $text5.href = "convenios";
            document.querySelector('.sub-container').classList.add('is-active');
            $minmenu.classList.remove('add-menu');
            $minmenu.classList.remove('menu-is-active');

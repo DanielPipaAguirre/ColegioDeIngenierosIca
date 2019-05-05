@@ -1,104 +1,226 @@
 <?php require 'header/doctype.php';?>
-    <link rel="stylesheet" href="public/css/asamblea_departamental.css">
+    
+    <link rel="stylesheet" href="public/css/swiper.min.css">
+    <link rel="stylesheet" href="public/css/slither.css"> 
     <?php require 'header/title.php';
       require 'header.php';?>
-        
-        <div id="tabla-precios">
 
-                <div class="precio-col">
-                 <div class="precio-col-header">
-                 <h3>CIP</h3>
-                 </div>
-                
-                <div class="precio-col-features">
-                 <p>14256</p>
-                 <p>19143</p>
-                 <p>19770</p>
-                 <p>23269</p>
-                 <p>24104</p>
-                 <p>27623</p>
-                 <p>28299</p>
-                 <p>39555</p>
-                 <p>41002</p>
-                 <p>55346</p>
-                 <p>56471</p>
-                 <p>59267</p>
-                 <p>62237</p>
-                 <p>64667</p>
-                 <p>67616</p>
-                 <p>73371</p>
-                 <p>73655</p>
-                 <p>74146</p>
-                 <p>92312</p>
-                 <p>97095</p>
-                 </div>
-                
-                
-                 </div>
-                
-                <div class="precio-col">
-                 <div class="precio-col-header">
-                 <h3>CAPITULO</h3>
-                 </div>
-                
-                <div class="precio-col-features">
-                 <p>Agronoma</p>
-                 <p>Pesquera</p>
-                 <p>Pesquera</p>
-                 <p>Pesquera</p>
-                 <p>Agronoma</p>
-                 <p>Civil</p>
-                 <p>Mecanica y Electrica</p>
-                 <p>Civil</p>
-                 <p>Mecanica y Electrica</p>
-                 <p>Mecanica y Electrica</p>
-                 <p>Quimica</p>
-                 <p>Quimica</p>
-                 <p>Mecanica y Electrica</p>
-                 <p>Civil</p>
-                 <p>Mecanica y Electrica</p>
-                 <p>Mecanica y Electrica</p>
-                 <p>Civil</p>
-                 <p>Civil</p>
-                 <p>Minas</p>
-                 <p>Quimica</p>
-                 </div>
-              
-                 </div>
-                
-                <div class="precio-col1">
-                 <div class="precio-col-header">
-                 <h3>APELLIDOS Y NOMBRES</h3>
-                 </div>
-                
-                <div class="precio-col-features">
-                 <p>ING.Ponce Manzuelos Armando Ricardo</p>
-                 <p>ING.Rosas Leon Damas Roberto</p>
-                 <p>ING.Papen Bernaola Ricardo Javier</p>
-                 <p>ING.Elias Yupanqui Victor Hernan</p>
-                 <p>ING.Palomino Gallegos Percy Antonio</p>
-                 <p>ING.Hernandez Castillo Antonio Floriestan</p>
-                 <p>ING.De La Torre Castro Rene Aselmo</p>
-                 <p>ING.Olaechea Gameros Ysaias Cesar</p>
-                 <p>ING.Lurita Nieto Ricardo Mauricio</p>
-                 <p>ING.Gereda Moron Juan Antonio</p>
-                 <p>ING.Blanco Contreras Carlos</p>
-                 <p>ING.Peña Casas Erwin Pablo</p>
-                 <p>ING.Benavides Palomino Mario Efrain</p>
-                 <p>ING.Ordoñez Fuentes Luis Alberto</p>
-                 <p>ING.TTito Huarayo Angel</p>
-                 <p>ING.Muñoz Guzman Jimmy Felipe</p>
-                 <p>ING.Huayta Coneslla Julio Cesar</p>
-                 <p>ING.Campos Aybar Ysela Karina</p>
-                 <p>ING.Puemape Guia Manuel Antonio</p>
-                 <p>ING.Arevalo Arevalo Gerardo</p>
-                 <p></p>
-                 <p></p>
-                 <p></p>
-                 </div>
 
-                 <!-- trampa -->
-                 <?php require 'footer.php';?>
+
+ 
+  
+  <section class="cont">
+
+  <!-- CIVIL - AGRONOMIA -->
+  
+    <div class="swiper-container">
+    <h1 class="civ_agro">CIVIL - AGRONOMIA</h1>
+      <div class="swiper-wrapper">
+      
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/1p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Ponce Manzuelos Armando Ricardo<br><span class="cap">Cap.Agronomia</span><br><span class="cod">Cod.14256</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Palomino Gallegos Percy Antonio<br><span class="cap">Cap.Agronomia</span><br><span class="cod">Cod.24104</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Hernandez Castillo Antonio Floriestan<br><span class="cap">Cap.Civil</span><br><span class="cod">Cod.27623</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Olaechea Gameros Ysaias Cesar<br><span class="cap" >Cap.Civil</span><br><span class="cod">Cod.39555</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Ordoñez Fuentes Luis Alberto<br><span class="cap">Cap.Civil</span><br><span class="cod">Cod.64667</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Huayta Coneslla Julio Cesar<br><span class="cap">Cap.Civil</span><br><span class="cod">Cod.73655</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Campos Aybar Ysela Karina<br><span class="cap">Cap.Civil</span><br><span class="cod">Cod.74146</span></h3>
+          </div>
+        </div>
+      </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+  <section>
+
+<!-- PESQUERA - QUIMICA-->
+  <section class="cont1">
+    <div class="swiper-container">
+    <h1 class="pes-qui">PESQUERA - QUIMICA</h1>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/2p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Rosas Leon Damas Roberto<br><span class="cap">Cap.Pesquera</span><br><span class="cod">Cod.19143</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/3p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Papen Bernaola Ricardo Javier<br><span class="cap">Cap.Pesquera</span><br><span class="cod">Cod.19770</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/4p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Elias Yupanqui Victor Hernan<br><span class="cap">Cap.Pesquera</span><br><span class="cod">>Cod.23269</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Blanco Contreras Carlos<br><span class="cap">Cap.Quimica</span><br><span class="cod">Cod.56471</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Peña Casas Erwin Pablo<br><span class="cap">Cap.Quimica</span><br><span class="cod">Cod.59267</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Arevalo Arevalo Gerardo<br><span class="cap">Cap.Quimica</span><br><span class="cod">Cod.97095</span></h3>
+          </div>
+        </div>
+      </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <section>
+
+<!-- MECANICA Y ELECTRICA - MINAS-->
+  <section class="cont2">
+    <div class="swiper-container">
+    <h1 class="mec-mi">MECANICA Y ELECTRICA - MINAS</h1>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.De La Torre Castro Rene Aselmo<br><span class="cap">Cap.Mecanica y Electrica</span><br><span class="cod">Cod.28299</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Lurita Nieto Ricardo Mauricio<br><span class="cap">Cap.Mecanica y Electrica</span><br><span class="cod">Cod.41002</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Gereda Moron Juan Antonio<br><span class="cap">Cap.Mecanica y Electrica</span><br><span class="cod">Cod.55346</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Benavides Palomino Mario Efrain<br><span class="cap">Cap.Mecanica y Electrica</span><br><span class="cod">Cod.62237</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.TTito Huarayo Angel<br><span class="cap">Cap.Mecanica y Electrica</span><br><span class="cod">Cod.67616</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Muñoz Guzman Jimmy Felipe<br><span class="cap">Cap.Mecanica y Electrica</span><br><span class="cod">Cod.73371</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBX">
+           <img src="public/img/6p.jpg">
+          </div>
+          <div class="details">
+            <h3>ING.Puemape Guia Manuel Antonio<br><span class="cap">Cap.Minas</span><br><span class="cod">Cod.92312</span></h3>
+          </div>
+        </div>
+      </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <section>
+
+  <script src="public/js/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 60,
+        stretch: 0,
+        depth: 500,
+        modifier: 2,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+  <?php require 'footer.php';?>
 <script src="public/js/nav.js"></script>
-</body>
-</html>

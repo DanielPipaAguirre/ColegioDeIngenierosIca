@@ -1,0 +1,21 @@
+.box{
+    padding-top: 120px;
+}
+
+p{
+    font-family: flexo;
+}
+
+.text-strong{
+    font-family: flexo-bold;
+    font-size: 16px;
+}
+
+.text-color{
+    color: blue;
+}
+.icon{
+    color:#15262F; 
+    font-size:180px;
+    margin:10px;
+}
