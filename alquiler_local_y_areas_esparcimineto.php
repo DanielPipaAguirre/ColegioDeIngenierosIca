@@ -1,101 +1,99 @@
 <?php require 'header/doctype.php';?>
 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
-<link rel="stylesheet" href="public/css/alquiler_local_y_areas_esparcimiento.css">
-<link rel="stylesheet" href="public/css/swiper.min.css">
-    <link rel="stylesheet" href="public/css/slither.css"> 
+<link rel="stylesheet" href="public/css/alquiler_local_y_areas_esparcimiento.css"> 
 <?php require 'header/title.php';
       require 'header.php';?>
 <!-- cuerpo -->
-<section class="cont">
+<section>
+    <div class="box">
+      <div class="contend-local">
+        <div class="card">
+            <figure>
+              <img src="public/img/sala_conferencias.jpg" alt="conferencias.jpg">
+            </figure>
+    
+            <h2>SALÓN DE CONFERENCIAS</h2>
+    
+            <p class="text-strong">Precio General <small>450<sup>$</sup></small></p>
+        </div>
 
-  <!-- CIVIL - AGRONOMIA -->
-  
-    <div class="swiper-container">
-    <h1 class="civ_agro">CIVIL - AGRONOMIA</h1>
-      <div class="swiper-wrapper">
-      
-        <div class="swiper-slide">
-          <div class="imgBX">
-           <img src="public/img/1p.jpg">
-          </div>
-          <div class="details">
-            <h3>ING.Ponce Manzuelos Armando Ricardo<br><span class="cap">Cap.Agronomia</span><br><span class="cod">Cod.14256</span></h3>
-          </div>
+        <div class="card">
+            <figure>
+              <img src="public/img/sala_conferencias.jpg" alt="conferencias.jpg">
+            </figure>
+    
+            <h2>AUDITORIO</h2>
+    
+            <p class="text-strong">Precio General <small>800<sup>$</sup></small></p>
         </div>
-        <div class="swiper-slide">
-          <div class="imgBX">
-           <img src="public/img/6p.jpg">
-          </div>
-          <div class="details">
-            <h3>ING.Palomino Gallegos Percy Antonio<br><span class="cap">Cap.Agronomia</span><br><span class="cod">Cod.24104</span></h3>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="imgBX">
-           <img src="public/img/6p.jpg">
-          </div>
-          <div class="details">
-            <h3>ING.Hernandez Castillo Antonio Floriestan<br><span class="cap">Cap.Civil</span><br><span class="cod">Cod.27623</span></h3>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="imgBX">
-           <img src="public/img/6p.jpg">
-          </div>
-          <div class="details">
-            <h3>ING.Olaechea Gameros Ysaias Cesar<br><span class="cap" >Cap.Civil</span><br><span class="cod">Cod.39555</span></h3>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="imgBX">
-           <img src="public/img/6p.jpg">
-          </div>
-          <div class="details">
-            <h3>ING.Ordoñez Fuentes Luis Alberto<br><span class="cap">Cap.Civil</span><br><span class="cod">Cod.64667</span></h3>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="imgBX">
-           <img src="public/img/6p.jpg">
-          </div>
-          <div class="details">
-            <h3>ING.Huayta Coneslla Julio Cesar<br><span class="cap">Cap.Civil</span><br><span class="cod">Cod.73655</span></h3>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="imgBX">
-           <img src="public/img/6p.jpg">
-          </div>
-          <div class="details">
-            <h3>ING.Campos Aybar Ysela Karina<br><span class="cap">Cap.Civil</span><br><span class="cod">Cod.74146</span></h3>
-          </div>
-        </div>
-      </div>
 
-    <div class="swiper-pagination"></div>
-  </div>
-  <section>
+        <div class="card">
+            <figure>
+              <img src="public/img/sala_conferencias.jpg" alt="conferencias.jpg">
+            </figure>
+    
+            <h2>SALÓN DE FIESTAS</h2>
+    
+            <p class="text-strong">Colegiados <small>450<sup>$</sup></small></p>
 
-  <script src="public/js/swiper.min.js"></script>
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 60,
-        stretch: 0,
-        depth: 500,
-        modifier: 2,
-        slideShadows : true,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
-  </script>
+            <p class="text-strong">Público General <small>850<sup>$</sup></small></p>
+
+            <h3>RESTRICCIONES</h3>
+            
+            <p class="text-strong">Máximo de 2 cajas de Cerveza</p>
+
+            <p class="text-strong">Máximo de tiempo hasta las 4:00 am</p>
+
+            <p class="text-strong">Realizar el Pago a APDAY</p>
+
+            <p class="text-strong">Dar un inicial de Garantía de 200<sup>$</sup></p>
+        </div>
+
+        <div class="card">
+            <figure>
+              <img src="public/img/sala_conferencias.jpg" alt="conferencias.jpg">
+            </figure>
+    
+            <h2>LOCAL CAMPESTRE</h2>
+    
+            <p class="text-strong">Colegiados <small>350<sup>$</sup></small></p>
+
+            <p class="text-strong">Público General <small>350<sup>$</sup></small></p>
+        </div>
+
+        <div class="card">
+            <figure>
+              <img src="public/img/sala_conferencias.jpg" alt="conferencias.jpg">
+            </figure>
+    
+            <h2>LOSA DEPORTIVA</h2>
+    
+            <p class="text-strong">Colegiados</p>
+            <p>DÍA : 20<sup>$</sup></p>
+            <p>NOCHE : 30<sup>$</sup></p>
+
+            <p class="text-strong">Publico General</p>
+            <p>DÍA : 25<sup>$</sup></p>
+            <p>NOCHE : 35<sup>$</sup></p>
+        </div>
+
+        <div class="card">
+            <figure>
+              <img src="public/img/sala_conferencias.jpg" alt="conferencias.jpg">
+            </figure>
+    
+            <h2>PISCINA</h2>
+    
+            <p class="text-strong">Colegiados :<small>GRATIS</small></p>
+
+            <p class="text-strong">Público General</p>
+            <p>ADULTOS : 10<sup>$</sup></p>
+            <p>NIÑOS (hasta los 9 años) : 5<sup>$</sup></p>
+        </div>
+      </div> 
+    </div>
+</section>
 <!-- fin del cuerpo -->
 <?php require 'footer.php';?>
 <script src="public/js/nav.js"></script>
