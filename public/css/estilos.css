@@ -1,6 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-size: 16px;
-    font-family: Flexo-Demi;
 }
 
 .edit {
@@ -57,7 +62,7 @@ body {
 .sobre-nosotros {
     text-align: center;
     font-size: 56px;
-    margin: 0px 0 60px;
+    margin-bottom: 10px;
     font-weight: 600;
 }
 
@@ -75,11 +80,17 @@ body {
     line-height: 24px;
     color: rgb(24, 16, 16);
 }
-
-
-.edi li {
-    margin: 10px 0;
+.parrafo2 {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: #f44336;
 }
+
+
+
+
 
 .imagenes {
     width: 20%;
@@ -148,7 +159,7 @@ body {
     width: 100%;
     height: 500px;
     position: relative;
-    background-image: url(https://www.jda.es/wp-content/uploads/2018/10/Globalizaci%C3%B3n-tecnolog%C3%ADa-y-empleo_mod.jpg);
+    background-image: url(../img/fondo.jpg);
     overflow: hidden;
     background-attachment: fixed;
     background-position: center;
@@ -220,7 +231,3 @@ form {
     margin: auto;
 }
 
-.footer {
-    margin: 0;
-    /* margin-top: 20px; */
-}
