@@ -15,23 +15,23 @@
             <i class="fas fa-chevron-down"></i>
             </a>
             <ul>
-              <li><a href="#">Historia, misión y visión</a>
-              <li><a href="#">Objetivos</a>
+              <li><a href="historia_mision_vision.php">Historia, misión y visión</a>
+              <li><a href="objetivos.php">Objetivos</a>
             </ul>
           </li>
           <li><a href="#">Representantes
             <i class="fas fa-chevron-down"></i>
             </a>
             <ul>
-              <li><a href="#">Consejo Departamental</a>
-              <li><a href="#">Presidentes de Capítulos</a>
-              <li><a href="#">Asamblea Departamental</a>
+              <li><a href="consejo_depar.php">Consejo Departamental</a>
+              <li><a href="presidente_capitulo">Presidentes de Capítulos</a>
+              <li><a href="asamblea_depar.php">Asamblea Departamental</a>
               <li><a href="#">Comisiones</a>
-              <li><a href="#">Comites</a>
+              <li><a href="comites.php">Comites</a>
             </ul>
           </li>
-          <li><a href="#">Nuestra infrestructura</a></li>
-          <li><a href="#">Simbolos del CIP</a></li>
+          <li><a href="infraestructura.php">Nuestra infrestructura</a></li>
+          <li><a href="quienes_somos">Simbolos del CIP</a></li>
         </ul>
       </li>
       <li><a href="#">Servicios</a>
