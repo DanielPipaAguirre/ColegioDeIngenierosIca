@@ -1,12 +1,14 @@
 <header>
   <nav>
     <div class="logo">
-      <figure>
-      <img src="public/img/logo_1.png" alt="">
-      </figure>
+      <a href="index.php" class="link-logo">
+        <figure>
+            <img src="public/img/logo_1.png" alt="">
+        </figure>
+      </a> 
       <h1>COLEGIO DE INGENIEROS DEL PERÚ<br>
       CONSEJO DEPARTAMENTAL DE ICA
-    </h1></a>
+    </h1>
     </div>
     <ul class="menu">
       <li><a href="#">Institucional</a>
@@ -36,26 +38,26 @@
       </li>
       <li><a href="#">Servicios</a>
         <ul>
-          <li><a href="alquiler_local_y_areas_esparcimineto.php">Alquiler de Local</a></li>
-          <li><a href="iss_fondo_mortuorio.php">ISS-Fondo Mortuorio</a></li>
+          <li><a href="#">Alquiler de Local</a></li>
+          <li><a href="#">ISS-Fondo Mortuorio</a></li>
           <li><a href="#">Centro de Arbitraje
             <i class="fas fa-chevron-down"></i>
             </a>
             <ul>
-              <li><a href="arbitraje.php">Arbitraje</a>
-              <li><a href="directorio.php">Directorio</a>
-              <li><a href="arbitros_abogados.php">Arbitros abogados</a>
-              <li><a href="arbitros_ingenieros.php">Arbitros ingenieros</a>
-              <li><a href="servicios.php">Servicios</a>
+              <li><a href="#">Arbitraje</a>
+              <li><a href="#">Directorio</a>
+              <li><a href="#">Arbitros abogados</a>
+              <li><a href="#">Arbitros ingenieros</a>
+              <li><a href="#">Servicios</a>
             </ul>
           </li>
-          <li><a href="centro_peritaje.php">Centro de Peritaje</a></li>
-          <li><a href="email.php">Correo Electrónico</a></li>
+          <li><a href="#">Centro de Peritaje</a></li>
+          <li><a href="#">Correo Electrónico</a></li>
         </ul>
       </li>
       <li><a href="#">Trámites</a>
         <ul>
-          <li><a href="colegiatura.php">Colegiatura</a></li>
+          <li><a href="#">Colegiatura</a></li>
           <li><a href="#">Certificados
             <i class="fas fa-chevron-down"></i>
             </a>
