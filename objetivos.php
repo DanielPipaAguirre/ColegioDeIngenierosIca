@@ -5,14 +5,15 @@
     
     <section class="edit">
         <div class="textos">
-           <h1 class="titulo">OBJETIVOS DEL CIP</h1>
+           <h1 class="titulo">PRINCIPIOS Y OBJETIVOS DEL CIP</h1>
         </div>
         <div class="sesgoabajo"></div>
     </section>
     <main>
         <section class="acerca-de">
             <div class="contenedor">
-                <h2 class="sobre-nosotros">OBJETIVOS</h2>
+                <h2 class="sobre-nosotros">PRINCIPIOS Y OBJETIVOS</h2><br><br><br>
+                <p class="parrafo2"><strong>PRINCIPALES PRINCIPIOS IMPLANTADOS:</strong></p>
                 <p class="parrafo">El Propósito permanente del CIP es representar, promover, normar, controlar y defender el desarrollo de la Ingeniería Peruana y el ejercicio profesional de los Ingenieros.<br>
                     Consecuentemente con dicho propósito, el CIP reconoce y norma sus actividades con principios tales como :</p>
                 <ul class="edi">
@@ -26,7 +27,7 @@
                  </ul>
                  <p class="parrafo">El CIP, como consecuencia de los principios que reconoce, no admite ninguna discriminación 
                      entre sus miembros ni desarrolla actividad proselitista no institucional.</p>
-                <p class="parrafo"><strong>Con relación al País :</strong></p>
+                <p class="parrafo2"><strong>OBJETIVO: "CON RELACIÓN AL PAIS"</strong></p>
                         <ul class="edi">
                                 <li>Impulsar su independencia y desarrollo tecnológico mediante el rescate, la acumulación, la modernización y 
                                     divulgación de las experiencias y prácticas de la Ingeniería.</li>
@@ -38,7 +39,7 @@
                                 <li>Defender el patrimonio histórico y cultural de nuestro pueblo.</li>
                                 <li>Defender los recursos naturales y productivos y su racional explotación.</li>
                         </ul><br>
-                        <p class="parrafo"><strong>Con relación a la Ingeniería :</strong></p>
+                        <p class="parrafo2"><strong>OBJETIVO: "CON RELACIÓN A LA INGENIERÍA"</strong></p>
                         <ul class="edi">
                                 <li>Promover y normar el ejercicio de la Ingeniería conforme a la moral, la ciencia, la técnica y la función social 
                                     que a la profesión le corresponde.</li>
@@ -46,7 +47,7 @@
                                 <li>Auspiciar y promover la investigación en las diversas especialidades de la Ingeniería.</li>
                                 <li>Divulgar y publicar los avances, obras y trabajos de sus autores con especial referencia a la realidad nacional.</li>
                         </ul><br>
-                        <p class="parrafo"><strong>Con relación a los Ingenieros :</strong></p>
+                        <p class="parrafo2"><strong>OBJETIVO: "CON RELACIÓN A LOS INGENIEROS"</strong></p>
                         <ul class="edi">
                                 <li>Cautelar los intereses generales de la profesión y los derechos de los Ingenieros en el ejercicio de la misma en todo el país.</li>
                                 <li>Promover el perfeccionamiento y desarrollo profesional de sus integrantes.</li>
@@ -56,7 +57,7 @@
                                 <li>Propender a la seguridad y previsión social de sus miembros y familiares</li>
                                 <li>Promover el rol de los ingenieros en la actividad empresarial del país.</li>
                         </ul><br>
-                        <p class="parrafo"><strong>Con relación a la Formación Profesional :</strong></p>
+                        <p class="parrafo2"><strong>OBJETIVO:CON RELACIÓN A LA FORMACIÓN PROFESIONAL :</strong></p>
                         <ul class="edi">
                                 <li>Velar y Coadyuvar al logro de una orientación y formación profesional adecuada, coordinando con los centros educativos y 
                                     con las universidades.</li>

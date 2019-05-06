@@ -46,13 +46,13 @@
                          <li><a id="text2" class="link" href="#">REPRESENTANTES</a>
                              <ul class="min-menu" id="min-menu">
                                  <li>
-                                     <a id="sub-text" href="consejo_departamental.php">CONSEJO DEPARTAMENTAL</a>
+                                     <a id="sub-text" href="consejo_depar.php">CONSEJO DEPARTAMENTAL</a>
                                  </li>   
                                  <li>
                                      <a id="sub-text2" href="capitulos_presidentes.php">PRESIDENTES DE CAPITULOS</a>
                                  </li>
                                  <li>
-                                     <a id="sub-text3" href="asamblea_departamental.php">ASAMBLEA DEPARTAMENTAL</a>
+                                     <a id="sub-text3" href="asamblea_depar.php">ASAMBLEA DEPARTAMENTAL</a>
                                  </li>
                                  <li>
                                      <a id="sub-text4" href="comisiones.php">COMISIONES</a>
