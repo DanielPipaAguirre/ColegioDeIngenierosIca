@@ -10,13 +10,13 @@
             <input type="checkbox" id="togglemenu" checked />
             <label for="togglemenu" class="togglemenu"><h3 class="cat">Categorias</h3></label>
             <ul>    
-                <li id="all"><a>Presentación del Cip</a></li>
+                <li class="tudo" id="all"><a>Presentación del Cip</a></li>
                 <li class="so-lazer" id="conference-room"><a>Salón de Conferencias</a></li>
                 <li class="so-dependencias" id="audience"><a>Auditorio</a></li>
-                <li id="so-party_room"><a>Salón de Fiestas</a></li>
+                <li class="so-salas" id="party-room"><a>Salón de Fiestas</a></li>
                 <li class="so-lazer" id="local-countryside"><a>Local Campestre</a></li>
                 <li class="so-dependencias" id="sports-slab"><a>Losa Deportiva</a></li>
-                <li id="so-party_room"><a>Piscina</a></li>
+                <li class="so-salas" id="swimming-pool"><a>Piscina</a></li>
             </ul>
         </nav>
     </section>
@@ -63,22 +63,22 @@
                 </li>
 
                 <!-- Lista de salas -->
-                <li class="galeria__item #party_room">
+                <li class="galeria__item salas">
                     <img src="public/img/infraestructura/5.jpg" class="galeria__img">
                 </li>
-                <li class="galeria__item #party_room">
+                <li class="galeria__item salas">
                     <img src="public/img/infraestructura/6.jpg" class="galeria__img">
                 </li>
-                <li class="galeria__item #party_room">
+                <li class="galeria__item salas">
                     <img src="public/img/infraestructura/7.jpg" class="galeria__img">
                 </li>
-                <li class="galeria__item #party_room">
+                <li class="galeria__item salas">
                     <img src="public/img/infraestructura/4.jpg" class="galeria__img">
                 </li>
-                <li class="galeria__item #party_room">
+                <li class="galeria__item salas">
                     <img src="public/img/infraestructura/10.jpg" class="galeria__img">
                 </li>
-                <li class="galeria__item #party_room">
+                <li class="galeria__item salas">
                     <img src="public/img/infraestructura/11.jpg" class="galeria__img">
                 </li>
             </ul>

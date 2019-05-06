@@ -15,44 +15,23 @@ $('.galeria__img').click(function(e){
   });
   
 
-// $(document).ready(function(){
-//     $(".tudo").click(function(){
-//         $(".salas, .lazer, .dependencias").show();
-//     });
-  
-//     $(".so-dependencias").click(function(){
-//         $(".salas, .lazer").fadeOut(0);
-//         $(".dependencias").show();
-//     });
-  
-//     $(".so-salas").click(function(){
-//         $(".dependencias, .lazer").fadeOut(0);
-//         $(".salas").show();
-//     });
-
-//     $(".so-lazer").click(function(){
-//         $(".dependencias, .salas").fadeOut(0);
-//         $(".lazer").show();
-//     });
-// });
-
 $(document).ready(function(){
-  $("#all").click(function(){
-      $("#party_room, .lazer, .dependencias").show();
-  });
+    $(".tudo").click(function(){
+        $(".salas, .lazer, .dependencias").show();
+    });
+  
+    $(".so-dependencias").click(function(){
+        $(".salas, .lazer").fadeOut(0);
+        $(".dependencias").show();
+    });
+  
+    $(".so-salas").click(function(){
+        $(".dependencias, .lazer").fadeOut(0);
+        $(".salas").show();
+    });
 
-  $(".so-dependencias").click(function(){
-      $("#party_room, .lazer").fadeOut(0);
-      $(".dependencias").show();
-  });
-
-  $("#so-party_room").click(function(){
-      $(".dependencias, .lazer").fadeOut(0);
-      $("#party_room").show();
-  });
-
-  $(".so-lazer").click(function(){
-      $(".dependencias, #party_room").fadeOut(0);
-      $(".lazer").show();
-  });
+    $(".so-lazer").click(function(){
+        $(".dependencias, .salas").fadeOut(0);
+        $(".lazer").show();
+    });
 });
