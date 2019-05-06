@@ -56,6 +56,12 @@ body {
     display: flex;
     align-items:center;
   }
+  .link-logo {
+    width: 50px;
+  }
+  .link-logo:hover {
+    background: transparent;
+  }
   figure {
     margin:0;
   }

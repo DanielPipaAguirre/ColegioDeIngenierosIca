@@ -1,9 +1,11 @@
 <header>
   <nav>
     <div class="logo">
-      <figure>
-      <img src="http://localhost/CIP-PAGINA/public/img/logo_1.png" alt="">
-      </figure>
+      <a href="index.php" class="link-logo">
+        <figure>
+            <img src="http://localhost/CIP-PAGINA/public/img/logo_1.png" alt="">
+        </figure>
+      </a> 
       <h1>COLEGIO DE INGENIEROS DEL PERÚ<br>
       CONSEJO DEPARTAMENTAL DE ICA
     </h1>
