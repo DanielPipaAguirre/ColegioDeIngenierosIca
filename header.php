@@ -2,7 +2,7 @@
   <nav>
     <div class="logo">
       <figure>
-      <img src="http://localhost/CIP-PAGINA/public/img/logo_1.png" alt="">
+      <img src="public/img/logo_1.png" alt="">
       </figure>
       <h1>COLEGIO DE INGENIEROS DEL PERÚ<br>
       CONSEJO DEPARTAMENTAL DE ICA
