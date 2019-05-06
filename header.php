@@ -62,15 +62,9 @@
                                  </li>
                              </ul>
                          </li>
-<<<<<<< HEAD
-                         <li><a id="text3" class="link" href="asamblea_departamental.php">NUESTRA INFRESTRUTURA</a></li>
-                         <li><a id="text4" class="link" href="#">SIMBOLOS DEL CIP</a></li>
-                         <li><a id="text5" class="link" href="#">OBJETIVOS</a></li>
-=======
                          <li><a id="text3" class="link" href="infraestructura.php">NUESTRA INFRESTRUTURA</a></li>
                          <li><a id="text4" class="link" href="simbolos.php">SIMBOLOS DEL CIP</a></li>
                          <li><a id="text5" class="link" href="#"></a></li>
->>>>>>> 07915e8a213f49658cb097825cbee3526e214699
                      </ul> 
                  </div>
              </div>
