@@ -1,71 +1,107 @@
-
-        <i class="fas fa-bars" id="burger"></i>
-        <header class="header">
-             <div class="container">
-                 <!--Logo-->
-                 <div class="container-logo" id="container-logo">
-                     <a href="index.php"><figure class="logo">
-                             <img src="public/img/logo_1.png" alt="">
-                     </figure></a>
-                     <h1>COLEGIO DE INGENIEROS DEL PERÚ<br>
-                         CONSEJO DEPARTAMENTAL DE ICA</h1>
-                 </div> 
-                 <!--Navegación-->
-                 <nav class="menu" id="menu">
-                     <!--Enlaces-->
-                     <ol class="controllers">
-                         <li class="active"><a class="item link" id="button1" href="#INSTITUCIONALCIP">INSTITUCIONAL
-                                 <i class="fas fa-caret-up"></i>
-                         </a></li>
-                         <li><a class="item link" id="button2" href="#SERVICIOSCIP">SERVICIOS
-                                 <i class="fas fa-caret-up"></i>
-                         </a></li>
-                         <li><a class="item link" id="button3" href="#CAPÍTULOSCIP">CAPÍTULOS
-                                 <i class="fas fa-caret-up"></i>
-                         </a></li>
-                         <li><a class="item link" id="button4" href="#EVENTOSCIP">EVENTOS
-                                 <i class="fas fa-caret-up"></i>
-                         </a></li>
-                         <li><a class="item link" id="button6" href="#TRAMITESCIP">TRÁMITES
-                                 <i class="fas fa-caret-up"></i>
-                         </a></li>
-                         <li><a class="link btn" id="button5" href="https://cipvirtual.cip.org.pe/cas/login?service=https%3A%2F%2Fcipvirtual.cip.org.pe%2Fsiceseguridadweb%2Fj_spring_cas_security_check%3Bjsessionid%3D8CxuYObPCBCd6gEnnBtfNHChXDNW8Nxs0v4lhN8K.serverweb%3Fspring-security-redirect%3D%2Finicio%2F">
-                             <i class="fas fa-bell" id="bell"></i>
-                                 CONSULTAS
-                             </a>
-                         </li>
-                     </ol>
-                 </nav>
-             </div>
-             <div class="sub-container is-active">
-                 <div class="sub-menu" id="sub-menu">
-                     <ul>
-                         <li><a id="text" class="link" href="historia_mision_vision.php">QUIENES SOMOS</a>
-                         
-                        </li>
-                         <li><a id="text2" class="link" href="#">REPRESENTANTES</a>
-                             <ul class="min-menu" id="min-menu">
-                                 <li>
-                                     <a id="sub-text" href="consejo_depar.php">CONSEJO DEPARTAMENTAL</a>
-                                 </li>   
-                                 <li>
-                                     <a id="sub-text2" href="capitulos_presidentes.php">PRESIDENTES DE CAPITULOS</a>
-                                 </li>
-                                 <li>
-                                     <a id="sub-text3" href="asamblea_depar.php">ASAMBLEA DEPARTAMENTAL</a>
-                                 </li>
-                                 <li>
-                                     <a id="sub-text4" href="comisiones.php">COMISIONES</a>
-                                 </li>
-                                 <li>
-                                     <a id="sub-text5" href="comites.php">COMITES</a>
-                                 </li>
-                             </ul>
-                         </li>
-                         <li><a id="text3" class="link" href="infraestructura.php">NUESTRA INFRESTRUTURA</a></li>
-                         <li><a id="text4" class="link" href="simbolos.php">SIMBOLOS DEL CIP</a></li>
-                         <li><a id="text5" class="link" href="#"></a></li>
-                     </ul> 
-                 </div>
-             </div>
-            </header>
+<header>
+  <nav>
+    <div class="logo">
+      <figure>
+      <img src="public/img/logo_1.png" alt="">
+      </figure>
+      <h1>COLEGIO DE INGENIEROS DEL PERÚ<br>
+      CONSEJO DEPARTAMENTAL DE ICA
+    </h1>
+    </div>
+    <ul class="menu">
+      <li><a href="#">Institucional</a>
+        <ul>
+          <li><a href="#">Quienes Somos
+            <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul>
+              <li><a href="#">Historia, misión y visión</a>
+              <li><a href="#">Objetivos</a>
+            </ul>
+          </li>
+          <li><a href="#">Representantes
+            <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul>
+              <li><a href="#">Consejo Departamental</a>
+              <li><a href="#">Presidentes de Capítulos</a>
+              <li><a href="#">Asamblea Departamental</a>
+              <li><a href="#">Comisiones</a>
+              <li><a href="#">Comites</a>
+            </ul>
+          </li>
+          <li><a href="#">Nuestra infrestructura</a></li>
+          <li><a href="#">Simbolos del CIP</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Servicios</a>
+        <ul>
+          <li><a href="#">Alquiler de Local</a></li>
+          <li><a href="#">ISS-Fondo Mortuorio</a></li>
+          <li><a href="#">Centro de Arbitraje
+            <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul>
+              <li><a href="#">Arbitraje</a>
+              <li><a href="#">Directorio</a>
+              <li><a href="#">Arbitros abogados</a>
+              <li><a href="#">Arbitros ingenieros</a>
+              <li><a href="#">Servicios</a>
+            </ul>
+          </li>
+          <li><a href="#">Centro de Peritaje</a></li>
+          <li><a href="#">Correo Electrónico</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Trámites</a>
+        <ul>
+          <li><a href="#">Colegiatura</a></li>
+          <li><a href="#">Certificados
+            <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul>
+              <li><a href="#">Cert. habilidad</a>
+              <li><a href="#">Cert. obras públicas</a>
+              <li><a href="#">Cert. habilidad de proyectos</a>
+              <li><a href="#">Cert. digitales</a>
+            </ul>
+          </li>
+          <li><a href="#">Duplicado de Carnet</a></li>
+          <li><a href="#">Constancia de no adeudo</a></li>
+          <li><a href="#">Camio de sde</a></li>
+          <li><a href="#">Exoneracion de cuota</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Eventos</a>
+        <ul>
+          <li><a href="#">Eventos CIP</a></li>
+          <li><a href="#">Eventos recomendados</a></li>
+          <li><a href="#">Noticias recientes</a></li>
+          <li><a href="#">Video semanal</a></li>
+          <li><a href="#">Nuestros convenios</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Capítulos</a>
+        <ul>
+          <li><a href="#">Ingenieria Agrónoma</a></li>
+          <li><a href="#">Ing. Ambiental y Sanitaria</a></li>
+          <li><a href="#">Ing. Industrial y Sistemas</a></li>
+          <li><a href="#">Ingenieria Civil</a></li>
+          <li><a href="#">Ing. Mecánica y Eléctrica</a></li>
+          <li><a href="#">Más Capítulos
+            <i class="fas fa-chevron-down"></i>
+            </a>
+            <ul>
+              <li><a href="#">Ingenieria Química</a>
+              <li><a href="#">Ingenieria Minas</a></li>
+              <li><a href="#">Ingenieria Pesquera</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="btn"><button id="btn">
+        <i class="fas fa-bell" id="bell"></i>
+        CONSULTAS</button></li>
+    </ul>
+  </nav>
+</header>

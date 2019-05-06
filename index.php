@@ -2,7 +2,6 @@
       require 'header/title.php';
       require 'header.php';
 ?>
-             
     <section class="hero">
         <div class="image actual">
             <img src="http://motivacionytecnicasdeestudio.com/wordpress/wp-content/uploads/2017/09/conferencia.jpg" alt="">
@@ -382,7 +381,8 @@
             </div>        
         </div>    
     </section>
-<?php require 'footer.php';?>
+<?php require 'footer.php';?>      
+
 <script src="public/js/index.js"></script>
 <script src="public/js/nav.js"></script> 
 </body>

@@ -2,20 +2,25 @@
 <link rel="stylesheet" href="public/css/cert_digitales.css">
 <?php require 'header/title.php';
       require 'header.php';?>
-<section>
+<section class="fondo">
     <div class="box">
-        <h2>CERTIFICADOS DIGITALES</h2>
+        <h1>CERTIFICADOS DIGITALES</h1>
 
         <div id="content-Digitales">
-            <figure>
+        <h3>CERTIFICADO DE HABILIDAD</h3>
+            <figure class="figura">
                 <img src="public/img/certificado_habilidad.jpg" alt="Logotipo de HTML5">
-                <figcaption>CERTIFICADO DE HABILIDAD.</figcaption>
-
+                
+            </figure>
+            <h3>CERTIFICADO DE HABILIDAD PARA CONTRATO DE OBRA PUBLICA O RESIDENCIA</h3>
+            <figure class="figura">
                 <img src="public/img/certificado_habilidad_contrato_obra.jpg" alt="Logotipo de HTML5">
-                <figcaption>CERTIFICADO DE HABILIDAD PARA CONTRATO DE OBRA PUBLICA O RESIDENCIA.</figcaption>
-
+                
+            </figure>
+            <h3>CERTIFICADO DE HABILIDAD POR PROYECTO</h3>
+            <figure class="figura">
                 <img src="public/img/certificado_habilidad_proyectO.jpg" alt="Logotipo de HTML5">
-                <figcaption>CERTIFICADO DE HABILIDAD POR PROYECTO.</figcaption>
+
             </figure>    
         </div>  
     </div>

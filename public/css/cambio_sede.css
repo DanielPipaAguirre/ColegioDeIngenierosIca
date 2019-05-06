@@ -1,12 +1,31 @@
+body {
+    font-family: Flexo-Demi;
+}
 .box{
     padding-top: 120px;
 }
-
+.box h3 {
+    text-align: center;
+    font: 1.17em;
+}
 p{
     font-family: flexo;
 }
-
+small {
+    font-size: 80%;
+}
 .text-strong{
     font-family: flexo-bold;
     font-size: 16px;
+}
+.cambio-sede {
+    margin: 0 300px 0;
+    font-size: 1.2em;
+}
+.cambio-sede a {
+    text-decoration: none;
+    color: rgb(255, 0, 55);
+}
+b {
+    font-size: 90%;
 }
