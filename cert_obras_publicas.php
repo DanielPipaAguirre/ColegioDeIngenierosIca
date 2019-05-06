@@ -2,18 +2,18 @@
 <link rel="stylesheet" href="public/css/cert_obras_publicas.css">
 <?php require 'header/title.php';
       require 'header.php';?>
-<section>
+<section class="fondo">
     <div class="box">
-        <h2>CERTIFICADO DE OBRAS PUBLICAS</h2>
+        <h1>CERTIFICADO DE OBRAS PUBLICAS</h1>
 
         <div id="content-Requerimiento">
-            <h2>REQUISITOS: </h2>
+            <h3>REQUISITOS: </h3>
 
             <p><small>Encontrarse en condición de habilitado y estar al día en sus cuotas como miembro de la Orden a la fecha de tramitación del certificado. Si el ingeniero pertenece a otro Consejo Departamental, acompañara el recibo de pago de cotizaciones, del mes en el que realiza este trámite, en original más una copia.</small></p>
         </div>  
 
         <div id="content-Procedimientos">
-            <h2>PROCEDIMIENTOS: </h2> 
+            <h3>PROCEDIMIENTOS: </h3> 
             
             <p><small>Presentar copia simple del otorgamiento de la Buena Pro de la entidad licitante (ministerios, regiones, proyectos especiales, empresas públicas y municipalidades), mencionando el monto adjudicado y todo lo concerniente a los datos de la obra aceptada (departamento, provincia, distrito, calle, etc.), identificada de la siguiente forma:</small></p>
 
@@ -26,7 +26,7 @@
         </div>
 
         <div id="content-Monto">
-            <h2>MONTO DE LA OBRA: </h2> 
+            <h3>MONTO DE LA OBRA: </h3> 
             
             <p><small>VALOR DEL CERTIFICADO <br>
             HASTA S/. 200,000 S/. 25.00 <br>

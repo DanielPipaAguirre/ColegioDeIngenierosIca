@@ -2,19 +2,23 @@
 <link rel="stylesheet" href="public/css/colegiatura.css">
 <?php require 'header/title.php';
       require 'header.php';?>
-<section>
-    <div class="box">
-        <h2>COLEGIATURA</h2>
+<section class="hero">
+    <figure class="fig-hero">
+        <img src="https://cdn.pixabay.com/photo/2015/03/26/09/40/business-suit-690048_960_720.jpg" alt="">  
+        <div class="overlays"></div>
+        <div class="contents">
         <div class="box-button">
-            <button class="btn-success" onclick="mostrarform(false)"><i class="fa fa-plus-circle"></i> REQUISITOS</button>
-            <button class="btn-success" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Procedimiento</button>
+            <h1 class="title">Colegiatura</h1>
+            <button class="btn-success one" onclick="mostrarform(false)"><i class="fa fa-plus-circle"></i> Requisitos</button>
+            <button class="btn-success two" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Procedimiento</button>
         </div>
-
+            <p class="description">Los ingenieros interesados en colegiarse deberán inscribirse como Miembro Ordinario solicitando su pre-inscripción en el sistema virtual de colegiatura, para ello deberá ingresar al siguiente <a target="_blank" href="http://www.cip.org.pe/colegiate/">Plataforma Virtual</a></p>
+        </div>
+    </figure>
+</section>
+<section class="fondo">
+    <div class="box">    
         <div id="content-Requerimiento">
-            <h3>¿Cuál es el proceso para colegiarme?</h3>
-
-            <p><small>Los ingenieros interesados en colegiarse deberán inscribirse como Miembro Ordinario solicitando su pre-inscripción en el sistema virtual de colegiatura, para ello deberá ingresar al siguiente <a target="_blank" href="http://www.cip.org.pe/colegiate/">Plataforma Virtual</a> </small></p>
-
             <h3>¿Cuáles son los requisitos y/o documentos que debo presentar para colegiarme?</h3>
 
             <p><small>Titulo Profesional Original, debidamente inscrito en el registro que lleva la Superintendencia Nacional de Educación Superior Universitaria (SUNEDU), con sello (sticker) de certificación y autentificación de firmas, en la parte posterior del titulo, firmado por el Secretario General de la Universidad de procedencia. <br><br>
@@ -35,8 +39,6 @@
             <h3>¿Qué pagos hay que realizar?</h3>
             
             <p><small>Cancelar S/. 910.00 (Novecientos diez y 00/1000 Nuevos Soles.) Que incluye el trámite de colegiatura y el pago de las tres primera cuotas.</small></p>
-
-            <p class="text-strong"><small>NOTA:</small></p>
 
             <p><small>El Tramite es personal <br>
             En la ceremonia de colegiatura se le entrega: Un distintivo el Código de Ética, sello diploma y carne del CIP. <br>

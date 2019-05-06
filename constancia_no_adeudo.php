@@ -2,19 +2,20 @@
 <link rel="stylesheet" href="public/css/constancia_no_adeudo.css">
 <?php require 'header/title.php';
       require 'header.php';?>
-<section>
+<section class="fondo">
     <div class="box">
-        <h2>CONSTANCIA DE NO ADEUDO</h2>
+        <h1>CONSTANCIA DE NO ADEUDO</h1>
         
         <p><small>Documento que certifica que el Colegiado no presenta deuda y debe solicitarlo en Secretaía General del CIP-CDLL.</small></p>
         <div id="content-Requerimiento">
-            <h2>REQUISITOS: </h2>
+            <h3>REQUISITOS: </h3>
 
             <p><small>Presentar una Solicitud dirigida al Decano del CIP-CDLL. <br>
             Estar al día en sus pagos. <br>
             Derecho de trámite S/. 5.00 nuevos soles.</small></p>
+            <p> <small>El Trámite se realiza directamente en el Área de Colegiatura - </small> </p>
             
-            <p class="text-strong"><small>El Trámite se realiza directamente en el Área de Colegiatura - Teléfono: (044) 340010 - Anexo: 202 / 216</small></p>
+            <p class="text-strong pepino">Teléfono: (044) 340010 - Anexo: 202 / 216</p>
         </div>
 
     </div>
