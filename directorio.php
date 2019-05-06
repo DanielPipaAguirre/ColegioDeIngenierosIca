@@ -6,7 +6,7 @@
     <div class="box">
         <h2>DIRECTORIO</h2>
         
-        <table>
+        <table class="tbdirectory">
             <thead>
                 <tr>
                     <th class="table-id">REG. CIP</th>
@@ -34,7 +34,7 @@
                 <tr>
                     <td class="id-text">074630</td>
                     <td>ING. ALBERTO ORLANDO CANO HONORES</td>
-                    <td>Director Secretario/td>
+                    <td>Director Secretario</td>
                     <td>Ingeniero Electrónica</td>
                 </tr>
 
