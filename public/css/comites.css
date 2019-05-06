@@ -1,0 +1,66 @@
+
+	
+		.listado12 th h1 {
+			font-weight: bold;
+			font-size: 1.6em;
+            text-align: center;
+            height: 20px;
+            vertical-align: center;
+            padding-top: 15px;
+		  	color: #FFFFFF;
+		}
+
+		.listado12 td {
+			font-weight: normal;
+			font-size: 1em;
+			-webkit-box-shadow: 0 2px 2px -2px #0E1119;
+			-moz-box-shadow: 0 2px 2px -2px #0E1119;
+			box-shadow: 0 2px 2px -2px #0E1119;
+		}
+
+		.listado12 {
+			text-align: left;
+			padding-top: 170px;
+			overflow: hidden;
+			width: 60%;
+			margin: 0 auto;
+			display: table;
+        }
+        #listado12{
+            padding-top: 80px;
+        }
+
+		.listado12 td, .listado12 th {
+			padding-bottom: 2%;
+			padding-top: 2%;
+			padding-left:2%;  
+		}
+
+		.listado12 tr:nth-child(odd) {
+			background-color: #EEEAE7;
+		}
+
+		.listado12 tr:nth-child(even) {
+			background-color: #FFFFFF;
+		}
+
+		.listado12 th {
+			background-color: #15262F;
+		}
+
+		.listado12 td:first-child { 
+            color: #f44336;
+            text-align: center;
+		}
+       
+		.listado12 tr:hover {
+			background-color: rgb(243, 235, 235);
+			-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+			-moz-box-shadow: 0 6px 6px -6px #0E1119;
+			box-shadow: 0 6px 6px -6px #0E1119;
+		}
+
+	
+		
+
+		
