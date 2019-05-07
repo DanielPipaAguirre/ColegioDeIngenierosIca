@@ -4,109 +4,100 @@
       require 'header.php';?>
 
 <body>
-    <table class="listado12">
+<table class="listado12">
         <thead>
             <tr>
-                <th colspan="2"><h1>Comite Local De Pisco</h1></th>
+                <th colspan="2"><h1>Comité Directivo de Asuntos Municipales</h1></th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>PRESIDENTE</td>
-                <td>ING.Ponce Manzuelos Armando Ricardo</td>
+                <td>ING.Calderon Pino Reymundo </td>
             </tr>
             <tr>
-                <td>VICE-PRECIDENTE</td>
-                <td>ING.Rosas Leon Damas Roberto</td>                	
+                <td>MIEMBRO</td>
+                <td>ING.Campo Valencia Dante Vladimir</td>                	
             </tr>
             <tr>
-                <td>SECRETARIO</td>
-                <td>ING.Papen Bernaola Ricardo Javier</td>                		
+                <td>MIEMBRO</td>
+                <td>ING.Escate Hernandez Alejandro Sulpico</td>                		
             </tr>
             <tr>
-                <td>TESORERO</td>
-                <td>ING.Elias Yupanqui Victor Hernan</td>                		
+                <td>MIEMBRO</td>
+                <td>ING.Mina Aparicio Enrique</td>                		
             </tr>
             <tr>
-                <td>VOCAL</td>
-                <td>ING.Palomino Gallegos Percy Antonio</td>                		
+                <td>MIEMBRO</td>
+                <td>ING.Tello Medina Ricardo Felix</td>                		
             </tr>
-            <tr>
-                <td>VOCAL</td>
-                <td>ING.Hernandez Castillo Antonio Floriestan</td>    
-            </tr> 
+            
         </tbody>
     </table>
     <table class="listado12" id="listado12">
         <thead>
             <tr>
-                <th colspan="2"><h1>Comite Local De Chincha</h1></th>               
+                <th colspan="2"><h1>Comité Local De Pisco</h1></th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>PRESIDENTE</td>
-                <td>ING.Ponce Manzuelos Armando Ricardo</td>                   
-            </tr>
-            <tr>
-                <td>VICE-PRECIDENTE</td>
-                <td>ING.Rosas Leon Damas Roberto</td>              	
+                <td>ING.García Huaman Carlos Fernando</td>
             </tr>
             <tr>
                 <td>SECRETARIO</td>
-                <td>ING.Papen Bernaola Ricardo Javier</td>                		
+                <td>ING.Siviruero Luna Juan Carlos</td>                		
             </tr>
             <tr>
                 <td>TESORERO</td>
-                <td>ING.Elias Yupanqui Victor Hernan</td>                		
+                <td>ING.Advincula Guerra Alejandro Felix</td>                		
+            </tr>
+         
+        </tbody>
+    </table>
+    <table class="listado12" id="listado12">
+        <thead>
+            <tr>
+                <th colspan="2"><h1>Comité Local De Chincha</h1></th>               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PRESIDENTE</td>
+                <td>ING.Del Rio Altamirano Fristz Alberto</td>                   
             </tr>
             <tr>
-                <td>VOCAL</td>
-                <td>ING.Palomino Gallegos Percy Antonio</td>                		
+                <td>SECRETARIO</td>
+                <td>ING.Flores Tataje Homero Máximo</td>                		
             </tr>
             <tr>
-                <td>VOCAL</td>
-                <td>ING.Hernandez Castillo Antonio Floriestan</td>    
+                <td>TESORERO</td>
+                <td>ING.Crisostomo Gónzales César Enrique</td>                		
             </tr>
         </tbody>
     </table>
     <table class="listado12" id="listado12">
         <thead>
             <tr>
-                <th colspan="2"><h1>Comite Local De Nazca</h1></th>               
+                <th colspan="2"><h1>Comité Local De Nazca</h1></th>               
             </tr>
         </thead>
         <tbody>
             <tr>
                     <td>PRESIDENTE</td>
-                    <td>ING.Ponce Manzuelos Armando Ricardo</td>                   
-            </tr>
-            <tr>
-                <td>VICE-PRECIDENTE</td>
-                <td>ING.Rosas Leon Damas Roberto</td>
-                	
+                    <td>ING.Flores Marchan Victor Manuel</td>                   
             </tr>
             <tr>
                 <td>SECRETARIO</td>
-                <td>ING.Papen Bernaola Ricardo Javier</td>
+                <td>ING.Salcedo Buleje Juan Jóse</td>
                 		
             </tr>
             <tr>
                 <td>TESORERO</td>
-                <td>ING.Elias Yupanqui Victor Hernan</td>
+                <td>ING.Quispe Ramos Norma Carolina</td>
                 		
             </tr>
-            <tr>
-                <td>VOCAL</td>
-                <td>ING.Palomino Gallegos Percy Antonio</td>
-                		
-            </tr>
-            <tr>
-                    <td>VOCAL</td>
-                    <td>ING.Hernandez Castillo Antonio Floriestan</td>
-    
-            </tr>
-          
         
         </tbody>
     </table>
