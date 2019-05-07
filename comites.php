@@ -70,7 +70,7 @@
             </tr>
         </tbody>
     </table>
-    <table class="listado12" id="listado12">
+    <table class="listado12 margen" id="listado12">
         <thead>
             <tr>
                 <th colspan="2"><h1>Comite Local De Nazca</h1></th>               

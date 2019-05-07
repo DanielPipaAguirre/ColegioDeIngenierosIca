@@ -20,13 +20,13 @@ img{
 	width: 90%;
 	max-width: 1400px;
 	margin: auto;
-	padding-top: 150px;
+	padding-top: 95px;
 }
 .portafolio1{
 	width: 90%;
 	max-width: 1400px;
 	padding-top:100px;
-	margin: auto;
+	margin: 0 auto 100px;
 }
 
 .portafolio h1{
@@ -50,6 +50,7 @@ img{
 	width: 30%;
 	position: relative;
 	overflow: hidden;
+	
 }
 
 .portafolio-img{
@@ -98,10 +99,11 @@ filter: brightness(100%);
 	transform: scale(1.15);
 }
 .text1{
-    text-align: center;
-    font-size: 24px;
+	text-align: center;
+	font-size: 24px;
 	width: 100%;
-	color: #f44336;
+	color: #ffffff;
+	font-family: flexo-bold;
     
 }
 .txt{
@@ -111,7 +113,7 @@ filter: brightness(100%);
     text-align: center;
     font-size: 18px;
 	line-height: 20px;
-	
+    font-family: flexo-light;
     margin: 15px 0 0;
 }
 .modal {

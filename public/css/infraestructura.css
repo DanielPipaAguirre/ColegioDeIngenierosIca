@@ -3,7 +3,7 @@
 
 .menu1{
   vertical-align:middle;
-  padding-top: 200px;
+  padding-top: 125px;
   width:250px;
   min-width: 100px;;
   margin-left:40px;
@@ -95,11 +95,13 @@ bottom: 6px;
 }
 
 .image-gallery {
-    width: 80%;
+    width: 70%;
     background-color: transparent;
     margin-top: -50px;
     float: left;
-    padding-top: 200px;
+    padding-top: 125px;
+    margin-left: 78px;
+    margin-bottom: 130px;
   }
 
 .caja{
