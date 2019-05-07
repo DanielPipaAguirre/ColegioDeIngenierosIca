@@ -17,9 +17,7 @@
             margin-left: -15px;
           
         }
-        .box {
-          margin-bottom: 100px;
-        }
+
 		.listado12 td {
 			font-weight: normal;
 			font-size: 1em;
@@ -30,15 +28,18 @@
 
 		.listado12 {
 			text-align: left;
-			padding-top: 125px;
+			padding-top: 200px;
 			overflow: hidden;
-			width: 60%;
-			margin: 0 auto;
-			display: table;
+      width: 60%;
+      display: table;
+      margin-left: 400px;
         }
         #listado12{
             padding-top: 80px;
         }
+        #listado13{
+          padding-top: 80px;
+      }
 
 		.listado12 td, .listado12 th {
 			padding-bottom: 2%;
@@ -84,7 +85,7 @@
     		margin-left: -20px;
 		}
 		.subjaca2{
-			float: left;
+      float: left;
 		}
 		
 

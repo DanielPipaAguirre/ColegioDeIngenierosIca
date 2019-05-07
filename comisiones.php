@@ -5,29 +5,28 @@
 
 <body>
 
-<!-- <section class="subcaja">
+<section class="subcaja">
         <nav class="menu1">
             <input type="checkbox" id="togglemenu" checked />
             <label for="togglemenu" class="togglemenu"><h3 class="cat">Categorias</h3></label>
             <ul>    
-                <li class="todo" id="all"><a>Presentación del Cip</a></li>
-                <li class="so-p1" id="conference-room"><a>Salón de Conferencias</a></li>
-                <li class="so-p2" id="audience"><a>Auditorio</a></li>
-                <li class="so-p3" id="party-room"><a>Salón de Fiestas</a></li>
-                <li class="so-p3" id="local-countryside"><a>Local Campestre</a></li>
-                <li class="so-p3" id="sports-slab"><a>Losa Deportiva</a></li>
-                <li class="so-p6" id="swimming-pool"><a>Piscina</a></li>
-                <li class="so-p7" id="swimming-pool"><a>Piscina</a></li>
-                <li class="so-p8" id="swimming-pool"><a>Piscina</a></li>
-                <li class="so-p9" id="swimming-pool"><a>Piscina</a></li>
-                <li class="so-p10" id="swimming-pool"><a>Piscina</a></li>
-                <li class="so-p11" id="swimming-pool"><a>Piscina</a></li>
+                <li class="tudo" id="all"><a>Todas las Comisiones</a></li>
+                <li class="so-lazer" id="comi_col"><a>Comisión Departamental de Colegiatura</a></li>
+                <li class="so-dependencias" id="comi_etica"><a>Comisión Departamental de Ética</a></li>
+                <li class="so-salas" id="comi_ipei"><a>Comisión IEPI</a></li>
+                <li class="so-lazer1" id="comi_bien"><a>Comisión Instituto del Bienestar del ING</a></li>
+                <li class="so-dependencias1" id="comi_iss"><a>Comisión Departamental del ISS</a></li>
+                <li class="so-salas1" id="comi_hid"><a>Comisión de Recursos Hidricos</a></li>
+                <li class="so-lazer2" id="comi_def"><a>Comisión Departamental de Defensa Profesional</a></li>
+                <li class="so-dependencias2" id="comi_amb"><a>Comisión de Asuntos Ambientales</a></li>
+                <li class="so-salas2" id="comi_obra"><a>Comisión de Vigilancia de la Obra Pública</a></li>
+                <li class="so-lazer3" id="comi_desas"><a>Comisión de Gestión de Riesgos de Desastres</a></li>
+                <li class="so-dependencias3" id="comi_terri"><a>Comisión de Acondicionamiento Territorial y Desarrollo Urbano Sostenible</a></li>
             </ul>
         </nav>
     </section>
-<section class="subcaja2"> -->
-    <div class="box">
-    <table class="listado12 p1">
+<section class="subcaja2">
+    <table class="listado12 lazer">
         <thead>
             <tr>
                 <th colspan="2"><h1>Comisión Departamental de Colegiatura</h1></th>
@@ -53,7 +52,7 @@
            
         </tbody>
     </table>
-    <table class="listado12 p2" id="listado12">
+    <table class="listado12 dependencias" id="listado12">
         <thead>
             <tr>
                 <th colspan="2"><h1>Comisión Departamental de Ética</h1></th>               
@@ -83,7 +82,7 @@
            
         </tbody>
     </table>
-    <table class="listado12 p3" id="listado12">
+    <table class="listado12 salas" id="listado12">
         <thead>
             <tr>
                 <th colspan="2"><h1>Comisión IEPI</h1></th>               
@@ -107,7 +106,7 @@
           
         </tbody>
     </table>
-        <table class="listado12 p4" id="listado12">
+        <table class="listado12 lazer1" id="listado12">
         <thead>
             <tr>
                 <th colspan="2"><h1>Comisión Instituto del Bienestar del ING</h1></th>               
@@ -122,7 +121,7 @@
            
         </tbody>
     </table>
-    <table class="listado12 p5" id="listado12">
+    <table class="listado12 dependencias1" id="listado12">
         <thead>
             <tr>
                 <th colspan="2"><h1>Comisión Departamental del ISS</h1></th>               
@@ -136,10 +135,10 @@
             
         </tbody>
     </table>
-    <table class="listado12 p6" id="listado12">
+    <table class="listado12 salas1" id="listado12">
         <thead>
             <tr>
-                <th colspan="2"><h1>Comisión de Recursos Hdricos</h1></th>               
+                <th colspan="2"><h1>Comisión de Recursos Hidricos</h1></th>               
             </tr>
         </thead>
         <tbody>
@@ -186,7 +185,7 @@
            
         </tbody>
     </table>
-    <table class="listado12 p7" id="listado12">
+    <table class="listado12 lazer2" id="listado12">
         <thead>
             <tr>
                 <th colspan="2"><h1>Comisión Departamental de Defensa Profesional</h1></th>               
@@ -221,7 +220,7 @@
         </tbody>
     </table>
 
-    <table class="listado12 p8" id="listado12">
+    <table class="listado12 dependencias1" id="listado12">
         <thead>
             <tr>
                 <th colspan="2"><h1>Comisión de Asuntos Ambientales</h1></th>               
@@ -276,7 +275,7 @@
            
         </tbody>
     </table>
-    <table class="listado12 p9" id="listado12">
+    <table class="listado12 salas2" id="listado12">
         <thead>
             <tr>
                 <th colspan="2"><h1>Comisión de Vigilancia de la Obra Pública</h1></th>               
@@ -335,7 +334,7 @@
           
         </tbody>
     </table>
-    <table class="listado12 p10" id="listado12">
+    <table class="listado12 lazer3" id="listado12">
         <thead>
             <tr>
                 <th colspan="2"><h1>Comisión de Gestión de Riesgos de Desastres</h1></th>               
@@ -390,10 +389,10 @@
            
         </tbody>
     </table>
-    <table class="listado12 p11" id="listado12">
+    <table class="listado12 dependencias3" id="listado13">
         <thead>
             <tr>
-                <th colspan="2"><h1 id="tamaño">Comisión de Acondicionamiento Territorial y Desarrollo Urbano</h1></th>               
+                <th colspan="2"><h1 id="tamaño">Comisión de Acondicionamiento Territorial y Desarrollo Urbano Sostenible</h1></th>               
             </tr>
         </thead>
         <tbody>
@@ -449,11 +448,9 @@
           
         </tbody>
     </table>
-    </div>
-    
-<!-- </section> -->
-<!-- <script src="public/js/jquery.js"></script>
-<script src="public/js/comisiones.js"></script> -->
+</section> 
+<script src="public/js/jquery.js"></script>
+<script src="public/js/comisiones.js"></script>
 <?php require 'footer.php';?>
 <script src="public/js/nav.js"></script>
 </body>
