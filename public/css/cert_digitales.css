@@ -4,28 +4,90 @@ body {
 .box{
     padding-top: 120px;
 }
-
+.containers {
+    padding-top: 20px;
+    display: grid;
+    grid-template-areas: "figura requisitos procedimientos"
+                         "figura tramites tramites";
+    grid-gap: 20px;
+}
 p{
     font-family: flexo;
+    color:#cecece;
 }
-.box h1 {
-    font-size: 1.8em;
+.fondo h1 {
+    font-size: 3em;
     text-align: center;
     font-family: flexo-light;
-    margin: 20px 0  30px;
+    margin: 40px 0  30px;
+    color: #03324f;
+    font-weight: bold;
 }
 .box h3 {
-    text-align: center;
+    margin: 10px 0;
+    color: #e6e6e6;
+}
+.big{
+    grid-area: figura;
+    width: 600px;
+    overflow: hidden;
+}
+.big img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#content-Requerimiento {
+    grid-area: requisitos;
+    background: #101f27;
+    padding: 37px;
+    border-radius: 10px;
+}
+.i-tem {
+    transition: .3s;
+}
+.i-tem:hover {
+    transform: scale(1.05);
+}
+#content-procedimientos {
+    grid-area: procedimientos;
+    background: #101f27;
+    padding: 37px;
+    border-radius: 10px;
+}
+#content-Terceros {
+    grid-area: tramites;
+    background: #101f27;
+    padding: 37px;
+    border-radius: 10px;
+}
+.text-strong{
+    font-family: flexo-bold;
 }
 .fondo {
-    margin: 0 300px 50px;
+    margin: 0 50px 0px;
     font-size: 1.2em;
+}
+.fondo a {
+    text-decoration: none;
+    color: #ff1d47;
+    margin: 30px 0;
+    font-family: flexo-bold;
+    text-align: center;
+    display: block;
 
 }
-.figura {
-    width: 50%;
-    margin: 0 auto;
+ p {
+    margin: 8px 0;
 }
-.figura img {
+
+.figura{
+    width: 50%;
+    height: auto;
+    margin: 30px auto;
+}
+
+.figura img{
     width: 100%;
+    height: 100%;
 }

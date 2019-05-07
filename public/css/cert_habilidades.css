@@ -16,10 +16,12 @@ p{
     color:#cecece;
 }
 .fondo h1 {
-    font-size: 1.8em;
+    font-size: 3em;
     text-align: center;
     font-family: flexo-light;
     margin: 40px 0  30px;
+    color: #03324f;
+    font-weight: bold;
 }
 .box h3 {
     margin: 10px 0;

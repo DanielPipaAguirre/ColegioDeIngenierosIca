@@ -1,18 +1,141 @@
+.containers {
+    padding-top: 20px;
+    display: grid;
+    grid-template-areas: "figura requisitos procedimientos"
+                         "figura tramites tramites";
+    grid-gap: 20px;
+}
+p{
+    font-family: flexo;
+    color:#cecece;
+}
+
+.fondo{
+    padding-top: 50px;
+}
+.fondo h1 {
+    font-size: 3em;
+    text-align: center;
+    font-family: flexo-light;
+    margin: 40px 0  30px;
+    color: #03324f;
+    font-weight: bold;
+}
+
+.box h3 {
+    margin: 10px 0;
+    color: #e6e6e6;
+}
+.box figure {
+    grid-area: figura;
+    width: 600px;
+    overflow: hidden;
+}
+.box figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#content-Requerimiento {
+    grid-area: requisitos;
+    background: #101f27;
+    padding: 37px;
+    border-radius: 10px;
+}
+.i-tem {
+    transition: .3s;
+}
+.i-tem:hover {
+    transform: scale(1.05);
+}
+#content-procedimientos {
+    grid-area: procedimientos;
+    background: #101f27;
+    padding: 37px;
+    border-radius: 10px;
+}
+#content-Terceros {
+    grid-area: tramites;
+    background: #101f27;
+    padding: 37px;
+    border-radius: 10px;
+}
+.text-strong{
+    font-family: flexo-bold;
+}
+.fondo {
+    margin: 0 50px 0px;
+    font-size: 1.2em;
+}
+.fondo a {
+    text-decoration: none;
+    color: #ff1d47;
+    margin: 30px 0;
+    font-family: flexo-bold;
+    text-align: center;
+    display: block;
+
+}
+ p {
+    margin: 8px 0;
+}
+
 body {
     font-family: Flexo-Demi;
 }
-.box{
-    padding-top: 120px;
+.fig-hero {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
 }
-
+.fig-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fig-hero .contents {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 172px;
+    position: absolute;
+}
+.contents {
+    display: flex;
+    align-items: center;
+}
+.contents h1 {
+    font-size: 4.9em;
+    font-family: flexo-Demi;
+    margin-bottom: 80px;
+    color: #ffffff;
+}
+.contents .description {
+    color: #ffffff;
+    font-family: Flexo;
+    margin-top: 60px;
+    line-height: 24px;
+    margin: 0 0px 0 39px;
+    font-size: 1.4em;
+    text-align: justify;
+}
+.fig-hero .overlays {
+    background: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: .6;
+    bottom: 0;
+    position: absolute;
+}
+.box{
+    padding-top: 20px;
+}
 p{
     font-family: flexo;
-}
-.box h1 {
-    font-size: 1.8em;
-    text-align: center;
-    font-family: flexo-light;
-    margin: 20px 0  30px;
 }
 .box h3 {
     text-align: center;
@@ -20,6 +143,33 @@ p{
 .text-strong{
     font-family: flexo-bold;
     font-size: 16px;
+}
+.box-button {
+    padding: 20px 0;
+    text-align: center;
+}
+.box-button button {
+    background: #ff1d47;
+    border-radius: 3px;
+    height: 33px;
+    padding: 0;
+    padding-right: 11px;
+    margin-right: 14px;
+    flex-direction: initial;
+    color: #ffffff;
+    transition: .2s;
+    box-shadow: inset 0 -0.2em rgba(0,0,0, .2);
+    border:none;
+    padding: 10px 15px 28px;
+    outline: none;
+    font-family: Flexo;
+    will-change: transform;
+}
+.box-button .one {
+    padding: 10px 25px 28px
+}
+.box-button button:active{
+    transform: scale(.8);
 }
 .fondo {
     margin: 0 300px 50px;
@@ -34,3 +184,10 @@ p{
     display: block;
 
 }
+figure {
+    margin: 0;
+}
+figure img {
+    width: 100%;
+}
+
