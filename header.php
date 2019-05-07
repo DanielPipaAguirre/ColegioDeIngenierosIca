@@ -38,40 +38,40 @@
       </li>
       <li><a href="#">Servicios</a>
         <ul>
-          <li><a href="#">Alquiler de Local</a></li>
-          <li><a href="#">ISS-Fondo Mortuorio</a></li>
+          <li><a href="alquiler_local_y_areas_esparcimineto.php">Alquiler de Local</a></li>
+          <li><a href="iss_fondo_mortuorio.php">ISS-Fondo Mortuorio</a></li>
           <li><a href="#">Centro de Arbitraje
             <i class="fas fa-chevron-down"></i>
             </a>
             <ul>
-              <li><a href="#">Arbitraje</a>
-              <li><a href="#">Directorio</a>
-              <li><a href="#">Arbitros abogados</a>
-              <li><a href="#">Arbitros ingenieros</a>
-              <li><a href="#">Servicios</a>
+              <li><a href="arbitraje.php">Arbitraje</a>
+              <li><a href="directorio.php">Directorio</a>
+              <li><a href="arbitros_abogados.php">Arbitros abogados</a>
+              <li><a href="arbitros_ingenieros.php">Arbitros ingenieros</a>
+              <li><a href="servicios.php">Servicios</a>
             </ul>
           </li>
-          <li><a href="#">Centro de Peritaje</a></li>
-          <li><a href="#">Correo Electrónico</a></li>
+          <li><a href="centro_peritaje.php">Centro de Peritaje</a></li>
+          <li><a href="email.php">Correo Electrónico</a></li>
         </ul>
       </li>
       <li><a href="#">Trámites</a>
         <ul>
-          <li><a href="#">Colegiatura</a></li>
+            <li><a href="colegiatura.php">Colegiatura</a></li>
           <li><a href="#">Certificados
             <i class="fas fa-chevron-down"></i>
             </a>
             <ul>
-              <li><a href="#">Cert. habilidad</a>
-              <li><a href="#">Cert. obras públicas</a>
-              <li><a href="#">Cert. habilidad de proyectos</a>
-              <li><a href="#">Cert. digitales</a>
+              <li><a href="cert_habilidad.php">Cert. habilidad</a>
+              <li><a href="cert_obras_publicas.php">Cert. obras públicas</a>
+              <li><a href="cert_habilidad_proyecto.php">Cert. habilidad de proyectos</a>
+              <li><a href="cert_digitales.php">Cert. digitales</a>
             </ul>
           </li>
-          <li><a href="#">Duplicado de Carnet</a></li>
-          <li><a href="#">Constancia de no adeudo</a></li>
-          <li><a href="#">Camio de sde</a></li>
-          <li><a href="#">Exoneracion de cuota</a></li>
+          <li><a href="duplicado_carnet.php">Duplicado de Carnet</a></li>
+          <li><a href="constancia_no_adeudo.php">Constancia de no adeudo</a></li>
+          <li><a href="cambio_sede.php">Cambio de sede</a></li>
+          <li><a href="exoneracion_cuotas.php">Exoneracion de cuota</a></li>
         </ul>
       </li>
       <li><a href="#">Eventos</a>
