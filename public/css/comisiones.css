@@ -12,10 +12,13 @@
         }
         #listado13 th h1{
         
-            height: 55px;
-            text-align: center;
-            margin-left: -15px;
-          
+height: 55px;
+        
+text-align: center;
+        
+margin-left: -15px;
+        
+line-height: 30px;
         }
 
 		.listado12 td {
@@ -28,15 +31,19 @@
 
 		.listado12 {
 			text-align: left;
-			padding-top: 170px;
+			padding-top: 130px;
 			overflow: hidden;
 			width: 60%;
-			margin: 0 auto;
 			display: table;
-        }
+			margin-left: 400px;
+			}
         #listado12{
-            padding-top: 80px;
+            padding-top: 128px;
         }
+        #listado13{
+          padding-top: 126px;
+          margin-bottom: 100px;
+      }
 
 		.listado12 td, .listado12 th {
 			padding-bottom: 2%;
@@ -71,7 +78,7 @@
 			box-shadow: 0 6px 6px -6px #0E1119;
 		}
 
-        #tamaño{
+        #tamaÃ±o{
             line-height: 30px;
         }
 		
@@ -82,21 +89,21 @@
     		margin-left: -20px;
 		}
 		.subjaca2{
-			float: left;
+      float: left;
 		}
 		
 
 /* menu */
 .menu1{
+  margin-bottom: 200%;
   vertical-align:middle;
-  padding-top: 200px;
+  padding-top: 130px;
   width:250px;
-  min-width: 100px;;
+  min-width: 100px;
   margin-left:40px;
   display:inline-block;
   font-family: 'Source Sans Pro', sans-serif;
   transform:translate3d(0,0,0);
-  
 }
 .menu1 input{
   position:absolute;
@@ -143,17 +150,7 @@ font-family: 'entypo', sans-serif;
   z-index:10;
   transition:300ms ease all;
 }
-.menu1 li a {
-display: block;
-position:relative;
-width:100%;
-padding: 1em;
-background: #15262F;
-text-decoration:none;
-color:white;
-box-sizing:border-box;
-transition:300ms ease all;
-}
+.menu1 li a {display: flex;position:relative;width:100%;padding: 1em;background: #15262F;text-decoration:none;color:white;font-family: flexo-medium;box-sizing:border-box;transition:300ms ease all;}
 .menu1 li:hover a {
 width:99%;
 margin-left:1%;

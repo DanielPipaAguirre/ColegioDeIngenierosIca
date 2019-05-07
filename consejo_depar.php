@@ -5,7 +5,7 @@
         
 <body>
 	<section class="portafolio">
-		<h1><u>Consejo Departamental<u></h1><br><br><br>
+		<h1>CONSEJO DEPARTAMENTAL</h1><br><br><br>
 		<div class="portafolio-container">
 			<section class="portafolio-item">
 				

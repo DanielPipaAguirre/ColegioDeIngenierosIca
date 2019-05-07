@@ -3,7 +3,7 @@
 
 .menu1{
   vertical-align:middle;
-  padding-top: 200px;
+  padding-top: 125px;
   width:250px;
   min-width: 100px;;
   margin-left:40px;
@@ -31,6 +31,7 @@ font-family: 'entypo', sans-serif;
 
 }
 .cat{
+    margin: 0;
     text-align: left;
     vertical-align: center;
     margin-left:70px;
@@ -58,7 +59,7 @@ font-family: 'entypo', sans-serif;
   transition:300ms ease all;
 }
 .menu1 li a {
-display: block;
+display: flex;
 position:relative;
 width:100%;
 padding: 1em;
@@ -67,6 +68,8 @@ text-decoration:none;
 color:white;
 box-sizing:border-box;
 transition:300ms ease all;
+font-family: flexo-medium;
+font-weight: 500;
 }
 .menu1 li:hover a {
 width:99%;
@@ -95,11 +98,13 @@ bottom: 6px;
 }
 
 .image-gallery {
-    width: 80%;
+    width: 70%;
     background-color: transparent;
     margin-top: -50px;
     float: left;
-    padding-top: 200px;
+    padding-top: 125px;
+    margin-left: 78px;
+    margin-bottom: 130px;
   }
 
 .caja{
@@ -112,6 +117,7 @@ bottom: 6px;
     height: 100%;
     float: left;
     margin-left: -20px;
+    margin-bottom: 140px;
 }
 
 

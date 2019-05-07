@@ -35,13 +35,14 @@ body {
     color: #ffffff;
 }
 .description-title{
-    color: #66add1;
-    font-family: Flexo;
+    color: #fff;
     margin-top: 60px;
     line-height: 24px;
     margin: 0 0px 0 39px;
     font-size: 2em;
     text-align: justify;
+    font-family: flexo-medium;
+    margin-bottom: 18px;
 }
 
 .contents .description {
