@@ -28,7 +28,7 @@
               <li><a href="consejo_depar.php">Consejo Departamental</a>
               <li><a href="presidente_capitulo">Presidentes de Capítulos</a>
               <li><a href="asamblea_depar.php">Asamblea Departamental</a>
-              <li><a href="#">Comisiones</a>
+              <li><a href="comisiones.php">Comisiones</a>
               <li><a href="comites.php">Comites</a>
             </ul>
           </li>
@@ -76,27 +76,27 @@
       </li>
       <li><a href="#">Eventos</a>
         <ul>
-          <li><a href="#">Eventos CIP</a></li>
-          <li><a href="#">Eventos recomendados</a></li>
-          <li><a href="#">Noticias recientes</a></li>
-          <li><a href="#">Video semanal</a></li>
-          <li><a href="#">Nuestros convenios</a></li>
+          <li><a href="eventos.php">Eventos CIP</a></li>
+          <li><a href="recomendados.php">Eventos recomendados</a></li>
+          <li><a href="noticias.php">Noticias recientes</a></li>
+          <li><a href="semanal.php">Video semanal</a></li>
+          <li><a href="convenios.php">Nuestros convenios</a></li>
         </ul>
       </li>
       <li><a href="#">Capítulos</a>
         <ul>
-          <li><a href="#">Ingenieria Agrónoma</a></li>
-          <li><a href="#">Ing. Ambiental y Sanitaria</a></li>
-          <li><a href="#">Ing. Industrial y Sistemas</a></li>
-          <li><a href="#">Ingenieria Civil</a></li>
-          <li><a href="#">Ing. Mecánica y Eléctrica</a></li>
+          <li><a href="capitulos.php">Ingenieria Agrónoma</a></li>
+          <li><a href="capitulos.php">Ing. Ambiental y Sanitaria</a></li>
+          <li><a href="capitulos.php">Ing. Industrial y Sistemas</a></li>
+          <li><a href="capitulos.php">Ingenieria Civil</a></li>
+          <li><a href="capitulos.php">Ing. Mecánica y Eléctrica</a></li>
           <li><a href="#">Más Capítulos
             <i class="fas fa-chevron-down"></i>
             </a>
             <ul>
-              <li><a href="#">Ingenieria Química</a>
-              <li><a href="#">Ingenieria Minas</a></li>
-              <li><a href="#">Ingenieria Pesquera</a></li>
+              <li><a href="capitulos.php">Ingenieria Química</a>
+              <li><a href="capitulos.php">Ingenieria Minas</a></li>
+              <li><a href="capitulos.php">Ingenieria Pesquera</a></li>
             </ul>
           </li>
         </ul>
