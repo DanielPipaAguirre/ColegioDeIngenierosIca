@@ -2,21 +2,22 @@
 <link rel="stylesheet" href="public/css/arbitraje.css">
 <?php require 'header/title.php';
       require 'header.php';?>
-<section>
-    <div class="box">
-        <div class="content-img">
-            <h2>ARBITRAJE</h2>
-
-            <figure>
-                <img src="public/img/arbitraje_Logo.jpg" alt="">
-            </figure>    
+<section class="hero">
+    <figure class="fig-hero">
+        <img src="public/img/arbitraje_Logo.jpg" alt="">
+        <div class="overlays"></div>
+        <div class="contents">
+            <div class="box-button">
+                <h1 class="title">ARBITRAJE</h1>
+            </div>
+            <p class="description">El Centro de Arbitraje CIP-CDLL, es un organismo interno del Consejo Departamental de la Libertad, conformado por profesionales en Ingeniería , con el objetivo de contribuir a resolver las controversias o discrepancias que puedan surgir en las actividades vinculadas a la Ingeniería en general, sin ninguna limitación.</p>
         </div>
-        
+    </figure>
+</section>
+
+<section class="fondo">
+    <div class="box">
         <div class="content-Arbitraje">
-            <h2>¿QUIENES SOMOS?</h2>
-
-            <p><small>El Centro de Arbitraje CIP-CDLL, es un organismo interno del Consejo Departamental de la Libertad, conformado por profesionales en Ingeniería , con el objetivo de contribuir a resolver las controversias o discrepancias que puedan surgir en las actividades vinculadas a la Ingeniería en general, sin ninguna limitación.</small></p>
-
             <h2>HISTORIA</h2>
 
             <p><small>El estado peruano al emitir la Ley General de Arbitraje: N° 26572, publicado en El Peruano en Enero de 1996, surge la necesidad en el Departamento de la Libertad, evaluar, analizar, resolver las controversias entre dos personas naturales y/o jurídicas, mediante los métodos alternativos de la resolución de conflictos denominados MARC. El Centro de Arbitraje CA-CIP-CDLL, se constituyó el 19 de Junio del 2000, por acuerdo de la Junta Directiva del Consejo Departamental de la Libertad- Colegio de Ingenieros del Peru. En la actualidad el Reglamento y Estatuto de Centro, están basados en La Ley General de Arbitraje, N° 26572 y modificatorias, Nueva Ley de Arbitraje – Decreto Legislativo N° 1071.</small></p>

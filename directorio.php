@@ -2,9 +2,20 @@
 <link rel="stylesheet" href="public/css/directorio.css">
 <?php require 'header/title.php';
       require 'header.php';?>
-<section>
+<section class="hero">
+    <figure class="fig-hero">
+        <img src="https://image.shutterstock.com/z/stock-photo-closeup-of-index-cards-for-business-school-or-home-organization-organize-names-information-391621372.jpg" alt="">
+        <div class="overlays"></div>
+        <div class="contents">
+            <div class="box-button">
+                <h1 class="title">DIRECTORIO</h1>
+            </div>
+        </div>
+    </figure>
+</section>
+
+<section class="fondo">
     <div class="box">
-        <h2>DIRECTORIO</h2>
         
         <table class="tbdirectory">
             <thead>

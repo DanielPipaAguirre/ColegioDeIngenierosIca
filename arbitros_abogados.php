@@ -2,10 +2,20 @@
 <link rel="stylesheet" href="public/css/arbitros_abogados.css">
 <?php require 'header/title.php';
       require 'header.php';?>
-<section>
-    <div class="box">
-        <h2>ARBITROS ABOGADOS</h2>
+<section class="hero">
+    <figure class="fig-hero">
+        <img src="https://cdn.pixabay.com/photo/2015/10/22/06/56/lawyers-1000803_1280.jpg" alt="">  
+        <div class="overlays"></div>
+        <div class="contents">
+            <div class="box-button">
+                <h1 class="title">ARBITROS ABOGADOS</h1>
+            </div>
+        </div>
+    </figure>
+</section>
 
+<section class="fondo">
+    <div class="box">
         <table>
             <thead>
                 <tr>

@@ -2,10 +2,20 @@
 <link rel="stylesheet" href="public/css/arbitros_ingenieros.css">
 <?php require 'header/title.php';
       require 'header.php';?>
-<section>
-    <div class="box">
-        <h2>ARBITROS INGENIEROS</h2>
+<section class="hero">
+    <figure class="fig-hero">
+        <img src="https://cdn.pixabay.com/photo/2019/02/21/14/09/handshake-4011419_1280.jpg" alt="">  
+        <div class="overlays"></div>
+        <div class="contents">
+            <div class="box-button">
+                <h1 class="title">ARBITROS INGENIEROS</h1>
+            </div>
+        </div>
+    </figure>
+</section>
 
+<section class="fondo">
+    <div class="box">
         <table>
             <thead>
                 <tr>

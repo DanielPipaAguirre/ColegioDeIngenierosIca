@@ -1,5 +1,112 @@
+body {
+    font-family: Flexo-Demi;
+}
+.fig-hero {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.fig-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.fig-hero .contents {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 172px;
+    position: absolute;
+}
+.contents {
+    display: flex;
+    align-items: center;
+}
+.contents h1 {
+    font-size: 4.9em;
+    font-family: flexo-Demi;
+    margin-bottom: 80px;
+    color: #ffffff;
+}
+.contents .description {
+    color: #ffffff;
+    font-family: Flexo;
+    margin-top: 60px;
+    line-height: 24px;
+    margin: 0 0px 0 39px;
+    font-size: 1.4em;
+    text-align: justify;
+}
+.fig-hero .overlays {
+    background: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: .6;
+    bottom: 0;
+    position: absolute;
+}
 .box{
-    padding-top: 120px;
+    padding-top: 20px;
+}
+p{
+    font-family: flexo;
+}
+.box h3 {
+    text-align: center;
+}
+.text-strong{
+    font-family: flexo-bold;
+    font-size: 16px;
+}
+.box-button {
+    padding: 20px 0;
+    text-align: center;
+}
+.box-button button {
+    background: #ff1d47;
+    border-radius: 3px;
+    height: 33px;
+    padding: 0;
+    padding-right: 11px;
+    margin-right: 14px;
+    flex-direction: initial;
+    color: #ffffff;
+    transition: .2s;
+    box-shadow: inset 0 -0.2em rgba(0,0,0, .2);
+    border:none;
+    padding: 10px 15px 28px;
+    outline: none;
+    font-family: Flexo;
+    will-change: transform;
+}
+.box-button .one {
+    padding: 10px 25px 28px
+}
+.box-button button:active{
+    transform: scale(.8);
+}
+.fondo {
+    margin: 0 300px 50px;
+    font-size: 1.2em;
+}
+.fondo a {
+    text-decoration: none;
+    color: #ff1d47;
+    margin: 30px 0;
+    font-family: flexo-bold;
+    text-align: center;
+    display: block;
+
+}
+figure {
+    margin: 0;
+}
+figure img {
+    width: 100%;
 }
 
 .table-id{

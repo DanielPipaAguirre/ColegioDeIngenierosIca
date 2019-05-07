@@ -7,11 +7,11 @@
         <img src="https://cdn.pixabay.com/photo/2015/03/26/09/40/business-suit-690048_960_720.jpg" alt="">  
         <div class="overlays"></div>
         <div class="contents">
-        <div class="box-button">
-            <h1 class="title">Colegiatura</h1>
-            <button class="btn-success one" onclick="mostrarform(false)"><i class="fa fa-plus-circle"></i> Requisitos</button>
-            <button class="btn-success two" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Procedimiento</button>
-        </div>
+            <div class="box-button">
+                <h1 class="title">Colegiatura</h1>
+                <button class="btn-success one" onclick="mostrarform(false)"><i class="fa fa-plus-circle"></i> Requisitos</button>
+                <button class="btn-success two" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Procedimiento</button>
+            </div>
             <p class="description">Los ingenieros interesados en colegiarse deberán inscribirse como Miembro Ordinario solicitando su pre-inscripción en el sistema virtual de colegiatura, para ello deberá ingresar al siguiente <a target="_blank" href="http://www.cip.org.pe/colegiate/">Plataforma Virtual</a></p>
         </div>
     </figure>
