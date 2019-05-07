@@ -1,6 +1,9 @@
 body {
     font-family: Flexo-Demi;
 }
+#content-ISS button {
+    padding: 0 21px;
+}
 .fig-hero {
     width: 100%;
     height: 100%;
@@ -30,6 +33,7 @@ body {
     font-family: flexo-Demi;
     margin-bottom: 80px;
     color: #ffffff;
+    line-height: 70px;
 }
 .contents .description {
     color: #ffffff;
@@ -80,8 +84,12 @@ p{
     border:none;
     padding: 10px 15px 28px;
     outline: none;
-    font-family: Flexo;
+    font-family: Flexo-medium;
+    font-size: 1.2em;
     will-change: transform;
+}
+.btn-success i {
+    margin: 0;
 }
 .box-button .one {
     padding: 10px 25px 28px

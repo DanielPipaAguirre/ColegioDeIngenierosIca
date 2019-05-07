@@ -11,7 +11,7 @@
         <div class="card">
             <figure>
               <img src="public/img/sala_conferencias.jpg" alt="conferencias.jpg">
-              <p class="text-strong">Precio General <small>450<sup>$</sup></small></p>
+              <p class="text-strong">Precio General <small>$450</small></p>
             </figure>
     
             <h2>SALÓN DE CONFERENCIAS</h2>
@@ -25,7 +25,7 @@
     
             <h2>AUDITORIO</h2>
     
-            <p class="text-strong">Precio General <small>800<sup>$</sup></small></p>
+            <p class="text-strong">Precio General <small>$800</small></p>
         </div>
 
         <div class="card">
@@ -35,9 +35,9 @@
     
             <h2>SALÓN DE FIESTAS</h2>
     
-            <p class="text-strong">Colegiados <small>450<sup>$</sup></small></p>
+            <p class="text-strong">Colegiados <small>$450</small></p>
 
-            <p class="text-strong">Público General <small>850<sup>$</sup></small></p>
+            <p class="text-strong">Público General <small>$850</small></p>
 
             <h3>RESTRICCIONES</h3>
             
@@ -47,7 +47,7 @@
 
             <p class="text-strong">Realizar el Pago a APDAY</p>
 
-            <p class="text-strong">Dar un inicial de Garantía de 200<sup>$</sup></p>
+            <p class="text-strong">Dar un inicial de Garantía de $200</p>
         </div>
 
         <div class="card">
@@ -57,9 +57,9 @@
     
             <h2>LOCAL CAMPESTRE</h2>
     
-            <p class="text-strong">Colegiados <small>350<sup>$</sup></small></p>
+            <p class="text-strong">Colegiados <small>$350</small></p>
 
-            <p class="text-strong">Público General <small>350<sup>$</sup></small></p>
+            <p class="text-strong">Público General <small>$350</small></p>
         </div>
 
         <div class="card">
@@ -70,12 +70,12 @@
             <h2>LOSA DEPORTIVA</h2>
     
             <p class="text-strong">Colegiados</p>
-            <p>DÍA : 20<sup>$</sup></p>
-            <p>NOCHE : 30<sup>$</sup></p>
+            <p>DÍA : $20</p>
+            <p>NOCHE : $30</p>
 
             <p class="text-strong">Publico General</p>
-            <p>DÍA : 25<sup>$</sup></p>
-            <p>NOCHE : 35<sup>$</sup></p>
+            <p>DÍA : $25</p>
+            <p>NOCHE : $35</p>
         </div>
 
         <div class="card">
@@ -88,8 +88,8 @@
             <p class="text-strong">Colegiados :<small>GRATIS</small></p>
 
             <p class="text-strong">Público General</p>
-            <p>ADULTOS : 10<sup>$</sup></p>
-            <p>NIÑOS (hasta los 9 años) : 5<sup>$</sup></p>
+            <p>ADULTOS : $10</p>
+            <p>NIÑOS (hasta los 9 años) : $5</p>
         </div>
       </div> 
     </div>
