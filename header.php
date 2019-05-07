@@ -101,9 +101,13 @@
           </li>
         </ul>
       </li>
-      <li class="btn"><button id="btn">
+      <li class="btn"><button id="btn" onclick="URL_CONSULTA_COLEGIADO();">
         <i class="fas fa-bell" id="bell"></i>
         CONSULTAS</button></li>
     </ul>
   </nav>
 </header>
+
+<script>
+const URL_CONSULTA_COLEGIADO = () => window.open("https://cipvirtual.cip.org.pe/sicecolegiacionweb/externo/consultaCol/");
+</script>
