@@ -26,14 +26,14 @@
             </a>
             <ul>
               <li><a href="consejo_depar.php">Consejo Departamental</a>
-              <li><a href="presidente_capitulo">Presidentes de Capítulos</a>
+              <li><a href="presidente_capitulo.php">Presidentes de Capítulos</a>
               <li><a href="asamblea_depar.php">Asamblea Departamental</a>
               <li><a href="comisiones.php">Comisiones</a>
               <li><a href="comites.php">Comites</a>
             </ul>
           </li>
           <li><a href="infraestructura.php">Nuestra infrestructura</a></li>
-          <li><a href="quienes_somos">Simbolos del CIP</a></li>
+          <li><a href="quienes_somos.php">Himno del CIP</a></li>
         </ul>
       </li>
       <li><a href="#">Servicios</a>

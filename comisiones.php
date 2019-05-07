@@ -26,6 +26,7 @@
         </nav>
     </section>
 <section class="subcaja2"> -->
+    <div class="box">
     <table class="listado12 p1">
         <thead>
             <tr>
@@ -389,10 +390,10 @@
            
         </tbody>
     </table>
-    <table class="listado12 p11" id="listado13">
+    <table class="listado12 p11" id="listado12">
         <thead>
             <tr>
-                <th colspan="2"><h1 id="tamaño">Comisión de Acondicionamiento Territorial y Desarrollo Urbano Sostenible</h1></th>               
+                <th colspan="2"><h1 id="tamaño">Comisión de Acondicionamiento Territorial y Desarrollo Urbano</h1></th>               
             </tr>
         </thead>
         <tbody>
@@ -448,6 +449,8 @@
           
         </tbody>
     </table>
+    </div>
+    
 <!-- </section> -->
 <!-- <script src="public/js/jquery.js"></script>
 <script src="public/js/comisiones.js"></script> -->

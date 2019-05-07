@@ -17,7 +17,9 @@
             margin-left: -15px;
           
         }
-
+        .box {
+          margin-bottom: 100px;
+        }
 		.listado12 td {
 			font-weight: normal;
 			font-size: 1em;
@@ -28,7 +30,7 @@
 
 		.listado12 {
 			text-align: left;
-			padding-top: 170px;
+			padding-top: 125px;
 			overflow: hidden;
 			width: 60%;
 			margin: 0 auto;

@@ -31,6 +31,7 @@ font-family: 'entypo', sans-serif;
 
 }
 .cat{
+    margin: 0;
     text-align: left;
     vertical-align: center;
     margin-left:70px;
@@ -58,7 +59,7 @@ font-family: 'entypo', sans-serif;
   transition:300ms ease all;
 }
 .menu1 li a {
-display: block;
+display: flex;
 position:relative;
 width:100%;
 padding: 1em;
@@ -67,6 +68,8 @@ text-decoration:none;
 color:white;
 box-sizing:border-box;
 transition:300ms ease all;
+font-family: flexo-medium;
+font-weight: 500;
 }
 .menu1 li:hover a {
 width:99%;
@@ -114,6 +117,7 @@ bottom: 6px;
     height: 100%;
     float: left;
     margin-left: -20px;
+    margin-bottom: 140px;
 }
 
 
@@ -124,6 +128,7 @@ bottom: 6px;
   }
   .galeria__img{
       width: 400px;
+      height: 200px;
       object-fit: cover;
       filter: brightness(70%);
       animation: escalar 10s infinite alternate;
