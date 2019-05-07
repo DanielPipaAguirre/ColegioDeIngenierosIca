@@ -122,6 +122,7 @@ bottom: 6px;
   }
   .galeria__img{
       width: 400px;
+      height: 200px;
       object-fit: cover;
       filter: brightness(70%);
       animation: escalar 10s infinite alternate;

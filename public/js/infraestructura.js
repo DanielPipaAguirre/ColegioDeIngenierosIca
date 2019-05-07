@@ -17,21 +17,39 @@ $('.galeria__img').click(function(e){
 
 $(document).ready(function(){
     $(".tudo").click(function(){
-        $(".salas, .lazer, .dependencias").show();
+        $(".salas, .lazer, .dependencias, .salas1, .lazer1, .dependencias1").show();
     });
-  
+    
+    $(".so-lazer").click(function(){
+      $(".dependencias, .salas, .salas1, .lazer1, .dependencias1").fadeOut(0);
+      $(".lazer").show();
+    });
+
     $(".so-dependencias").click(function(){
-        $(".salas, .lazer").fadeOut(0);
+        $(".salas, .lazer, .salas1, .lazer1, .dependencias1").fadeOut(0);
         $(".dependencias").show();
     });
   
     $(".so-salas").click(function(){
-        $(".dependencias, .lazer").fadeOut(0);
+        $(".dependencias, .lazer, .salas1, .lazer1, .dependencias1").fadeOut(0);
         $(".salas").show();
     });
 
-    $(".so-lazer").click(function(){
-        $(".dependencias, .salas").fadeOut(0);
-        $(".lazer").show();
+    $(".so-lazer1").click(function(){
+      $(".lazer, .dependencias, .salas, .salas1, .dependencias1").fadeOut(0);
+      $(".lazer1").show();
     });
+
+    $(".so-dependencias1").click(function(){
+        $(".salas, .lazer, .dependencias, .salas1, .lazer1").fadeOut(0);
+        $(".dependencias1").show();
+    });
+  
+    $(".so-salas1").click(function(){
+        $(".dependencias, .lazer, .salas, .lazer1, .dependencias1").fadeOut(0);
+        $(".salas1").show();
+    });
+
+  
+    
 });
