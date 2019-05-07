@@ -2,14 +2,23 @@
 <link rel="stylesheet" href="public/css/iss_fondo_mortuorio.css">
 <?php require 'header/title.php';
       require 'header.php';?>
+<section class="hero">
+    <figure class="fig-hero">
+        <img src="https://cdn.pixabay.com/photo/2015/03/26/09/40/business-suit-690048_960_720.jpg" alt="">  
+        <div class="overlays"></div>
+        <div class="contents">
+            <div class="box-button">
+                <h1>ISS Fondo <br> mortuorio</h1>
+                <button class="btn-success" onclick="mostrarform(false)"><i class="fa fa-plus-circle"></i> ISS</button>
+                <button class="btn-success" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Procedimiento</button>
+            </div>
+            <p class="description">Los ingenieros interesados en colegiarse deberán inscribirse como Miembro Ordinario solicitando su pre-inscripción en el sistema virtual de colegiatura, para ello deberá ingresar al siguiente <a target="_blank" href="http://www.cip.org.pe/colegiate/">Plataforma Virtual</a></p>
+        </div>
+    </figure>
+</section>
+
 <section class="fondo">
     <div class="box">
-        <h1>ISS Fondo mortuorio</h1>
-        <div class="box-button">
-            <button class="btn-success" onclick="mostrarform(false)"><i class="fa fa-plus-circle"></i> ISS</button>
-            <button class="btn-success" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Procedimiento</button>
-        </div>
-
         <div id="content-ISS">
             <h3>¿QUE ES EL INSTITUTO DE SERVICIOS SOCIALES?</h3>
 

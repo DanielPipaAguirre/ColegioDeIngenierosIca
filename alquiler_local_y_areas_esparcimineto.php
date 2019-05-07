@@ -11,11 +11,11 @@
         <div class="card">
             <figure>
               <img src="public/img/sala_conferencias.jpg" alt="conferencias.jpg">
+              <p class="text-strong">Precio General <small>450<sup>$</sup></small></p>
             </figure>
     
             <h2>SALÓN DE CONFERENCIAS</h2>
     
-            <p class="text-strong">Precio General <small>450<sup>$</sup></small></p>
         </div>
 
         <div class="card">

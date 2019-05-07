@@ -67,10 +67,17 @@
                 <td>PRESIDENTE</td>
                 <td>ING.Del Rio Altamirano Fristz Alberto</td>                   
             </tr>
+         
+        </tbody>
+    </table>
+    <table class="listado12" id="listado12">
+        <thead>
             <tr>
                 <td>SECRETARIO</td>
                 <td>ING.Flores Tataje Homero Máximo</td>                		
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>TESORERO</td>
                 <td>ING.Crisostomo Gónzales César Enrique</td>                		
