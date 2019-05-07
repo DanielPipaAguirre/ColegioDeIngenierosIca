@@ -1,10 +1,26 @@
 <?php require 'header/doctype.php';?>
     <link rel="stylesheet" href="public/css/comisiones.css">
+    <link rel="stylesheet" href="public/css/arbitraje.css">
     <?php require 'header/title.php';
       require 'header.php';?>
 
 <body>
-
+<style>
+    .title{
+        margin-left:280px;
+    }
+</style>
+<section class="hero">
+    <figure class="fig-hero">
+        <img src="public/img/comisiones.jpg" alt="">
+        <div class="overlays"></div>
+        <div class="contents">
+            <div class="box-button">
+                <h1 class="title">Comisiones</h1>
+            </div>
+           </div>
+    </figure>
+</section>
 <section class="subcaja">
         <nav class="menu1">
             <input type="checkbox" id="togglemenu" checked />

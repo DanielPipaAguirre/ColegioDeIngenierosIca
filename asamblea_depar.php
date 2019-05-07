@@ -1,11 +1,22 @@
 <?php require 'header/doctype.php';?>
     <link rel="stylesheet" href="public/css/asamblea_depar.css">
+    <link rel="stylesheet" href="public/css/arbitraje.css">
     <?php require 'header/title.php';
       require 'header.php';?>
 
 <body>
-      
-        <h1 class="tit">Asamblea Departamental</h1>
+
+<section class="hero">
+    <figure class="fig-hero">
+        <img src="public/img/asamblea.jpg" alt="">
+        <div class="overlays"></div>
+        <div class="contents">
+            <div class="box-button">
+                <h1 class="title" >Asamblea Departamental</h1>
+            </div>
+         </div>
+    </figure>
+</section>
     
             <table class="listado12">
                 <thead>

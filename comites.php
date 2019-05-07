@@ -1,9 +1,26 @@
 <?php require 'header/doctype.php';?>
     <link rel="stylesheet" href="public/css/comites.css">
+    <link rel="stylesheet" href="public/css/arbitraje.css">
     <?php require 'header/title.php';
       require 'header.php';?>
 
 <body>
+<style>
+    .title{
+        margin-left:190px;
+    }
+</style>
+<section class="hero">
+    <figure class="fig-hero">
+        <img src="public/img/comites.jpg" alt="">
+        <div class="overlays"></div>
+        <div class="contents">
+            <div class="box-button">
+            <h1 class="title">Comites Locales</h1>
+            </div>
+        </div>
+    </figure>
+</section>
 <table class="listado12">
         <thead>
             <tr>
