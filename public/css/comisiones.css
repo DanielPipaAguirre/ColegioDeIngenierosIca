@@ -12,10 +12,13 @@
         }
         #listado13 th h1{
         
-            height: 55px;
-            text-align: center;
-            margin-left: -15px;
-          
+height: 55px;
+        
+text-align: center;
+        
+margin-left: -15px;
+        
+line-height: 30px;
         }
 
 		.listado12 td {
@@ -35,10 +38,10 @@
 			margin-left: 400px;
 			}
         #listado12{
-            padding-top: 60px;
+            padding-top: 128px;
         }
         #listado13{
-          padding-top: 60px;
+          padding-top: 126px;
           margin-bottom: 100px;
       }
 
@@ -75,7 +78,7 @@
 			box-shadow: 0 6px 6px -6px #0E1119;
 		}
 
-        #tamaño{
+        #tamaÃ±o{
             line-height: 30px;
         }
 		
