@@ -1,11 +1,28 @@
 <?php require 'header/doctype.php';?>
-    <link rel="stylesheet" href="public/css/consejo_depar.css">
+	<link rel="stylesheet" href="public/css/consejo_depar.css">
+    <link rel="stylesheet" href="public/css/arbitraje.css">
     <?php require 'header/title.php';
       require 'header.php';?>
-        
+
 <body>
+<style>
+    .title{
+        margin-left:50px;
+	}
+
+</style>
+<section class="hero">
+    <figure class="fig-hero">
+        <img src="public/img/consejo_depar.jpg" alt="" class="it">
+        <div class="overlays"></div>
+        <div class="contents">
+            <div class="box-button">
+                <h1 class="title">Consejo Departamental</h1>
+            </div>
+           </div>
+    </figure>
+</section>
 	<section class="portafolio">
-		<h1>CONSEJO DEPARTAMENTAL</h1><br><br><br>
 		<div class="portafolio-container">
 			<section class="portafolio-item">
 				
