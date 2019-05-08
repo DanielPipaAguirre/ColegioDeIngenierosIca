@@ -21,7 +21,36 @@
         </div>
     </figure>
 </section>
-
+<table class="listado12">
+        <thead>
+            <tr>
+                <th colspan="2"><h1>Comité Directivo de Asuntos Municipales</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PRESIDENTE</td>
+                <td>ING.Calderon Pino Reymundo </td>
+            </tr>
+            <tr>
+                <td>MIEMBRO</td>
+                <td>ING.Campo Valencia Dante Vladimir</td>                	
+            </tr>
+            <tr>
+                <td>MIEMBRO</td>
+                <td>ING.Escate Hernandez Alejandro Sulpico</td>                		
+            </tr>
+            <tr>
+                <td>MIEMBRO</td>
+                <td>ING.Mina Aparicio Enrique</td>                		
+            </tr>
+            <tr>
+                <td>MIEMBRO</td>
+                <td>ING.Tello Medina Ricardo Felix</td>                		
+            </tr>
+            
+        </tbody>
+    </table>
     <table class="listado12" id="listado12">
         <thead>
             <tr>
@@ -50,15 +79,22 @@
                 <th colspan="2"><h1>Comité Local De Chincha</h1></th>               
             </tr>
         </thead>
-        </tbody>
+        <tbody>
             <tr>
                 <td>PRESIDENTE</td>
                 <td>ING.Del Rio Altamirano Fristz Alberto</td>                   
             </tr>
+         
+        </tbody>
+    </table>
+    <table class="listado12" id="listado12">
+        <thead>
             <tr>
                 <td>SECRETARIO</td>
                 <td>ING.Flores Tataje Homero Máximo</td>                		
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td>TESORERO</td>
                 <td>ING.Crisostomo Gónzales César Enrique</td>                		
