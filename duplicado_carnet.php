@@ -7,7 +7,7 @@
         <h1>DUPLICADO DE CARNET</h1>
         <div class="containers">
             <figure>
-                <img src="https://cdn.pixabay.com/photo/2017/06/20/22/36/coffee-2425234_1280.jpg" alt="">
+                <img src="public/img/duplicado_carnet.jpg" alt="">
             </figure>
             <div id="content-Requerimiento" class="i-tem">
                 <small>

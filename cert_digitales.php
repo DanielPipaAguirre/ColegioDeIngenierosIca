@@ -7,7 +7,7 @@
         <h1>CERTIFICADOS DIGITALES</h1>
         <div class="containers">
             <figure class="big">
-                <img src="https://cdn.pixabay.com/photo/2015/06/24/15/45/ipad-820272_1280.jpg" alt="">
+                <img src="public/img/cert_digitales.jpg" alt="">
             </figure>
             <div id="content-Requerimiento" class="i-tem">
                 <small>

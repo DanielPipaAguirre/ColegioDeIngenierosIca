@@ -8,7 +8,7 @@
         <h1>CERTIFICADO DE OBRAS PUBLICAS</h1>
         <div class="containers">
             <figure>
-                <img src="https://image.shutterstock.com/z/stock-photo-construction-workers-fabricating-steel-reinforcement-bar-at-the-construction-site-786092152.jpg" alt="">
+                <img src="public/img/cert_obras_publicas.jpg" alt="">
             </figure>
             <div id="content-Requerimiento" class="i-tem">
                 <small>

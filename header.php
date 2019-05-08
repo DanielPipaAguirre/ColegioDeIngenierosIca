@@ -76,11 +76,11 @@
       </li>
       <li><a href="#">Eventos</a>
         <ul>
-          <li><a href="eventos.php">Eventos CIP</a></li>
-          <li><a href="recomendados.php">Eventos recomendados</a></li>
-          <li><a href="noticias.php">Noticias recientes</a></li>
-          <li><a href="semanal.php">Video semanal</a></li>
-          <li><a href="convenios.php">Nuestros convenios</a></li>
+          <li><a href="index.php#events-cip">Eventos CIP</a></li>
+          <li><a href="index.php#recomment">Eventos recomendados</a></li>
+          <li><a href="index.php#notices">Noticias recientes</a></li>
+          <li><a href="index.php#notices">Video semanal</a></li>
+          <li><a href="index.php#agreements">Nuestros convenios</a></li>
         </ul>
       </li>
       <li><a href="#">Capítulos</a>

@@ -4,7 +4,7 @@
       require 'header.php';?>
 <section class="hero">
     <figure class="fig-hero">
-        <img src="https://image.shutterstock.com/z/stock-photo-man-checking-emails-coffee-break-concept-338000447.jpg" alt="">  
+        <img src="public/img/email.jpg" alt="">  
         <div class="overlays"></div>
         <div class="contents">
             <div class="box-button">

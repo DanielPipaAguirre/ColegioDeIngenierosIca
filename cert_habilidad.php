@@ -7,7 +7,7 @@
         <h1>CERTIFICADO DE HABILIDAD</h1>
         <div class="containers">
             <figure>
-                <img src="https://cdn.pixabay.com/photo/2017/01/06/11/01/tool-1957451_1280.jpg" alt="">
+                <img src="public/img/cert_habilidad.jpg" alt="">
             </figure>
             <div id="content-Requerimiento" class="i-tem">
                 <small>

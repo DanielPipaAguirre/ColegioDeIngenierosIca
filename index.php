@@ -55,7 +55,7 @@
         <!-- <i class="fas fa-angle-right"></i> -->
       </div>
     </section>
-    <section class="events-cip">
+    <section id="events-cip" class="events-cip">
       <h2 class="title-services">Eventos CIP</h2>
       <div class="container-figures">
         <figure class="right">
@@ -96,7 +96,7 @@
           </figure>
       </div>
     </section>
-    <section class="recomment">
+    <section id="recomment" class="recomment">
       <h2 class="title-services">¡Eventos recomendados!</h2>
       <div class="gallery">
         <figure class="items">
@@ -234,7 +234,7 @@
           <a href="">Ver todo</a>
       </div>
     </section>
-    <section class="notices">
+    <section id="notices" class="notices">
       <h2 class="notice-title">¡Noticias recientes!</h2>
       <h2 class="notice-titles">Videos</h2>
       <div class="all">
@@ -323,7 +323,7 @@
         </div>
       </div>
     </section>
-    <section class="agreements">
+    <section id="agreements" class="agreements">
         <h2 class="title-services">Nuestros convenios</h2>
         <div class="container-background">
             <div class="wrapper">

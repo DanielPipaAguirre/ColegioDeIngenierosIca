@@ -2,10 +2,20 @@
 <link rel="stylesheet" href="public/css/capitulo.css">
 <?php require 'header/title.php';
       require 'header.php';?>
-<section>
-    <div class="box">
-        <h2>CAPITULO</h2>
-        
+<section class="hero">
+    <figure class="fig-hero">
+        <img src="public/img/directorio.jpg" alt="">
+        <div class="overlays"></div>
+        <div class="contents">
+            <div class="box-button">
+                <h1 class="title">CAPITULO "----------"</h1>
+            </div>
+        </div>
+    </figure>
+</section>
+
+<section class="fondo">
+    <div class="box"> 
         <table class="tbdirectory">
             <thead>
                 <tr>

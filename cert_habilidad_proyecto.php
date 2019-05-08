@@ -7,7 +7,7 @@
         <h1>CERTIFICADO DE HABILIDADES POR PROYECTOS</h1>
         <div class="containers">
             <figure>
-                <img src="https://cdn.pixabay.com/photo/2015/01/09/11/09/startup-594091_1280.jpg" alt="">
+                <img src="public/img/cert_habilidad_proyecto.jpg" alt="">
             </figure>
             <div id="content-Requerimiento" class="i-tem">
                 <small>
