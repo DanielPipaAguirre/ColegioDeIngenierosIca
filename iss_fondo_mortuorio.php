@@ -8,7 +8,7 @@
         <div class="overlays"></div>
         <div class="contents">
             <div class="box-button">
-                <h1>ISS Fondo <br> mortuorio</h1>
+                <h1>Istituto<br>Servicios Sociales</h1>
                 <button class="btn-success" onclick="mostrarform(false)"><i class="fa fa-plus-circle"></i> ISS</button>
                 <button class="btn-success" onclick="mostrarform(true)"><i class="fa fa-plus-circle"></i> Procedimiento</button>
             </div>
