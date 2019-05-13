@@ -39,7 +39,7 @@
       <li><a href="#">Servicios</a>
         <ul>
           <li><a href="alquiler_local_y_areas_esparcimineto.php">Alquiler de Local</a></li>
-          <li><a href="iss_fondo_mortuorio.php">ISS-Fondo Mortuorio</a></li>
+          <li><a href="iss.php">Instituto de Servicios Sociales</a></li>
           <li><a href="#">Centro de Arbitraje
             <i class="fas fa-chevron-down"></i>
             </a>

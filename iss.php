@@ -39,8 +39,6 @@
                 <tr>
                     <td>Asignación por Fallecimiento de Titular</td>
                     <td>S/. 5,000.00</td>
-
-
                 </tr>
 
                 <tr>
