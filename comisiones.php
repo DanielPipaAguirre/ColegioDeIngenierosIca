@@ -32,6 +32,7 @@
                 <li class="so-salas" id="comi_ipei"><a>Comisión IEPI</a></li>
                 <li class="so-lazer1" id="comi_bien"><a>Comisión Instituto del Bienestar del ING</a></li>
                 <li class="so-dependencias1" id="comi_iss"><a>Comisión Departamental del ISS</a></li>
+                <li class="so-salas3" id="comi_iss"><a>Comisión de Asuntos Municipales</a></li>
                 <li class="so-salas1" id="comi_hid"><a>Comisión de Recursos Hidricos</a></li>
                 <li class="so-lazer2" id="comi_def"><a>Comisión Departamental de Defensa Profesional</a></li>
                 <li class="so-dependencias2" id="comi_amb"><a>Comisión de Asuntos Ambientales</a></li>
@@ -116,7 +117,7 @@
             </tr>
             <tr>
                 <td>MIEMBRO</td>
-                <td>ING.Jenny Ryna Araujo Huaraca</td>
+                <td>ING.Jenny Reyna Araujo Huaraca</td>
                 		
             </tr>
           
@@ -235,8 +236,38 @@
           
         </tbody>
     </table>
+    <table class="listado12 salas3">
+        <thead>
+            <tr>
+                <th colspan="2"><h1>Comisión de Asuntos Municipales</h1></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PRESIDENTE</td>
+                <td>ING.Calderon Pino Reymundo </td>
+            </tr>
+            <tr>
+                <td>MIEMBRO</td>
+                <td>ING.Campo Valencia Dante Vladimir</td>                	
+            </tr>
+            <tr>
+                <td>MIEMBRO</td>
+                <td>ING.Escate Hernandez Alejandro Sulpico</td>                		
+            </tr>
+            <tr>
+                <td>MIEMBRO</td>
+                <td>ING.Mina Aparicio Enrique</td>                		
+            </tr>
+            <tr>
+                <td>MIEMBRO</td>
+                <td>ING.Tello Medina Ricardo Felix</td>                		
+            </tr>
+            
+        </tbody>
+    </table>
 
-    <table class="listado12 dependencias1" id="listado12">
+    <table class="listado12 dependencias2" id="listado12">
         <thead>
             <tr>
                 <th colspan="2"><h1>Comisión de Asuntos Ambientales</h1></th>               
